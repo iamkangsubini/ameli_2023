@@ -17,6 +17,424 @@
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-    
+    <!-- header -->
+    <header>
+        <div class="top">
+            <div class="left">
+                <a href="#" class="naver"><img src="./images/naver.logo.png" alt="NAVER"></a>
+                <a href="#">네이버 쇼핑</a>
+            </div>
+            <div class="right">
+                <a href="#">로그인</a>
+                <a href="#">회원가입</a>
+                <a href="#">고객센터</a>
+                <a href="#" class="menu"><img src="./images/menu.png" alt=""></a>
+            </div>
+        </div>
+        <div class="middle">
+            <div class="left">
+                <button id="inform_btn" type="button">
+                    <img src="./images/inform.png" alt="">
+                    <span>알림받기</span>
+                </button>
+                <span>관심고객수 990,304</span>
+                <button id="qusetion_btn" type="button">
+                    <img src="./images/qusetion.png" alt="">
+                </button>
+            </div>
+            <div class="middle">
+                <h1><a href="./index.html"><img src="./images/ameli_logo.png" alt=""></a></h1>
+            </div>
+            <div class="right">
+                <form action="#" method="get" id="search_frm">
+                    <fieldset>
+                        <legend class="skip">검색영역</legend>
+                        <input type="text" placeholder="검색어를 입력해보세요" id="txt_input">
+                        <button id="search_btn" type="submit">
+                            <img src="./images/search.png" alt="">
+                        </button>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+        <div class="bottom">
+            <div id="nav">
+                <a href="#">베스트</a>
+                <a href="#">BEST SET</a>
+                <a href="#">보랑노랑</a>
+                <a href="#">
+                    <span>페이스</span>
+                    <img src="./images/direction_under.png" alt="">
+                </a>
+                <a href="#">
+                    <span>아이</span>
+                    <img src="./images/direction_under.png" alt="">
+                </a>
+                <a href="#">
+                    <span>립</span>
+                    <img src="./images/direction_under.png" alt=""></a>
+                <a href="#">메이크업툴</a>
+                <a href="#">아멜리 멤버십 라운지</a>
+            </div>
+        </div>
+    </header>
+    <!-- main -->
+    <main>
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <a href="#" class="swiper-slide slide1"><img src="./images/main/slide1.jpg" alt="노랑의 보색 보라, 보라의 보색 노랑 아멜리의 새로우 쿠션으로 청아하게, 환하게"></a>
+                <a href="#" class="swiper-slide slide2"><img src="./images/main/slide2.jpg" alt="젖은 듯 부드러운 입술색, 로즈앳나잇 누군가에게는 웜 브릭 또는 누군가에게는 쿨 로즈"></a>
+                <a href="#" class="swiper-slide slider2"><img src="./images/main/slide3.jpg" alt="첫 출시 이후 지금까지 뷰티어워즈 22관왕 내 얼굴빛을 자연스럽게 보완해 주는 컴플리먼트 시리즈 쿠션"></a>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+        </div>
+        <!-- event_bnr -->
+        <a href="#" class="event_bg">
+            <div class="event">
+                <span>아멜리 멤버십 라운지 가입하고 다양한 <em>전용 혜택과 이벤트</em>를 즐겨보세요!</span>
+                <img src="./images/main/present.png" alt="">
+            </div>
+        </a>
+        <!-- coupon -->
+        <section class="coupon_bg">
+            <div class="coupon">
+                <div class="left">
+                    <img src="./images/main/coupon.png" alt="">
+                    <span class="titel">아멜리</span>
+                    <span class="contents">첫구매 20%</span>
+                </div>
+                <div class="right">
+                    <p class="top">아멜리 고객님을 위한 혜택</p>
+                    <p class="bottom">아멜리 연결하면 첫구매 20%</p>
+                    <a href="#">자세히 보기</a>
+                </div>
+            </div>
+        </section>
+        <!-- new_item -->
+        <section class="new_swiper_bg">
+            <div class="new_swiper">
+                <h2>NEW ITEM</h2>
+                <div class="product">
+                    <div class="left">
+                        <!-- swiper -->
+                        <div class="swiper" id="new_item">
+                            <!-- Additional required wrapper -->
+                            <div class="swiper-wrapper">
+                                <!-- Slides -->
+                                <a href="#" class="swiper-slide slide1"><img src="./images/main/new_item1.jpg" alt=""></a>
+                                <a href="#" class="swiper-slide slide2"><img src="./images/main/new_item2.jpg" alt=""></a>
+                                <a href="#" class="swiper-slide slide3"><img src="./images/main/new_item3.jpg" alt=""></a>
+                            </div>
+                            <!-- If we need pagination -->
+                            <div class="swiper-pagination"></div>
+                            <!-- If we need navigation buttons -->
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                        </div>
+                    </div>
+                    <a href="#" class="right">
+                        <h3>쿨쓰루쓰루 파운데이션 SPE30,<br>PA++ 013포세린 30ml</h3> 
+                        <p><em>25%</em> 18,900원</p>
+                        <div class="arrival">
+                            <img src="./images/main/past_deliver.png" alt="">
+                            <span>도착보장</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- foundation_bnr -->
+        <a href="#" class="foundation">
+            <img src="./images/main/foundation_bnr.jpg" alt="유백색 뽀얀 도자기 컬러, 보송 고운 광택의 파운데이션 쿨쓰루쓰루 파운데이션">
+        </a>
+        <!-- weekly_best -->
+        <section class="weekly_best_bg">
+            <div class="weekly_best">
+                <h2>WEEKLY BEST</h2>
+                <div class="contents">
+                    <!-- item1 -->
+                    <a href="#" class="item1">
+                        <div class="top">
+                            <span>1</span>
+                            <img src="./images/main/weekly_best1.png" alt="">
+                        </div>
+                        <div class="bottom">
+                            <h3>아멜리아 베이크드파우더 003 밀키바이올렛</h3>
+                            <p class="price"><em>20%</em> 30,600원</p>
+                            <p class="review">평점 4.7 · 리뷰 4,300</p>
+                            <div class="arrival">
+                                <img src="./images/main/past_deliver.png" alt="">
+                                <span>도착보장</span>
+                            </div>
+                        </div>
+                    </a>
+                    <!-- item2 -->
+                    <a href="#" class="item2">
+                        <div class="top">
+                            <span>2</span>
+                            <img src="./images/main/weekly_best2.png" alt="">
+                        </div>
+                        <div class="bottom">
+                            <h3>아멜리아 베이크드파우더 001 내추럴베이지</h3>
+                            <p class="price"><em>20%</em> 30,600원</p>
+                            <p class="review">평점 4.8 · 리뷰 5,987</p>
+                            <div class="arrival">
+                                <img src="./images/main/past_deliver.png" alt="">
+                                <span>도착보장</span>
+                            </div>
+                        </div>
+                    </a>
+                    <!-- item3 -->
+                    <a href="#" class="item3">
+                        <div class="top">
+                            <span>3</span>
+                            <img src="./images/main/weekly_best3.png" alt="">
+                        </div>
+                        <div class="bottom">
+                            <h3>아멜리아 스윗다이아 190 엔젤블러드</h3>
+                            <p class="price"><em>25%</em> 15,300원</p>
+                            <p class="review">평점 4.5 · 리뷰 2,001</p>
+                            <div class="arrival">
+                                <img src="./images/main/past_deliver.png" alt="">
+                                <span>도착보장</span>
+                            </div>
+                        </div>
+                    </a>
+                    <!-- item4 -->
+                    <a class="item4">
+                        <div class="top">
+                            <span>4</span>
+                            <img src="./images/main/weekly_best4.png" alt="">
+                        </div>
+                        <div class="bottom">
+                            <h3>아멜리아 플랫립스 914 뱀파이어</h3>
+                            <p class="price"><em>30%</em> 14,400원</p>
+                            <p class="review">평점 4.9 · 리뷰 10,629</p>
+                            <div class="arrival">
+                                <img src="./images/main/past_deliver.png" alt="">
+                                <span>도착보장</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- category -->
+        <section class="category_bg">
+            <div class="category">
+                <h2>CATEGORY</h2>
+                <div class="contents">
+                    <!-- face -->
+                    <a href="#" class="face">
+                        <p><img src="./images/main/category1.jpg" alt=""></p>
+                        <h3>페이스&gt;</h3>
+                    </a>
+                    <!-- eye -->
+                    <a href="#" class="eye">
+                        <p><img src="./images/main/category2.jpg" alt=""></p>
+                        <h3>아이&gt;</h3>
+                    </a>
+                    <!-- lip -->
+                    <a href="#" class="lip">
+                        <p><img src="./images/main/category3.jpg" alt=""></p>
+                        <h3>립&gt;</h3>
+                    </a>
+                    <!-- makeup_tool -->
+                    <a href="#" class="makeup_tool">
+                        <p><img src="./images/main/category4.jpg" alt=""></p>
+                        <h3>메이크업툴&gt;</h3>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- best_review -->
+        <section class="best_review_bg">
+            <div class="best_riview">
+                <h2>BEST REVIEW</h2>
+                <div class="contents">
+                    <!-- item1 -->
+                    <a href="#" class="item1">
+                        <p class="img"><img src="./images/main/best_review1.jpg" alt=""></p>
+                        <h3>아멜리아 쿨쓰루쓰루 파운데이션</h3>
+                        <div class="socre">
+                            <div class="left">
+                                <img src="images/main/star100.png" alt="">
+                                <img src="images/main/star100.png" alt="">
+                                <img src="images/main/star100.png" alt="">
+                                <img src="images/main/star100.png" alt="">
+                                <img src="images/main/star8.png" alt="">
+                            </div>
+                            <div class="right">
+                                <p class="number">4.8</p>
+                            </div>
+                        </div>
+                        <div class="buyer">
+                            <div class="left">
+                                <p class="top">
+                                    한동안 선물받은 파운데이션이 있어서 그거 사용···
+                                </p>
+                                <p class="bottom">
+                                    pc**** · 23.08.16 
+                                </p>
+                            </div>
+                            <div class="right">
+                                <img src="./images/main/foundation_review.png" alt="">
+                            </div>
+                        </div>
+                    </a>
+                    <!-- item2 -->
+                    <a href="#" class="item2">
+                        <p class="img"><img src="./images/main/best_review2.jpg" alt=""></p>
+                        <h3>나르시시즘 립 틴트</h3>
+                        <div class="socre">
+                            <div class="left">
+                                <img src="images/main/star100.png" alt="">
+                                <img src="images/main/star100.png" alt="">
+                                <img src="images/main/star100.png" alt="">
+                                <img src="images/main/star100.png" alt="">
+                                <img src="images/main/star5.png" alt="">
+                            </div>
+                            <div class="right">
+                                <p class="number">4.5</p>
+                            </div>
+                        </div>
+                        <div class="buyer">
+                            <div class="left">
+                                <p class="top">
+                                    색도 이쁘고 케이스도 이쁘고 너무 고급지고 이···
+                                </p>
+                                <p class="bottom">
+                                    dlek**** · 23.08.23 
+                                </p>
+                            </div>
+                            <div class="right">
+                                <img src="./images/main/tint_review.png" alt="">
+                            </div>
+                        </div>
+                    </a>
+                    <!-- item3 -->
+                    <a href="#" class="item3">
+                        <p class="img"><img src="./images/main/best_review3.jpg" alt=""></p>
+                        <h3>프리핏인앤아웃컨실러</h3>
+                        <div class="socre">
+                            <div class="left">
+                                <img src="images/main/star100.png" alt="">
+                                <img src="images/main/star100.png" alt="">
+                                <img src="images/main/star100.png" alt="">
+                                <img src="images/main/star100.png" alt="">
+                                <img src="images/main/star5.png" alt="">
+                            </div>
+                            <div class="right">
+                                <p class="number">4.5</p>
+                            </div>
+                        </div>
+                        <div class="buyer">
+                            <div class="left">
+                                <p class="top">
+                                    정말 촉촉해요. 몇번 겹쳐서 발라도 막 뭉친다는 ···
+                                </p>
+                                <p class="bottom">
+                                    kss**** · 23.08.16 
+                                </p>
+                            </div>
+                            <div class="right">
+                                <img src="./images/main/concealer_review.png" alt="">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- cushion_bnr -->
+        <a href="#" class="cushion">
+            <img src="./images/main/cushion_bnr.jpg" alt="뷰티어원즈 22관왕 컴플리먼트 시리즈 쿠션 보라">
+        </a>
+        <!-- video -->
+        <section class="video_bg">
+            <div class="video">
+                <video src="./video/amelia_garden.mp4" autoplay muted loop controls></video>
+            </div>
+        </section>
+        <!-- last_bnr -->
+        <section class="last_bnr_bg">
+            <p><img src="./images/main/last_bnr.jpg" alt=""></p>
+            <div class="last_bnr">
+                <p class="logo"><img src="./images/ameli_logo.png" alt=""></p>
+                <p class="brand">자신만의 룩을 찾을 수 있도록 영감은 주는<br>Makeup Creation Brand, 아멜리아</p>
+                <span>관심고객수 990,304</span>
+                <button id="qusetion_btn2" type="button">
+                    <img src="./images/main/bur_qusetion.png" alt="">
+                </button>
+                <div class="button">
+                    <button id="inform_btn2" type="button">
+                        <img src="./images/main/bur_inform.png" alt="">
+                        <span>알림받기</span>
+                    </button>
+                    <a href="#"><img src="./images/main/bur_share.png" alt=""></a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- footer -->
+    <footer>
+        <div class="contents">
+            <div class="top">
+                <div id="fnb">
+                    <a href="#">공지사항</a>
+                    <a href="#">이용약관</a>
+                    <a href="#"><em>개인정보처리방침</em></a>
+                    <a href="#">영상정보처리방침</a>
+                    <a href="#">고객센터</a>
+                    <a href="#">매장안내</a>
+                </div>
+                <div class="middle">
+                    <select name="global" id="global">
+                        <option value="Global Ameli">Global Ameli</option>
+                        <option value="US">US</option>
+                        <option value="Japan">Japan</option>
+                        <option value="Hong kong">Hong kong</option>
+                        <option value="Iraq">Iraq</option>
+                        <option value="Turkey">Turkey</option>
+                        <option value="Vietnam">Vietnam</option>
+                        <option value="Thailand">Thailand</option>
+                        <option value="Guatemala">Guatemala</option>
+                        <option value="Bangldesh">Bangldesh</option>
+                    </select>
+                    <select name="language" id="language">
+                        <option value="Language">Language</option>
+                        <option value="KOREAN">KOREAN</option>
+                        <option value="ENGLISH">ENGLISH</option>
+                    </select>
+                </div>
+                <div class="right">
+                    <a href="#"><img src="./images/main/youtube.png" alt=""></a>
+                    <a href="#"><img src="./images/main/facebook.png" alt=""></a>
+                    <a href="#"><img src="./images/main/instagram.png" alt=""></a>
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="left">
+                    <p id="address">
+                        상호 (주)아멜리<span></span>대표이사 권유미<span></span>Tel 1533-8835 (02-566-7889)<br>주소 06180 서울특별시 강남구 테헤란로20길 18(역삼동) 부봉빌딩 6층<br>사업자등록번호 487-88-01427<span></span>통신 판매업번호 제2019-서울강남-04775호<span></span>개인정보관리 이한나<br>제휴문의 biz@ameli.co.kr
+                    </p>
+                </div>
+                <div class="right">
+                    <span class="center">고객센터</span>
+                    <span class="number">02-566-7889</span>
+                    <span class="time">평일 09:00 ~ 17:00<br>점심시간 11:30 ~ 12:30</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./script/script.js"></script>
 </body>
 </html>

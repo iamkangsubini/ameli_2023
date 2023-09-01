@@ -1,0 +1,328 @@
+/* header */
+header {
+    /* position: fixed; top: 0; left: 0; */
+    background: pink;
+}
+/* top */
+header .top {
+    background-color: lightgoldenrodyellow;
+    width: 1280px; margin: 0 auto;
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+header .top .left {
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-between; align-items: center;
+}
+header .top .left .naver {
+    width: 80.67px; height: 40px; margin-right: 15px;
+}
+header .top .left .naver img {width: 100%;}
+header .top .left a {letter-spacing: -0.04em;}
+header .top .right {
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-between; align-items: center;
+}
+header .top .right a {
+    letter-spacing: -0.04em; margin-right: 15px;
+}
+header .top .right a:last-child {margin-right: 0;}
+header .top .right .menu {width: 20px; height: 20px;}
+header .top .right .menu img {width: 100%;}
+/* middle */
+header .middle {
+    background: powderblue;
+    width: 1280px; margin: 0 auto;
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-around; align-items: center;
+    padding: 50px 0 25px;
+}
+header .middle .left {
+    background: limegreen; width: 288px; height: 36px;
+    display: flex; flex-flow: row nowrap; align-items: center;
+}
+header .middle .left #inform_btn {
+    width: 120px; height: 36px; margin-right: 15px;
+    background: #ffc128; border-radius: 50px; padding: 7px 18px;
+    display: flex; flex-flow: row nowrap; align-items: center; justify-content: center;
+}
+header .middle .left #inform_btn img {
+    width: 22px; height: 22px;
+}
+header .middle .left #inform_btn span {
+    letter-spacing: -0.04em; color: #fff;
+}
+header .middle .left > span {
+    letter-spacing: -0.04em; margin-right: 5px;
+}
+header .middle .left #qusetion_btn {
+    width: 20px; height: 20px;
+}
+header .middle .left #qusetion_btn img {width: 100%;}
+header .middle .middle {
+}
+header .middle .middle h1 {}
+header .middle .middle h1 a {}
+header .middle .middle h1 a img {}
+header .middle .right {}
+header .middle .right #search_frm {}
+header .middle .right #search_frm fieldset {}
+header .middle .right #search_frm fieldset #txt_input {}
+header .middle .right #search_frm fieldset #search_btn {}
+header .middle .right #search_frm fieldset #search_btn img {}
+/* bottom */
+header .bottom {
+    background-color: tan; height: 66px;
+    width: 1280px; margin: 0 auto;
+    line-height: 25px;
+}
+header .bottom #nav {}
+header .bottom #nav a {}
+header .bottom #nav a span {}
+header .bottom #nav a img {}
+
+/* main */
+main {}
+/* swiper1 */
+main .swiper {
+    width: 100%;
+}
+main .swiper .swiper-wrapper {}
+main .swiper .swiper-wrapper .swiper-slide {}
+main .swiper .swiper-wrapper .slide1 {}
+main .swiper .swiper-wrapper .slide1 img {}
+main .swiper .swiper-wrapper .slide2 {}
+main .swiper .swiper-wrapper .slide2 img {}
+main .swiper .swiper-wrapper .slide3 {}
+main .swiper .swiper-wrapper .slide3 img {}
+main .swiper .swiper-pagination {}
+main .swiper .swiper-button-prev {}
+main .swiper .swiper-button-next {}
+main .swiper .swiper-scrollbar {}
+/* event_bnr */
+main .event_bg {}
+main .event_bg .event {}
+main .event_bg .event span {}
+main .event_bg .event span em {}
+main .event_bg .event img {}
+/* coupon */
+main .coupon_bg {}
+main .coupon_bg .coupon {}
+main .coupon_bg .coupon .left {}
+main .coupon_bg .coupon .left img {}
+main .coupon_bg .coupon .left .title {}
+main .coupon_bg .coupon .left .contents {}
+main .coupon_bg .coupon .right {}
+main .coupon_bg .coupon .right .top {}
+main .coupon_bg .coupon .right .bottom {}
+main .coupon_bg .coupon .right a {}
+/* new_item */
+main .new_swiper_bg {}
+main .new_swiper_bg .new_swiper {}
+main .new_swiper_bg .new_swiper h2 {}
+main .new_swiper_bg .new_swiper .product {}
+main .new_swiper_bg .new_swiper .product .left {}
+/* swiper2 */
+main .new_swiper_bg .new_swiper .product .left #new_item {}
+main .new_swiper_bg .new_swiper .product .left #new_item .swiper-wrapper {}
+main .new_swiper_bg .new_swiper .product .left #new_item .swiper-wrapper .swiper-slide {}
+main .new_swiper_bg .new_swiper .product .left #new_item .swiper-wrapper .slide1 {}
+main .new_swiper_bg .new_swiper .product .left #new_item .swiper-wrapper .slide2 {}
+main .new_swiper_bg .new_swiper .product .left #new_item .swiper-wrapper .slide3 {}
+main .new_swiper_bg .new_swiper .product .left #new_item .swiper-pagination {}
+main .new_swiper_bg .new_swiper .product .left #new_item .swiper-button-prev {}
+main .new_swiper_bg .new_swiper .product .left #new_item .swiper-button-next {}
+main .new_swiper_bg .new_swiper .product .right {}
+main .new_swiper_bg .new_swiper .product .right h3 {}
+main .new_swiper_bg .new_swiper .product .right p {}
+main .new_swiper_bg .new_swiper .product .right p em {}
+main .new_swiper_bg .new_swiper .product .right .arrival {}
+main .new_swiper_bg .new_swiper .product .right .arrival img {}
+main .new_swiper_bg .new_swiper .product .right .arrival span {}
+/* foundation_bnr */
+main .foundation {}
+main .foundation img {}
+/* weekly_best */
+main .weekly_best_bg {}
+main .weekly_best_bg .weekly_best {}
+main .weekly_best_bg .weekly_best h2 {}
+main .weekly_best_bg .weekly_best .contents {}
+/* item1 */
+main .weekly_best_bg .weekly_best .contents .item1 {}
+main .weekly_best_bg .weekly_best .contents .item1 .top {}
+main .weekly_best_bg .weekly_best .contents .item1 .top span {}
+main .weekly_best_bg .weekly_best .contents .item1 .top img {}
+main .weekly_best_bg .weekly_best .contents .item1 .bottom {}
+main .weekly_best_bg .weekly_best .contents .item1 .bottom h3 {}
+main .weekly_best_bg .weekly_best .contents .item1 .bottom .price {}
+main .weekly_best_bg .weekly_best .contents .item1 .bottom .price em {}
+main .weekly_best_bg .weekly_best .contents .item1 .bottom .review {}
+main .weekly_best_bg .weekly_best .contents .item1 .bottom .arrival {}
+main .weekly_best_bg .weekly_best .contents .item1 .bottom .arrival img {}
+main .weekly_best_bg .weekly_best .contents .item1 .bottom .arrival span {}
+/* item2 */
+main .weekly_best_bg .weekly_best .contents .item2 {}
+main .weekly_best_bg .weekly_best .contents .item2 .top {}
+main .weekly_best_bg .weekly_best .contents .item2 .top span {}
+main .weekly_best_bg .weekly_best .contents .item2 .top img {}
+main .weekly_best_bg .weekly_best .contents .item2 .bottom {}
+main .weekly_best_bg .weekly_best .contents .item2 .bottom h3 {}
+main .weekly_best_bg .weekly_best .contents .item2 .bottom .price {}
+main .weekly_best_bg .weekly_best .contents .item2 .bottom .price em {}
+main .weekly_best_bg .weekly_best .contents .item2 .bottom .review {}
+main .weekly_best_bg .weekly_best .contents .item2 .bottom .arrival {}
+main .weekly_best_bg .weekly_best .contents .item2 .bottom .arrival img {}
+main .weekly_best_bg .weekly_best .contents .item2 .bottom .arrival span {}
+/* item3 */
+main .weekly_best_bg .weekly_best .contents .item3 {}
+main .weekly_best_bg .weekly_best .contents .item3 .top {}
+main .weekly_best_bg .weekly_best .contents .item3 .top span {}
+main .weekly_best_bg .weekly_best .contents .item3 .top img {}
+main .weekly_best_bg .weekly_best .contents .item3 .bottom {}
+main .weekly_best_bg .weekly_best .contents .item3 .bottom h3 {}
+main .weekly_best_bg .weekly_best .contents .item3 .bottom .price {}
+main .weekly_best_bg .weekly_best .contents .item3 .bottom .price em {}
+main .weekly_best_bg .weekly_best .contents .item3 .bottom .review {}
+main .weekly_best_bg .weekly_best .contents .item3 .bottom .arrival {}
+main .weekly_best_bg .weekly_best .contents .item3 .bottom .arrival img {}
+main .weekly_best_bg .weekly_best .contents .item3 .bottom .arrival span {}
+/* item4 */
+main .weekly_best_bg .weekly_best .contents .item4 {}
+main .weekly_best_bg .weekly_best .contents .item4 .top {}
+main .weekly_best_bg .weekly_best .contents .item4 .top span {}
+main .weekly_best_bg .weekly_best .contents .item4 .top img {}
+main .weekly_best_bg .weekly_best .contents .item4 .bottom {}
+main .weekly_best_bg .weekly_best .contents .item4 .bottom h3 {}
+main .weekly_best_bg .weekly_best .contents .item4 .bottom .price {}
+main .weekly_best_bg .weekly_best .contents .item4 .bottom .price em {}
+main .weekly_best_bg .weekly_best .contents .item4 .bottom .review {}
+main .weekly_best_bg .weekly_best .contents .item4 .bottom .arrival {}
+main .weekly_best_bg .weekly_best .contents .item4 .bottom .arrival img {}
+main .weekly_best_bg .weekly_best .contents .item4 .bottom .arrival span {}
+/* categoty */
+main .category_bg {}
+main .category_bg .category {}
+main .category_bg .category h2 {}
+main .category_bg .category .contents {}
+/* face */
+main .category_bg .category .contents .face {}
+main .category_bg .category .contents .face p {}
+main .category_bg .category .contents .face p img {}
+main .category_bg .category .contents .face h3 {}
+/* eye */
+main .category_bg .category .contents .eye {}
+main .category_bg .category .contents .eye p {}
+main .category_bg .category .contents .eye p img {}
+main .category_bg .category .contents .eye h3 {}
+/* lip */
+main .category_bg .category .contents .lip {}
+main .category_bg .category .contents .lip p {}
+main .category_bg .category .contents .lip p img {}
+main .category_bg .category .contents .lip h3 {}
+/* make_tool */
+main .category_bg .category .contents .makeup_tool {}
+main .category_bg .category .contents .makeup_tool p {}
+main .category_bg .category .contents .makeup_tool p img {}
+main .category_bg .category .contents .makeup_tool h3 {}
+/* best_review */
+main .best_review_bg {}
+main .best_review_bg .best_review {}
+main .best_review_bg .best_review h2 {}
+main .best_review_bg .best_review .contents {}
+/* item1 */
+main .best_review_bg .best_review .contents .item1 {}
+main .best_review_bg .best_review .contents .item1 .img {}
+main .best_review_bg .best_review .contents .item1 .img img {}
+main .best_review_bg .best_review .contents .item1 h3 {}
+main .best_review_bg .best_review .contents .item1 .socre {}
+main .best_review_bg .best_review .contents .item1 .socre .left {}
+main .best_review_bg .best_review .contents .item1 .socre .left img {}
+main .best_review_bg .best_review .contents .item1 .socre .right {}
+main .best_review_bg .best_review .contents .item1 .socre .right .number {}
+main .best_review_bg .best_review .contents .item1 .buyer {}
+main .best_review_bg .best_review .contents .item1 .buyer .left {}
+main .best_review_bg .best_review .contents .item1 .buyer .left .top {}
+main .best_review_bg .best_review .contents .item1 .buyer .left .bottom {}
+main .best_review_bg .best_review .contents .item1 .buyer .right {}
+main .best_review_bg .best_review .contents .item1 .buyer .right img {}
+/* item2 */
+main .best_review_bg .best_review .contents .item2 {}
+main .best_review_bg .best_review .contents .item2 .img {}
+main .best_review_bg .best_review .contents .item2 .img img {}
+main .best_review_bg .best_review .contents .item2 h3 {}
+main .best_review_bg .best_review .contents .item2 .socre {}
+main .best_review_bg .best_review .contents .item2 .socre .left {}
+main .best_review_bg .best_review .contents .item2 .socre .left img {}
+main .best_review_bg .best_review .contents .item2 .socre .right {}
+main .best_review_bg .best_review .contents .item2 .socre .right .number {}
+main .best_review_bg .best_review .contents .item2 .buyer {}
+main .best_review_bg .best_review .contents .item2 .buyer .left {}
+main .best_review_bg .best_review .contents .item2 .buyer .left .top {}
+main .best_review_bg .best_review .contents .item2 .buyer .left .bottom {}
+main .best_review_bg .best_review .contents .item2 .buyer .right {}
+main .best_review_bg .best_review .contents .item2 .buyer .right img {}
+/* item3 */
+main .best_review_bg .best_review .contents .item3 {}
+main .best_review_bg .best_review .contents .item3 .img {}
+main .best_review_bg .best_review .contents .item3 .img img {}
+main .best_review_bg .best_review .contents .item3 h3 {}
+main .best_review_bg .best_review .contents .item3 .socre {}
+main .best_review_bg .best_review .contents .item3 .socre .left {}
+main .best_review_bg .best_review .contents .item3 .socre .left img {}
+main .best_review_bg .best_review .contents .item3 .socre .right {}
+main .best_review_bg .best_review .contents .item3 .socre .right .number {}
+main .best_review_bg .best_review .contents .item3 .buyer {}
+main .best_review_bg .best_review .contents .item3 .buyer .left {}
+main .best_review_bg .best_review .contents .item3 .buyer .left .top {}
+main .best_review_bg .best_review .contents .item3 .buyer .left .bottom {}
+main .best_review_bg .best_review .contents .item3 .buyer .right {}
+main .best_review_bg .best_review .contents .item3 .buyer .right img {}
+/* cushion_bur */
+main .cushtion {}
+main .cushtion img {}
+/* video */
+main .video_bg {}
+main .video_bg .video {}
+main .video_bg .video video {}
+/* last_bnr */
+main .last_bnr_bg {}
+main .last_bnr_bg > p {}
+main .last_bnr_bg > p img {}
+main .last_bnr_bg .last_bnr {}
+main .last_bnr_bg .last_bnr .logo {}
+main .last_bnr_bg .last_bnr .logo img {}
+main .last_bnr_bg .last_bnr .brand {}
+main .last_bnr_bg .last_bnr span {}
+main .last_bnr_bg .last_bnr #qusetion_btn2 {}
+main .last_bnr_bg .last_bnr #qusetion_btn2 img {}
+main .last_bnr_bg .last_bnr .button {}
+main .last_bnr_bg .last_bnr .button #inform_btn2 {}
+main .last_bnr_bg .last_bnr .button #inform_btn2 img {}
+main .last_bnr_bg .last_bnr .button #inform_btn2 span {}
+main .last_bnr_bg .last_bnr .button a {}
+main .last_bnr_bg .last_bnr .button a img {}
+
+/* footer */
+footer {}
+footer .contents {}
+footer .contents .top {}
+footer .contents .top .fnb {}
+footer .contents .top .fnb a {}
+footer .contents .top .fnb a em {}
+footer .contents .top .middle {}
+footer .contents .top .middle #global {}
+footer .contents .top .middle #global option {}
+footer .contents .top .middle #language {}
+footer .contents .top .middle #language option {}
+footer .contents .top .right {}
+footer .contents .top .right a {}
+footer .contents .top .right a img {}
+footer .contents .bottom {}
+footer .contents .bottom .left {}
+footer .contents .bottom .left #address {}
+footer .contents .bottom .left #address span {}
+footer .contents .bottom .right {}
+footer .contents .bottom .right .center {}
+footer .contents .bottom .right .number {}
+footer .contents .bottom .right .time {}
