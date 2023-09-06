@@ -21,7 +21,7 @@
     <header>
         <div class="top">
             <div class="left">
-                <a href="#" class="naver"><img src="./images/naver.logo.png" alt="NAVER"></a>
+                <a href="https://www.naver.com/" class="naver"><img src="./images/naver.logo.png" alt="NAVER"></a>
                 <a href="#">네이버 쇼핑</a>
             </div>
             <div class="right">
@@ -37,7 +37,7 @@
                     <img src="./images/inform.png" alt="">
                     <span>알림받기</span>
                 </button>
-                <span>관심고객수 990,304</span>
+                <span class="like">관심고객수 990,304</span>
                 <button id="qusetion_btn" type="button">
                     <img src="./images/qusetion.png" alt="">
                 </button>
@@ -60,20 +60,20 @@
         <div class="bottom">
             <div id="nav">
                 <a href="#">베스트</a>
-                <a href="#">BEST SET</a>
-                <a href="#">보랑노랑</a>
-                <a href="#">
+                <a href="#" class="face">
                     <span>페이스</span>
                     <img src="./images/direction_under.png" alt="">
                 </a>
-                <a href="#">
+                <a href="#" class="eye">
                     <span>아이</span>
                     <img src="./images/direction_under.png" alt="">
                 </a>
-                <a href="#">
+                <a href="#" class="lip">
                     <span>립</span>
                     <img src="./images/direction_under.png" alt=""></a>
                 <a href="#">메이크업툴</a>
+                <a href="#">리뷰</a>
+                <a href="#">묻고 답하기</a>
                 <a href="#">아멜리 멤버십 라운지</a>
             </div>
         </div>
@@ -81,13 +81,13 @@
     <!-- main -->
     <main>
         <!-- Slider main container -->
-        <div class="swiper">
+        <div class="swiper" id="top_slide">
             <!-- Additional required wrapper -->
             <div class="swiper-wrapper">
                 <!-- Slides -->
-                <a href="#" class="swiper-slide slide1"><img src="./images/main/slide1.jpg" alt="노랑의 보색 보라, 보라의 보색 노랑 아멜리의 새로우 쿠션으로 청아하게, 환하게"></a>
-                <a href="#" class="swiper-slide slide2"><img src="./images/main/slide2.jpg" alt="젖은 듯 부드러운 입술색, 로즈앳나잇 누군가에게는 웜 브릭 또는 누군가에게는 쿨 로즈"></a>
-                <a href="#" class="swiper-slide slider2"><img src="./images/main/slide3.jpg" alt="첫 출시 이후 지금까지 뷰티어워즈 22관왕 내 얼굴빛을 자연스럽게 보완해 주는 컴플리먼트 시리즈 쿠션"></a>
+                <a href="#" class="swiper-slide slide1"></a>
+                <a href="#" class="swiper-slide slide2"></a>
+                <a href="#" class="swiper-slide slide3"></a>
             </div>
             <!-- If we need pagination -->
             <div class="swiper-pagination"></div>
@@ -108,9 +108,10 @@
         <section class="coupon_bg">
             <div class="coupon">
                 <div class="left">
-                    <img src="./images/main/coupon.png" alt="">
-                    <span class="titel">아멜리</span>
-                    <span class="contents">첫구매 20%</span>
+                    <div class="txt">
+                        <span>아멜리</span>
+                        <span>첫구매 20%</span>
+                    </div>
                 </div>
                 <div class="right">
                     <p class="top">아멜리 고객님을 위한 혜택</p>
@@ -126,13 +127,13 @@
                 <div class="product">
                     <div class="left">
                         <!-- swiper -->
-                        <div class="swiper" id="new_item">
+                        <div class="swiper" id="new">
                             <!-- Additional required wrapper -->
                             <div class="swiper-wrapper">
                                 <!-- Slides -->
-                                <a href="#" class="swiper-slide slide1"><img src="./images/main/new_item1.jpg" alt=""></a>
-                                <a href="#" class="swiper-slide slide2"><img src="./images/main/new_item2.jpg" alt=""></a>
-                                <a href="#" class="swiper-slide slide3"><img src="./images/main/new_item3.jpg" alt=""></a>
+                                <a href="#" class="swiper-slide slide1"></a>
+                                <a href="#" class="swiper-slide slide2"></a>
+                                <a href="#" class="swiper-slide slide3"></a>
                             </div>
                             <!-- If we need pagination -->
                             <div class="swiper-pagination"></div>
@@ -168,7 +169,7 @@
                             <img src="./images/main/weekly_best1.png" alt="">
                         </div>
                         <div class="bottom">
-                            <h3>아멜리아 베이크드파우더 003 밀키바이올렛</h3>
+                            <h3>베이크드파우더 003 밀키바이올렛</h3>
                             <p class="price"><em>20%</em> 30,600원</p>
                             <p class="review">평점 4.7 · 리뷰 4,300</p>
                             <div class="arrival">
@@ -184,7 +185,7 @@
                             <img src="./images/main/weekly_best2.png" alt="">
                         </div>
                         <div class="bottom">
-                            <h3>아멜리아 베이크드파우더 001 내추럴베이지</h3>
+                            <h3>베이크드파우더 001 내추럴베이지</h3>
                             <p class="price"><em>20%</em> 30,600원</p>
                             <p class="review">평점 4.8 · 리뷰 5,987</p>
                             <div class="arrival">
@@ -200,7 +201,7 @@
                             <img src="./images/main/weekly_best3.png" alt="">
                         </div>
                         <div class="bottom">
-                            <h3>아멜리아 스윗다이아 190 엔젤블러드</h3>
+                            <h3>스윗다이아 190 엔젤블러드</h3>
                             <p class="price"><em>25%</em> 15,300원</p>
                             <p class="review">평점 4.5 · 리뷰 2,001</p>
                             <div class="arrival">
@@ -216,7 +217,7 @@
                             <img src="./images/main/weekly_best4.png" alt="">
                         </div>
                         <div class="bottom">
-                            <h3>아멜리아 플랫립스 914 뱀파이어</h3>
+                            <h3>플랫립스 914 뱀파이어</h3>
                             <p class="price"><em>30%</em> 14,400원</p>
                             <p class="review">평점 4.9 · 리뷰 10,629</p>
                             <div class="arrival">
@@ -258,7 +259,7 @@
         </section>
         <!-- best_review -->
         <section class="best_review_bg">
-            <div class="best_riview">
+            <div class="best_review">
                 <h2>BEST REVIEW</h2>
                 <div class="contents">
                     <!-- item1 -->
@@ -280,7 +281,7 @@
                         <div class="buyer">
                             <div class="left">
                                 <p class="top">
-                                    한동안 선물받은 파운데이션이 있어서 그거 사용···
+                                    한동안 선물받은 파운데이션이 있어서 그거···
                                 </p>
                                 <p class="bottom">
                                     pc**** · 23.08.16 
@@ -310,7 +311,7 @@
                         <div class="buyer">
                             <div class="left">
                                 <p class="top">
-                                    색도 이쁘고 케이스도 이쁘고 너무 고급지고 이···
+                                    색도 이쁘고 케이스도 이쁘고 너무 고급지···
                                 </p>
                                 <p class="bottom">
                                     dlek**** · 23.08.23 
@@ -340,7 +341,7 @@
                         <div class="buyer">
                             <div class="left">
                                 <p class="top">
-                                    정말 촉촉해요. 몇번 겹쳐서 발라도 막 뭉친다는 ···
+                                    정말 촉촉해요. 몇번 겹쳐서 발라도 막 뭉친···
                                 </p>
                                 <p class="bottom">
                                     kss**** · 23.08.16 
@@ -366,20 +367,23 @@
         </section>
         <!-- last_bnr -->
         <section class="last_bnr_bg">
-            <p><img src="./images/main/last_bnr.jpg" alt=""></p>
             <div class="last_bnr">
-                <p class="logo"><img src="./images/ameli_logo.png" alt=""></p>
+                <p class="logo"><img src="./images/ameli_logo.png" alt="Ameli"></p>
                 <p class="brand">자신만의 룩을 찾을 수 있도록 영감은 주는<br>Makeup Creation Brand, 아멜리아</p>
-                <span>관심고객수 990,304</span>
-                <button id="qusetion_btn2" type="button">
-                    <img src="./images/main/bur_qusetion.png" alt="">
-                </button>
+                <div class="like">
+                    <span>관심고객수 990,304</span>
+                    <button id="qusetion_btn2" type="button">
+                        <img src="./images/main/bur_qusetion.png" alt="">
+                    </button>
+                </div>
                 <div class="button">
                     <button id="inform_btn2" type="button">
                         <img src="./images/main/bur_inform.png" alt="">
                         <span>알림받기</span>
                     </button>
-                    <a href="#"><img src="./images/main/bur_share.png" alt=""></a>
+                    <button id="share_btn" type="button">
+                        <img src="./images/main/bur_share.png" alt="">
+                    </button>
                 </div>
             </div>
         </section>
