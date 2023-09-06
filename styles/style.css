@@ -1,6 +1,6 @@
 /* header */
 header {
-    /* position: fixed; top: 0; left: 0; */
+    position: absolute; top: 0; left: 320px; z-index: 999;
     background: pink;
 }
 /* top */
@@ -83,7 +83,9 @@ header .bottom #nav a span {}
 header .bottom #nav a img {}
 
 /* main */
-main {}
+main {
+    position: relative; width: 100%;
+}
 /* swiper1 */
 main .swiper {
     width: 100%;
