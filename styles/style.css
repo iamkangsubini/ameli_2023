@@ -219,7 +219,88 @@ main .coupon_bg .coupon .right a {
     border: 1px solid #fff;
 }
 /* new_item */
-main
+main .new_item_bg {width: 100%;}
+main .new_item_bg .new_item {
+    width: 1280px; margin: 0 auto; padding: 80px 0;
+    display: flex; flex-flow: column; justify-content: space-between;
+    align-items: center;
+}
+main .new_item_bg .new_item h2 {
+    font-weight: 700; font-size: 2.369rem ; letter-spacing: -0.02em;
+    margin-bottom: 50px;
+}
+/* swiper */
+main .new_item_bg .new_item #bottom_slide {}
+main .new_item_bg .new_item #bottom_slide .swiper-wrapper {
+    padding: 0 127.5px;
+}
+main .new_item_bg .new_item #bottom_slide .swiper-wrapper .swiper-slide {}
+/* slide1, 2, 3 */
+main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide1,
+main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide2,
+main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide3 {
+    display: flex; flex-flow: row nowrap; align-items: center;
+}
+main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide1 .left,
+main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide2 .left,
+main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide3 .left {
+    width: 490px; height: 490px; margin-right: 50px;
+}
+main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide1 .left img,
+main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide2 .left img,
+main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide3 .left img {width: 100%;}
+main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide1 .right,
+main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide2 .right,
+main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide3 .right {
+    width: 485px;
+    display: flex; flex-flow: column nowrap; align-items: flex-start;
+}
+main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide1 .right h3,
+main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide2 .right h3,
+main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide3 .right h3 {
+    font-size: 2.369rem; line-height: 47px; letter-spacing: -0.04em;
+    margin-bottom: 30px;
+}
+main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide1 .right .price,
+main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide2 .right .price,
+main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide3 .right .price {
+    font-weight: 700; font-size: 2.369rem; letter-spacing: -0.04em;
+    margin-bottom: 30px;
+}
+main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide1 .right .price em,
+main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide2 .right .price em,
+main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide3 .right .price em {
+    font-weight: 700; font-size: 2.369rem; letter-spacing: -0.04em; color: #ffc128;
+}
+main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide1 .right .arrival,
+main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide2 .right .arrival,
+main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide3 .right .arrival {
+    display: flex; flex-flow: row nowrap; justify-content: space-between;
+    align-items: center; 
+}
+main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide1 .right .arrival img,
+main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide2 .right .arrival img,
+main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide3 .right .arrival img {
+    width: 25px; height: 25px; margin-right: 5px;
+}
+main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide1 .right .arrival span,
+main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide2 .right .arrival span,
+main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide3 .right .arrival span {
+    font-weight: 700; font-size: 1.333rem; letter-spacing: -0.04em; color: #e1676f;
+}
+/* pagination */
+main .new_item_bg .new_item #bottom_slide .swiper-pagination {}
+/* navigation */
+main .new_item_bg .new_item .swiper-navigation {}
+/* If we need navigation buttons */
+main .new_item_bg .new_item .swiper-button-prev {
+    width: 70px; height: 70px;
+    background: url(../images/main/diretion_left.png);
+}
+main .new_item_bg .new_item .swiper-button-next {
+    width: 70px; height: 70px;
+    background: url(../images/main/diretion_right.png);
+}
 
 /* foundation_bnr */
 main .foundation {}
