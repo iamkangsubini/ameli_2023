@@ -4,31 +4,35 @@ header {
     width: 100%;
 }
 /* top */
-header .top {
+header .top_bg {
+    width: 100%;
+    border-bottom: 1px solid #000;
+}
+header .top_bg .top {
     width: 1280px; margin: 0 auto;
     display: flex; flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
 }
-header .top .left {
+header .top_bg .top .left {
     display: flex; flex-flow: row nowrap; 
     justify-content: space-between; align-items: center;
 }
-header .top .left .naver {
+header .top_bg .top .left .naver {
     width: 80.67px; height: 40px; margin-right: 15px;
     
 }
-header .top .left .naver img {width: 100%;}
-header .top .left a {letter-spacing: -0.04em;}
-header .top .right {
+header .top_bg .top .left .naver img {width: 100%;}
+header .top_bg .top .left a {letter-spacing: -0.04em;}
+header .top_bg .top .right {
     display: flex; flex-flow: row nowrap;
 }
-header .top .right a {
+header .top_bg .top .right a {
     letter-spacing: -0.04em; margin-right: 15px;
 }
-header .top .right a:last-child {margin-right: 0;}
-header .top .right .menu {width: 20px; height: 20px;}
-header .top .right .menu img {width: 100%;}
+header .top_bg .top .right a:last-child {margin-right: 0;}
+header .top_bg .top .right .menu {width: 20px; height: 20px;}
+header .top_bg .top .right .menu img {width: 100%;}
 /* middle */
 header .middle {
     width: 1280px; margin: 0 auto;
@@ -221,6 +225,7 @@ main .coupon_bg .coupon .right a {
 /* new_item */
 main .new_item_bg {width: 100%;}
 main .new_item_bg .new_item {
+    position: relative;
     width: 1280px; margin: 0 auto; padding: 80px 0;
     display: flex; flex-flow: column; justify-content: space-between;
     align-items: center;
@@ -229,6 +234,7 @@ main .new_item_bg .new_item h2 {
     font-weight: 700; font-size: 2.369rem ; letter-spacing: -0.02em;
     margin-bottom: 50px;
 }
+
 /* swiper */
 main .new_item_bg .new_item #bottom_slide {}
 main .new_item_bg .new_item #bottom_slide .swiper-wrapper {
@@ -300,6 +306,11 @@ main .new_item_bg .new_item .swiper-button-prev {
 main .new_item_bg .new_item .swiper-button-next {
     width: 70px; height: 70px;
     background: url(../images/main/diretion_right.png);
+}
+/* swiper-slide 라이브러리에서 기본제공하는 이전, 다음 숨기기 */
+main .new_item_bg .new_item .swiper-button-prev::after,
+main .new_item_bg .new_item .swiper-button-next::after {
+    display: none;
 }
 
 /* foundation_bnr */

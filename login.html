@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>로그인 | 아멜리</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./images/ameli_favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./images/ameli_favicon.ico" type="image/x-icon">
+    <!-- style -->
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/login.css">
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <div class="top_bg">
+            <div class="top">
+                <div class="left">
+                    <a href="https://www.naver.com/" class="naver"><img src="./images/naver.logo.png" alt="NAVER"></a>
+                    <a href="#">네이버 쇼핑</a>
+                </div>
+                <div class="right">
+                    <a href="./login.html">로그인</a>
+                    <a href="#">회원가입</a>
+                    <a href="#">고객센터</a>
+                    <a href="#" class="menu"><img src="./images/menu.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <div class="middle">
+            <div class="left">
+                <button id="inform_btn" type="button">
+                    <img src="./images/inform.png" alt="">
+                    <span>알림받기</span>
+                </button>
+                <span class="like">관심고객수 990,304</span>
+                <button id="qusetion_btn" type="button">
+                    <img src="./images/qusetion.png" alt="">
+                </button>
+            </div>
+            <div class="middle">
+                <h1><a href="./index.html"><img src="./images/ameli_logo.png" alt=""></a></h1>
+            </div>
+            <div class="right">
+                <form action="#" method="get" id="search_frm">
+                    <fieldset>
+                        <legend class="skip">검색영역</legend>
+                        <input type="text" placeholder="검색어를 입력해보세요" id="txt_input">
+                        <button id="search_btn" type="submit">
+                            <img src="./images/search.png" alt="">
+                        </button>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+        <div class="bottom">
+            <div id="nav">
+                <a href="#">베스트</a>
+                <a href="#" class="face">
+                    <span>페이스</span>
+                    <img src="./images/direction_under.png" alt="">
+                </a>
+                <a href="#" class="eye">
+                    <span>아이</span>
+                    <img src="./images/direction_under.png" alt="">
+                </a>
+                <a href="#" class="lip">
+                    <span>립</span>
+                    <img src="./images/direction_under.png" alt=""></a>
+                <a href="#">메이크업툴</a>
+                <a href="#">리뷰</a>
+                <a href="#">묻고 답하기</a>
+                <a href="#">아멜리 멤버십 라운지</a>
+            </div>
+        </div>
+    </header>
+    <!-- main -->
+    <main>
+        <div class="login_bg">
+            <div class="login">
+                <form action="#" method="post" id="login_frm">
+                    <fieldset>
+                        <legend class="skip">검색영역</legend>
+                        <ul>
+                            <li class="logo">
+                                <h2><a href="./index.html"><img src="./images/login/logo2.png" alt="Ameli"></a></h2>
+                            </li>
+                            <li class="id">
+                                <input type="text" placeholder="아이디를 입력해 주세요." name="user_id">
+                            </li>
+                            <li class="pw">
+                                <input type="password" placeholder="비밀번호를 입력해 주세요." name="user_pw">
+                                <button id="view_btn" type="button"><img src="./images/login/view_select.png" alt=""></button>
+                            </li>
+                            <li class="login_btn">
+                                <button id="login_btn" type="submit">로그인</button>
+                            </li>
+                            <li class="id_pw">
+                                <span class="check"></span>
+                                <label>
+                                    <input type="checkbox" id="save">아이디저장
+                                </label>
+                                <a href="#">아이디/비밀번호 찾기</a>
+                            </li>
+                            <li class="sns">
+                                <a href="#"><img src="./images/login/naver.png" alt=""></a>
+                                <a href="#"><img src="./images/login/kakao.png" alt=""></a>
+                                <a href="#"><img src="./images/login/google.png" alt=""></a>
+                            </li>
+                            <li class="protect">
+                                <span>개인정보 보호를 위해 공용 PC에서 사용 시 SNS계정의 로그아웃<br>상태를 꼭 확인해 주세요.</span>
+                            </li>
+                            <li class="join">
+                                <button type="button" id="join_btn">회원가입</button>
+                            </li>
+                            <li class="no_member">
+                                <button type="button" id="no_member_btn">비회원 주문조회</button>
+                            </li>
+                            <li class="span"><span></span></li>
+                            <li class="phone_login">
+                                <button type="button" id="phone_login_btn">
+                                    <img src="./images/login/phone.png" alt="">
+                                    <span class="ph">휴대폰번호로 로그인</span>
+                                </button>
+                            </li>
+                        </ul>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </main>
+    <!-- footer -->
+    <footer>
+        <div class="contents">
+            <div class="top">
+                <div id="fnb">
+                    <a href="#">공지사항</a>
+                    <a href="#">이용약관</a>
+                    <a href="#"><em>개인정보처리방침</em></a>
+                    <a href="#">영상정보처리방침</a>
+                    <a href="#">고객센터</a>
+                    <a href="#">매장안내</a>
+                </div>
+                <div class="middle">
+                    <select name="global" id="global">
+                        <option value="Global Ameli">Global Ameli</option>
+                        <option value="US">US</option>
+                        <option value="Japan">Japan</option>
+                        <option value="Hong kong">Hong kong</option>
+                        <option value="Iraq">Iraq</option>
+                        <option value="Turkey">Turkey</option>
+                        <option value="Vietnam">Vietnam</option>
+                        <option value="Thailand">Thailand</option>
+                        <option value="Guatemala">Guatemala</option>
+                        <option value="Bangldesh">Bangldesh</option>
+                    </select>
+                    <select name="language" id="language">
+                        <option value="Language">Language</option>
+                        <option value="KOREAN">KOREAN</option>
+                        <option value="ENGLISH">ENGLISH</option>
+                    </select>
+                </div>
+                <div class="right">
+                    <a href="#"><img src="./images/main/youtube.png" alt=""></a>
+                    <a href="#"><img src="./images/main/facebook.png" alt=""></a>
+                    <a href="#"><img src="./images/main/instagram.png" alt=""></a>
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="left">
+                    <p id="address">
+                        상호 (주)아멜리<span></span>대표이사 권유미<span></span>Tel 1533-8835 (02-566-7889)<br>주소 06180 서울특별시 강남구 테헤란로20길 18(역삼동) 부봉빌딩 6층<br>사업자등록번호 487-88-01427<span></span>통신 판매업번호 제2019-서울강남-04775호<span></span>개인정보관리 이한나<br>제휴문의 biz@ameli.co.kr
+                    </p>
+                </div>
+                <div class="right">
+                    <span class="center">고객센터</span>
+                    <span class="number">02-566-7889</span>
+                    <span class="time">평일 09:00 ~ 17:00<br>점심시간 11:30 ~ 12:30</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

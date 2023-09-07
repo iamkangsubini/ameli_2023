@@ -1,0 +1,752 @@
+/* header */
+header {
+    width: 100%;
+}
+/* top */
+header .top_bg {
+    width: 100%;
+    border-bottom: 1px solid #000;
+}
+header .top_bg .top {
+    width: 1280px; margin: 0 auto;
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+header .top_bg .top .left {
+    display: flex; flex-flow: row nowrap; 
+    justify-content: space-between; align-items: center;
+}
+header .top_bg .top .left .naver {
+    width: 80.67px; height: 40px; margin-right: 15px;
+    
+}
+header .top_bg .top .left .naver img {width: 100%;}
+header .top_bg .top .left a {letter-spacing: -0.04em;}
+header .top_bg .top .right {
+    display: flex; flex-flow: row nowrap;
+}
+header .top_bg .top .right a {
+    letter-spacing: -0.04em; margin-right: 15px;
+}
+header .top_bg .top .right a:last-child {margin-right: 0;}
+header .top_bg .top .right .menu {width: 20px; height: 20px;}
+header .top_bg .top .right .menu img {width: 100%;}
+/* middle */
+header .middle {
+    width: 1280px; margin: 0 auto;
+    display: flex; flex-flow: row nowrap;
+    align-items: center; justify-content: space-around;
+}
+header .middle .left {
+    display: flex; flex-flow: row nowrap; 
+    justify-content: space-between;
+    align-items: center; 
+    padding: 59.5px 0 34.5px;
+}
+header .middle .left #inform_btn {
+    margin-right: 15px; width: 125px;
+    background: #ffc128; border-radius: 50px; padding: 7px 18px;
+    display: flex; flex-flow: row nowrap; align-items: center; justify-content: center;
+}
+header .middle .left #inform_btn img {
+    width: 22px; height: 22px; margin-right: 5px;
+}
+header .middle .left #inform_btn span {
+    letter-spacing: -0.04em; color: #fff;
+}
+header .middle .left .like {
+    width: 140px; margin-right: 5px;
+    letter-spacing: -0.04em;
+}
+header .middle .left #qusetion_btn {
+    width: 20px; height: 20px; background: none;
+}
+header .middle .left #qusetion_btn img {width: 100%;}
+header .middle .middle {padding: 50px 0 25px;}
+header .middle .middle h1 {
+    width: 177.78px; height: 55px;
+}
+header .middle .middle h1 a {}
+header .middle .middle h1 a img {width: 100%;}
+header .middle .right {padding: 55px 0 30px;}
+header .middle .right #search_frm {}
+header .middle .right #search_frm fieldset {
+    width: 240px; height: 45px; border-radius: 50px;
+    background: #fff; display: flex; 
+    flex-flow: row nowrap; align-items: center;
+} 
+header .middle .right #search_frm fieldset #txt_input {
+    width: 75%;
+    letter-spacing: -0.04em; color: #787878;
+    margin-left: 16px;
+}
+header .middle .right #search_frm fieldset #search_btn {
+    width: 20px; height: 20px; background: none;
+    margin-left: 10px;
+}
+header .middle .right #search_frm fieldset #search_btn img {width: 100%;}
+/* bottom */
+header .bottom {
+    width: 1280px; margin: 0 auto;
+    padding: 25px 0;
+}
+header .bottom #nav {
+}
+header .bottom #nav a {
+    font-size: 1.333rem; letter-spacing: -0.04em;
+    margin-right: 30px;
+}
+header .bottom #nav .face,
+header .bottom #nav .eye,
+header .bottom #nav .lip {
+    display: inline-flex; flex-flow: row nowrap;
+}
+header .bottom #nav .face span {color: #ffc128;}
+header .bottom #nav .face span,
+header .bottom #nav .eye span,
+header .bottom #nav .lip span {
+    font-size: 1.333rem; letter-spacing: -0.04em;
+    margin-right: 5px;
+}
+header .bottom #nav .face span img,
+header .bottom #nav .eye span img,
+header .bottom #nav .lip span img {
+    width: 16px; height: 16px;
+}
+
+/* main */
+main {}
+/* title */
+main .title_bg {
+    width: 100%; border-top: 1px solid #000;
+}
+main .title_bg .title {
+    width: 1280px; margin: 0 auto; padding: 50px 0 20px;
+    display: flex; flex-flow: row nowrap; justify-content: space-between;
+    align-items: flex-end;
+}
+main .title_bg .title h2 {
+    font-weight: 700; font-size: 2.369rem; letter-spacing: -0.04em;
+    color: #212522;
+}
+main .title_bg .title .right {
+    display: flex; flex-flow: row nowrap; align-items: center;
+}
+main .title_bg .title .right a {
+    letter-spacing: -0.04em; color: #7a7a7a; margin-right: 10px;
+}
+main .title_bg .title .right .arrow {
+    color: #7a7a7a; margin-right: 10px;
+}
+main .title_bg .title .right .face_all {
+    letter-spacing: -0.04em; color: #212522; margin-right: 10px;
+}
+main .title_bg .title .right #all_btn {
+    letter-spacing: -0.04em; color: #7a7a7a; background: none;
+}
+/* filter */
+main .filter_bg {
+    width: 100%;
+}
+main .filter_bg .filter {
+    width: 1280px; margin: 0 auto; background: #f3f5f8;
+    display: flex; flex-flow: row nowrap; justify-content: space-between;
+    align-items: center; padding: 12px 15px;
+}
+/* left */
+main .filter_bg .filter .left {
+    display: flex; flex-flow: row nowrap; align-items: center;
+}
+/* arrival_btn */
+main .filter_bg .filter .left .arrival_btn {margin-right: 5px;}
+main .filter_bg .filter .left .arrival_btn #arrival_btn {
+    display: flex; flex-flow: row nowrap; align-items: center;
+    padding: 10px 15px; background: #fff; border-radius: 50px;
+}
+main .filter_bg .filter .left .arrival_btn #arrival_btn img {
+    width: 21px; height: 21px; margin-right: 5px;
+}
+main .filter_bg .filter .left .arrival_btn #arrival_btn span {
+    font-weight: 700; letter-spacing: -0.04em; color: #e1676f;
+}
+/* free_btn */
+main .filter_bg .filter .left .free_btn {margin-right: 5px;}
+main .filter_bg .filter .left .free_btn #free_btn {
+    letter-spacing: -0.04em; color: #212522; background: #fff;
+    padding: 0 15px; border-radius: 50px; height: 41px; 
+}
+/* benefit_information_btn */
+main .filter_bg .filter .left #benefit_information_btn {
+    margin-right: 5px; background-color: #fff; padding: 0 15px;
+    border-radius: 50px;
+}
+main .filter_bg .filter .left #benefit_information_btn select {
+    letter-spacing: -0.04em; color: #212522; border: none;
+    height: 41px; 
+}
+main .filter_bg .filter .left #benefit_information_btn select option {
+    letter-spacing: -0.04em; color: #212522;}
+/* shipping_type_btn */
+main .filter_bg .filter .left #shipping_type_btn {
+    margin-right: 5px; background-color: #fff; padding: 0 15px;
+    border-radius: 50px;
+}
+main .filter_bg .filter .left #shipping_type_btn select {
+    letter-spacing: -0.04em; color: #212522; border: none;
+    height: 41px;
+}
+main .filter_bg .filter .left #shipping_type_btn select option {
+    letter-spacing: -0.04em; color: #212522;
+}
+/* item_type_btn */
+main .filter_bg .filter .left #item_type_btn {
+    margin-right: 5px; background-color: #fff; padding: 0 15px;
+    border-radius: 50px;
+}
+main .filter_bg .filter .left #item_type_btn select {
+    letter-spacing: -0.04em; color: #212522; border: none;
+    height: 41px;
+}
+main .filter_bg .filter .left #item_type_btn select option {
+    letter-spacing: -0.04em; color: #212522;
+}
+/* price_btn */
+main .filter_bg .filter .left #price_btn {
+    background-color: #fff; padding: 0 15px; border-radius: 50px;
+}
+main .filter_bg .filter .left #price_btn select {
+    letter-spacing: -0.04em; color: #212522; border: none;
+    height: 41px;
+}
+main .filter_bg .filter .left #price_btn select option {
+    letter-spacing: -0.04em; color: #212522;
+}
+/* right */
+main .filter_bg .filter .right {}
+main .filter_bg .filter .right #filter_btn {
+    width: 41px; height: 41px; background: #fff; border-radius: 50px;
+}
+main .filter_bg .filter .right #filter_btn img {
+    width: 16px; height: 16px;
+}
+/* arrival_criteria */
+main .arrival_criteria_bg {width: 100%;}
+main .arrival_criteria_bg .arrival_criteria {
+    padding: 17px 15px;
+    width: 1280px; margin: 0 auto; display: flex; flex-flow: row nowrap;
+    justify-content: space-between; align-items: center;
+}
+/* left */
+main .arrival_criteria_bg .arrival_criteria .left {
+    display: flex; flex-flow: row nowrap; align-items: center;
+}
+main .arrival_criteria_bg .arrival_criteria .left img {
+    width: 21px; height: 21px; margin-right: 5px;
+}
+main .arrival_criteria_bg .arrival_criteria .left .area {
+    font-weight: 700; letter-spacing: -0.04em; color: #212522; margin-right: 10px;
+}
+main .arrival_criteria_bg .arrival_criteria .left .criteria {
+    letter-spacing: -0.04em; color: #212522;
+}
+/* right */
+main .arrival_criteria_bg .arrival_criteria .right {
+    display: flex; flex-flow: row nowrap; align-items: center;
+}
+main .arrival_criteria_bg .arrival_criteria .right .arrival {
+    display: flex; flex-flow: row nowrap; align-items: center;
+}
+main .arrival_criteria_bg .arrival_criteria .right .arrival img {
+    width: 21px; height: 21px;
+}
+main .arrival_criteria_bg .arrival_criteria .right .arrival span {
+    font-weight: 700; letter-spacing: -0.04em; color: #e1676f; margin-left: 5px;
+}
+main .arrival_criteria_bg .arrival_criteria .right p {
+    letter-spacing: -0.04em; color: #7a7a7a; margin-left: 10px;
+}
+/* view_bg */
+main .view_way_bg {width: 100%;}
+main .view_way_bg .view_way {
+    width: 1280px; margin: 0 auto; display: flex; flex-flow: row nowrap;
+    justify-content: space-between; align-items: center; padding: 14px 0;
+}
+/* left */
+main .view_way_bg .view_way .left {
+    display: flex; flex-flow: row nowrap; align-items: center;
+}
+main .view_way_bg .view_way .left #popularity_btn {
+    display: flex; flex-flow: row nowrap; align-items: center; background: none;
+}
+main .view_way_bg .view_way .left #popularity_btn img {
+    width: 21px; height: 21px; margin-right: 5px;
+}
+main .view_way_bg .view_way .left #popularity_btn span {
+    font-weight: 700; letter-spacing: -0.04em; color: #000;
+}
+main .view_way_bg .view_way .left #latest_btn {
+    letter-spacing: -0.04em; color: #7a7a7a; background: none;}
+main .view_way_bg .view_way .left #low_btn {letter-spacing: -0.04em; color: #7a7a7a; background: none;}
+main .view_way_bg .view_way .left #high_btn {letter-spacing: -0.04em; color: #7a7a7a; background: none;}
+main .view_way_bg .view_way .left #discount_btn {letter-spacing: -0.04em; color: #7a7a7a; background: none;}
+main .view_way_bg .view_way .left #accrue_btn {letter-spacing: -0.04em; color: #7a7a7a; background: none;}
+main .view_way_bg .view_way .left #review_max_btn {letter-spacing: -0.04em; color: #7a7a7a; background: none;}
+main .view_way_bg .view_way .left #good_btn {letter-spacing: -0.04em; color: #7a7a7a; background: none;}
+main .view_way_bg .view_way .left button::after {
+    display: inline-block; content: ''; width: 1px; height: 13px; background: #7a7a7a;
+    margin: 0 13px;
+}
+/* right */
+main .view_way_bg .view_way .right {
+    display: flex; flex-flow: row nowrap; align-items: center;
+}
+main .view_way_bg .view_way .right #view4 {width: 27px; height: 27px;}
+main .view_way_bg .view_way .right #view4 img {width: 100%;}
+main .view_way_bg .view_way .right #view3 {width: 27px; height: 27px;}
+main .view_way_bg .view_way .right #view3 img {width: 100%;}
+main .view_way_bg .view_way .right #view2 {width: 27px; height: 27px;}
+main .view_way_bg .view_way .right #view2 img {width: 100%;}
+main .view_way_bg .view_way .right #view1_hover {width: 27px; height: 27px;}
+main .view_way_bg .view_way .right #view1_hover img {width: 100%;}
+/* item_all_bg */
+main .item_all_bg {
+    width: 100%;
+}
+main .item_all_bg .item_all {
+    background-color: lavenderblush;
+    width: 1280px; margin: 0 auto; display: flex; flex-flow: column nowrap;
+    justify-content: space-between;
+}
+/* first_line */
+main .item_all_bg .item_all .first_line {
+    background-color: rgb(167, 209, 167);
+    width: 1280px; display: flex; flex-flow: row nowrap;
+    justify-content: space-between; align-items: flex-start;
+}
+/* item1 */
+main .item_all_bg .item_all .first_line .item1 {
+    width: 400px; display: flex; flex-flow: column nowrap;}
+/* top */
+main .item_all_bg .item_all .first_line .item1 .top {
+    margin-bottom: 20px;
+}
+main .item_all_bg .item_all .first_line .item1 .top p {
+    font-weight: 500; letter-spacing: -0.04em; color: #fff; background: #ffc128;
+    padding: 10px; position: absolute;
+}
+/* item1-swiper */
+main .item_all_bg .item_all .first_line .item1 .top #purple_cushion {
+    background: #7a7a7a;
+    width: 400px; height: 400px;
+
+}
+main .item_all_bg .item_all .first_line .item1 .top #purple_cushion .swiper_wrapper {}
+main .item_all_bg .item_all .first_line .item1 .top #purple_cushion .swiper_wrapper .swiper-slide {}
+main .item_all_bg .item_all .first_line .item1 .top #purple_cushion .swiper_wrapper .slide1 {
+    background: url(../images/product_list/1.jpg) no-repeat;
+    background-size: cover; 
+}
+main .item_all_bg .item_all .first_line .item1 .top #purple_cushion .swiper_wrapper .slide2 {
+    background: url(../images/product_list/1_2.png) no-repeat;
+    background-size: cover;
+}
+main .item_all_bg .item_all .first_line .item1 .top #purple_cushion .swiper-pagination {}
+main .item_all_bg .item_all .first_line .item1 .top .swiper-button-prev {}
+main .item_all_bg .item_all .first_line .item1 .top .swiper-button-next {}
+/* bottom */
+main .item_all_bg .item_all .first_line .item1 .bottom {
+    display: flex; flex-flow: column nowrap; align-items: flex-start; 
+}
+main .item_all_bg .item_all .first_line .item1 .bottom .price {
+    width: 400px; display: flex; flex-flow: row nowrap;
+    justify-content: space-between; align-items: center;
+    margin-bottom: 20px;
+}
+main .item_all_bg .item_all .first_line .item1 .bottom .price .discount {
+    font-weight: 700; font-size: 1.333rem; letter-spacing: -0.04em;
+} 
+main .item_all_bg .item_all .first_line .item1 .bottom .price .discount em {
+    font-weight: 700; font-size: 1.333rem; letter-spacing: -0.04em;
+    color: #ffc128;
+}
+main .item_all_bg .item_all .first_line .item1 .bottom .price .like {
+    width: 16px; height: 16px;
+}
+main .item_all_bg .item_all .first_line .item1 .bottom .price .like img {
+    width: 100%;
+}
+main .item_all_bg .item_all .first_line .item1 .bottom h3 {
+    width: 400px; margin-bottom: 20px;
+    font-weight: 500; font-size: 1.333rem; letter-spacing: -0.04em;
+}
+main .item_all_bg .item_all .first_line .item1 .bottom .review {
+    letter-spacing: -0.04em; color: #7a7a7a; margin-bottom: 20px;
+}
+main .item_all_bg .item_all .first_line .item1 .bottom .arrival_promise {
+    display: flex; flex-flow: row nowrap; align-items: center;
+    margin-bottom: 20px;
+}
+main .item_all_bg .item_all .first_line .item1 .bottom .arrival_promise .arrival {display: flex; flex-flow: row nowrap; align-items: center;
+margin-right: 5px;}
+main .item_all_bg .item_all .first_line .item1 .bottom .arrival_promise .arrival img {width: 21px; height: 21px; margin-right: 5px;}
+main .item_all_bg .item_all .first_line .item1 .bottom .arrival_promise .arrival span {font-weight: 700; letter-spacing: -0.04em; color: #e1676f;}
+main .item_all_bg .item_all .first_line .item1 .bottom .arrival_promise p {
+    letter-spacing: -0.04em; color: #e1676f ;
+}
+main .item_all_bg .item_all .first_line .item1 .bottom .special {
+    display: flex; flex-flow: row nowrap; align-items: center;
+}
+main .item_all_bg .item_all .first_line .item1 .bottom .special p {
+    letter-spacing: -0.04em; color: #7a7a7a; border: 1px solid #7a7a7a;
+    padding: 5px; border-radius: 5px;
+}
+main .item_all_bg .item_all .first_line .item1 .bottom .special p:nth-child(1) {
+    margin-right: 10px;
+}
+/* item2 */
+main .item_all_bg .item_all .first_line .item2 {}
+/* top */
+main .item_all_bg .item_all .first_line .item2 .top {}
+main .item_all_bg .item_all .first_line .item2 .top p {}
+/* item2-swiper */
+main .item_all_bg .item_all .first_line .item2 .top #purple_powder {}
+main .item_all_bg .item_all .first_line .item2 .top #purple_powder .swiper_wrapper {}
+main .item_all_bg .item_all .first_line .item2 .top #purple_powder .swiper_wrapper .swiper-slide {}
+main .item_all_bg .item_all .first_line .item2 .top #purple_powder .swiper_wrapper .slide1 {}
+main .item_all_bg .item_all .first_line .item2 .top #purple_powder .swiper_wrapper .slide2 {}
+main .item_all_bg .item_all .first_line .item2 .top #purple_powder .swiper_wrapper .slide3 {}
+main .item_all_bg .item_all .first_line .item2 .top #purple_powder .swiper-pagination {}
+main .item_all_bg .item_all .first_line .item2 .top .swiper-button-prev {}
+main .item_all_bg .item_all .first_line .item2 .top .swiper-button-next {}
+/* bottom */
+main .item_all_bg .item_all .first_line .item2 .bottom {}
+main .item_all_bg .item_all .first_line .item2 .bottom .price {}
+main .item_all_bg .item_all .first_line .item2 .bottom .price .discount {}
+main .item_all_bg .item_all .first_line .item2 .bottom .price .discount em {}
+main .item_all_bg .item_all .first_line .item2 .bottom .price .like {}
+main .item_all_bg .item_all .first_line .item2 .bottom .price .like img {}
+main .item_all_bg .item_all .first_line .item2 .bottom h3 {}
+main .item_all_bg .item_all .first_line .item2 .bottom .review {}
+main .item_all_bg .item_all .first_line .item2 .bottom .arrival_promise {}
+main .item_all_bg .item_all .first_line .item2 .bottom .arrival_promise .arrival {}
+main .item_all_bg .item_all .first_line .item2 .bottom .arrival_promise .arrival img {}
+main .item_all_bg .item_all .first_line .item2 .bottom .arrival_promise .arrival span {}
+main .item_all_bg .item_all .first_line .item2 .bottom .arrival_promise p {}
+main .item_all_bg .item_all .first_line .item2 .bottom .special {}
+main .item_all_bg .item_all .first_line .item2 .bottom .special p {}
+/* item3 */
+main .item_all_bg .item_all .first_line .item3 {}
+/* top */
+main .item_all_bg .item_all .first_line .item3 .top {}
+main .item_all_bg .item_all .first_line .item3 .top p {}
+/* item3-swiper */
+main .item_all_bg .item_all .first_line .item3 .top #every_foundation {}
+main .item_all_bg .item_all .first_line .item3 .top #every_foundation .swiper_wrapper {}
+main .item_all_bg .item_all .first_line .item3 .top #every_foundation .swiper_wrapper .swiper-slide {}
+main .item_all_bg .item_all .first_line .item3 .top #every_foundation .swiper_wrapper .slide1 {}
+main .item_all_bg .item_all .first_line .item3 .top #every_foundation .swiper_wrapper .slide2 {}
+main .item_all_bg .item_all .first_line .item3 .top #every_foundation .swiper_wrapper .slide3 {}
+main .item_all_bg .item_all .first_line .item3 .top #every_foundation .swiper-pagination {}
+main .item_all_bg .item_all .first_line .item3 .top .swiper-button-prev {}
+main .item_all_bg .item_all .first_line .item3 .top .swiper-button-next {}
+/* bottom */
+main .item_all_bg .item_all .first_line .item3 .bottom {}
+main .item_all_bg .item_all .first_line .item3 .bottom .price {}
+main .item_all_bg .item_all .first_line .item3 .bottom .price .discount {}
+main .item_all_bg .item_all .first_line .item3 .bottom .price .discount em {}
+main .item_all_bg .item_all .first_line .item3 .bottom .price .like {}
+main .item_all_bg .item_all .first_line .item3 .bottom .price .like img {}
+main .item_all_bg .item_all .first_line .item3 .bottom h3 {}
+main .item_all_bg .item_all .first_line .item3 .bottom .review {}
+main .item_all_bg .item_all .first_line .item3 .bottom .arrival_promise {}
+main .item_all_bg .item_all .first_line .item3 .bottom .arrival_promise .arrival {}
+main .item_all_bg .item_all .first_line .item3 .bottom .arrival_promise .arrival img {}
+main .item_all_bg .item_all .first_line .item3 .bottom .arrival_promise .arrival span {}
+main .item_all_bg .item_all .first_line .item3 .bottom .arrival_promise p {}
+main .item_all_bg .item_all .first_line .item3 .bottom .special {}
+main .item_all_bg .item_all .first_line .item3 .bottom .special p {}
+/* second_line */
+main .item_all_bg .item_all .second_line {}
+/* item4 */
+main .item_all_bg .item_all .second_line .item4 {}
+/* top */
+main .item_all_bg .item_all .second_line .item4 .top {}
+main .item_all_bg .item_all .second_line .item4 .top p {}
+/* item4-swiper */
+main .item_all_bg .item_all .second_line .item4 .top #white_concealer {}
+main .item_all_bg .item_all .second_line .item4 .top #white_concealer .swiper_wrapper {}
+main .item_all_bg .item_all .second_line .item4 .top #white_concealer .swiper_wrapper .swiper-slide {}
+main .item_all_bg .item_all .second_line .item4 .top #white_concealer .swiper_wrapper .slide1 {}
+main .item_all_bg .item_all .second_line .item4 .top #white_concealer .swiper_wrapper .slide2 {}
+main .item_all_bg .item_all .second_line .item4 .top #white_concealer .swiper_wrapper .slide3 {}
+main .item_all_bg .item_all .second_line .item4 .top #white_concealer .swiper-pagination {}
+main .item_all_bg .item_all .second_line .item4 .top .swiper-button-prev {}
+main .item_all_bg .item_all .second_line .item4 .top .swiper-button-next {}
+/* bottom */
+main .item_all_bg .item_all .second_line .item4 .bottom {}
+main .item_all_bg .item_all .second_line .item4 .bottom .price {}
+main .item_all_bg .item_all .second_line .item4 .bottom .price .discount {}
+main .item_all_bg .item_all .second_line .item4 .bottom .price .discount em {}
+main .item_all_bg .item_all .second_line .item4 .bottom .price .like {}
+main .item_all_bg .item_all .second_line .item4 .bottom .price .like img {}
+main .item_all_bg .item_all .second_line .item4 .bottom h3 {}
+main .item_all_bg .item_all .second_line .item4 .bottom .review {}
+main .item_all_bg .item_all .second_line .item4 .bottom .arrival_promise {}
+main .item_all_bg .item_all .second_line .item4 .bottom .arrival_promise .arrival {}
+main .item_all_bg .item_all .second_line .item4 .bottom .arrival_promise .arrival img {}
+main .item_all_bg .item_all .second_line .item4 .bottom .arrival_promise .arrival span {}
+main .item_all_bg .item_all .second_line .item4 .bottom .arrival_promise p {}
+main .item_all_bg .item_all .second_line .item4 .bottom .special {}
+main .item_all_bg .item_all .second_line .item4 .bottom .special p {}
+/* item5 */
+main .item_all_bg .item_all .second_line .item5 {}
+/* top */
+main .item_all_bg .item_all .second_line .item5 .top {}
+main .item_all_bg .item_all .second_line .item5 .top p {}
+/* item5-swiper */
+main .item_all_bg .item_all .second_line .item5 .top #baby_concealer {}
+main .item_all_bg .item_all .second_line .item5 .top #baby_concealer .swiper_wrapper {}
+main .item_all_bg .item_all .second_line .item5 .top #baby_concealer .swiper_wrapper .swiper-slide {}
+main .item_all_bg .item_all .second_line .item5 .top #baby_concealer .swiper_wrapper .slide1 {}
+main .item_all_bg .item_all .second_line .item5 .top #baby_concealer .swiper_wrapper .slide2 {}
+main .item_all_bg .item_all .second_line .item5 .top #baby_concealer .swiper_wrapper .slide3 {}
+main .item_all_bg .item_all .second_line .item5 .top #baby_concealer .swiper-pagination {}
+main .item_all_bg .item_all .second_line .item5 .top .swiper-button-prev {}
+main .item_all_bg .item_all .second_line .item5 .top .swiper-button-next {}
+/* bottom */
+main .item_all_bg .item_all .second_line .item5 .bottom {}
+main .item_all_bg .item_all .second_line .item5 .bottom .price {}
+main .item_all_bg .item_all .second_line .item5 .bottom .price .discount {}
+main .item_all_bg .item_all .second_line .item5 .bottom .price .discount em {}
+main .item_all_bg .item_all .second_line .item5 .bottom .price .like {}
+main .item_all_bg .item_all .second_line .item5 .bottom .price .like img {}
+main .item_all_bg .item_all .second_line .item5 .bottom h3 {}
+main .item_all_bg .item_all .second_line .item5 .bottom .review {}
+main .item_all_bg .item_all .second_line .item5 .bottom .arrival_promise {}
+main .item_all_bg .item_all .second_line .item5 .bottom .arrival_promise .arrival {}
+main .item_all_bg .item_all .second_line .item5 .bottom .arrival_promise .arrival img {}
+main .item_all_bg .item_all .second_line .item5 .bottom .arrival_promise .arrival span {}
+main .item_all_bg .item_all .second_line .item5 .bottom .arrival_promise p {}
+main .item_all_bg .item_all .second_line .item5 .bottom .special {}
+main .item_all_bg .item_all .second_line .item5 .bottom .special p {}
+/* item6 */
+main .item_all_bg .item_all .second_line .item6 {}
+/* top */
+main .item_all_bg .item_all .second_line .item6 .top {}
+main .item_all_bg .item_all .second_line .item6 .top p {}
+/* item6-swiper */
+main .item_all_bg .item_all .second_line .item6 .top #white_powder {}
+main .item_all_bg .item_all .second_line .item6 .top #white_powder .swiper_wrapper {}
+main .item_all_bg .item_all .second_line .item6 .top #white_powder .swiper_wrapper .swiper-slide {}
+main .item_all_bg .item_all .second_line .item6 .top #white_powder .swiper_wrapper .slide1 {}
+main .item_all_bg .item_all .second_line .item6 .top #white_powder .swiper_wrapper .slide2 {}
+main .item_all_bg .item_all .second_line .item6 .top #white_powder .swiper_wrapper .slide3 {}
+main .item_all_bg .item_all .second_line .item6 .top #white_powder .swiper-pagination {}
+main .item_all_bg .item_all .second_line .item6 .top .swiper-button-prev {}
+main .item_all_bg .item_all .second_line .item6 .top .swiper-button-next {}
+/* bottom */
+main .item_all_bg .item_all .second_line .item6 .bottom {}
+main .item_all_bg .item_all .second_line .item6 .bottom .price {}
+main .item_all_bg .item_all .second_line .item6 .bottom .price .discount {}
+main .item_all_bg .item_all .second_line .item6 .bottom .price .discount em {}
+main .item_all_bg .item_all .second_line .item6 .bottom .price .like {}
+main .item_all_bg .item_all .second_line .item6 .bottom .price .like img {}
+main .item_all_bg .item_all .second_line .item6 .bottom h3 {}
+main .item_all_bg .item_all .second_line .item6 .bottom .review {}
+main .item_all_bg .item_all .second_line .item6 .bottom .arrival_promise {}
+main .item_all_bg .item_all .second_line .item6 .bottom .arrival_promise .arrival {}
+main .item_all_bg .item_all .second_line .item6 .bottom .arrival_promise .arrival img {}
+main .item_all_bg .item_all .second_line .item6 .bottom .arrival_promise .arrival span {}
+main .item_all_bg .item_all .second_line .item6 .bottom .arrival_promise p {}
+main .item_all_bg .item_all .second_line .item6 .bottom .special {}
+main .item_all_bg .item_all .second_line .item6 .bottom .special p {}
+/* third_line */
+main .item_all_bg .item_all .third_line {}
+/* item7 */
+main .item_all_bg .item_all .third_line .item7 {}
+/* top */
+main .item_all_bg .item_all .third_line .item7 .top {}
+main .item_all_bg .item_all .third_line .item7 .top p {}
+/* item7-swiper */
+main .item_all_bg .item_all .third_line .item7 .top #dohwa_cushion {}
+main .item_all_bg .item_all .third_line .item7 .top #dohwa_cushion .swiper_wrapper {}
+main .item_all_bg .item_all .third_line .item7 .top #dohwa_cushion .swiper_wrapper .swiper-slide {}
+main .item_all_bg .item_all .third_line .item7 .top #dohwa_cushion .swiper_wrapper .slide1 {}
+main .item_all_bg .item_all .third_line .item7 .top #dohwa_cushion .swiper_wrapper .slide2 {}
+main .item_all_bg .item_all .third_line .item7 .top #dohwa_cushion .swiper_wrapper .slide3 {}
+main .item_all_bg .item_all .third_line .item7 .top #dohwa_cushion .swiper-pagination {}
+main .item_all_bg .item_all .third_line .item7 .top .swiper-button-prev {}
+main .item_all_bg .item_all .third_line .item7 .top .swiper-button-next {}
+/* bottom */
+main .item_all_bg .item_all .third_line .item7 .bottom {}
+main .item_all_bg .item_all .third_line .item7 .bottom .price {}
+main .item_all_bg .item_all .third_line .item7 .bottom .price .discount {}
+main .item_all_bg .item_all .third_line .item7 .bottom .price .discount em {}
+main .item_all_bg .item_all .third_line .item7 .bottom .price .like {}
+main .item_all_bg .item_all .third_line .item7 .bottom .price .like img {}
+main .item_all_bg .item_all .third_line .item7 .bottom h3 {}
+main .item_all_bg .item_all .third_line .item7 .bottom .review {}
+main .item_all_bg .item_all .third_line .item7 .bottom .arrival_promise {}
+main .item_all_bg .item_all .third_line .item7 .bottom .arrival_promise .arrival {}
+main .item_all_bg .item_all .third_line .item7 .bottom .arrival_promise .arrival img {}
+main .item_all_bg .item_all .third_line .item7 .bottom .arrival_promise .arrival span {}
+main .item_all_bg .item_all .third_line .item7 .bottom .arrival_promise p {}
+main .item_all_bg .item_all .third_line .item7 .bottom .special {}
+main .item_all_bg .item_all .third_line .item7 .bottom .special p {}
+/* item8 */
+main .item_all_bg .item_all .third_line .item8 {}
+/* top */
+main .item_all_bg .item_all .third_line .item8 .top {}
+main .item_all_bg .item_all .third_line .item8 .top p {}
+/* item8-swiper */
+main .item_all_bg .item_all .third_line .item8 .top #blossom_foundation {}
+main .item_all_bg .item_all .third_line .item8 .top #blossom_foundation .swiper_wrapper {}
+main .item_all_bg .item_all .third_line .item8 .top #blossom_foundation .swiper_wrapper .swiper-slide {}
+main .item_all_bg .item_all .third_line .item8 .top #blossom_foundation .swiper_wrapper .slide1 {}
+main .item_all_bg .item_all .third_line .item8 .top #blossom_foundation .swiper_wrapper .slide2 {}
+main .item_all_bg .item_all .third_line .item8 .top #blossom_foundation .swiper_wrapper .slide3 {}
+main .item_all_bg .item_all .third_line .item8 .top #blossom_foundation .swiper-pagination {}
+main .item_all_bg .item_all .third_line .item8 .top .swiper-button-prev {}
+main .item_all_bg .item_all .third_line .item8 .top .swiper-button-next {}
+/* bottom */
+main .item_all_bg .item_all .third_line .item8 .bottom {}
+main .item_all_bg .item_all .third_line .item8 .bottom .price {}
+main .item_all_bg .item_all .third_line .item8 .bottom .price .discount {}
+main .item_all_bg .item_all .third_line .item8 .bottom .price .discount em {}
+main .item_all_bg .item_all .third_line .item8 .bottom .price .like {}
+main .item_all_bg .item_all .third_line .item8 .bottom .price .like img {}
+main .item_all_bg .item_all .third_line .item8 .bottom h3 {}
+main .item_all_bg .item_all .third_line .item8 .bottom .review {}
+main .item_all_bg .item_all .third_line .item8 .bottom .arrival_promise {}
+main .item_all_bg .item_all .third_line .item8 .bottom .arrival_promise .arrival {}
+main .item_all_bg .item_all .third_line .item8 .bottom .arrival_promise .arrival img {}
+main .item_all_bg .item_all .third_line .item8 .bottom .arrival_promise .arrival span {}
+main .item_all_bg .item_all .third_line .item8 .bottom .arrival_promise p {}
+main .item_all_bg .item_all .third_line .item8 .bottom .special {}
+main .item_all_bg .item_all .third_line .item8 .bottom .special p {}
+/* item9 */
+main .item_all_bg .item_all .third_line .item9 {}
+/* top */
+main .item_all_bg .item_all .third_line .item9 .top {}
+main .item_all_bg .item_all .third_line .item9 .top p {}
+/* item9-swiper */
+main .item_all_bg .item_all .third_line .item9 .top #poseline_foundation {}
+main .item_all_bg .item_all .third_line .item9 .top #poseline_foundation .swiper_wrapper {}
+main .item_all_bg .item_all .third_line .item9 .top #poseline_foundation .swiper_wrapper .swiper-slide {}
+main .item_all_bg .item_all .third_line .item9 .top #poseline_foundation .swiper_wrapper .slide1 {}
+main .item_all_bg .item_all .third_line .item9 .top #poseline_foundation .swiper_wrapper .slide2 {}
+main .item_all_bg .item_all .third_line .item9 .top #poseline_foundation .swiper_wrapper .slide3 {}
+main .item_all_bg .item_all .third_line .item9 .top #poseline_foundation .swiper-pagination {}
+main .item_all_bg .item_all .third_line .item9 .top .swiper-button-prev {}
+main .item_all_bg .item_all .third_line .item9 .top .swiper-button-next {}
+/* bottom */
+main .item_all_bg .item_all .third_line .item9 .bottom {}
+main .item_all_bg .item_all .third_line .item9 .bottom .price {}
+main .item_all_bg .item_all .third_line .item9 .bottom .price .discount {}
+main .item_all_bg .item_all .third_line .item9 .bottom .price .discount em {}
+main .item_all_bg .item_all .third_line .item9 .bottom .price .like {}
+main .item_all_bg .item_all .third_line .item9 .bottom .price .like img {}
+main .item_all_bg .item_all .third_line .item9 .bottom h3 {}
+main .item_all_bg .item_all .third_line .item9 .bottom .review {}
+main .item_all_bg .item_all .third_line .item9 .bottom .arrival_promise {}
+main .item_all_bg .item_all .third_line .item9 .bottom .arrival_promise .arrival {}
+main .item_all_bg .item_all .third_line .item9 .bottom .arrival_promise .arrival img {}
+main .item_all_bg .item_all .third_line .item9 .bottom .arrival_promise .arrival span {}
+main .item_all_bg .item_all .third_line .item9 .bottom .arrival_promise p {}
+main .item_all_bg .item_all .third_line .item9 .bottom .special {}
+main .item_all_bg .item_all .third_line .item9 .bottom .special p {}
+
+/* footer */
+footer {
+    width: 100%;
+}
+footer .contents {
+    width: 1280px; margin: 0 auto;
+    padding: 35px 0;
+}
+footer .contents .top {
+    width: 1280px; display: flex;
+    flex-flow: row nowrap; justify-content: space-between; margin-bottom: 15px;
+}
+footer .contents .top #fnb {
+    padding: 8.5px 0 28.5px;
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .contents .top #fnb a {
+    letter-spacing: -0.04em;
+}
+footer .contents .top #fnb a::after {
+    display: inline-block; content: '';
+    background: #000; width: 1px; height: 13px;
+    margin: 0 13px;
+}
+footer .contents .top #fnb a:nth-child(6)::after {
+    display: none;
+}
+footer .contents .top #fnb a em {
+    font-weight: 700; letter-spacing: -0.04em;
+}
+footer .contents .top .middle {
+    padding: 7px 0 27px; display: flex;
+    flex-flow: row nowrap; 
+    justify-content: space-between;
+    align-items: center;
+}
+footer .contents .top .middle #global {
+    margin-right: 20px; letter-spacing: -0.04em;
+    border: none; width: 130px;
+}
+footer .contents .top .middle #global option {
+    letter-spacing: -0.04em;
+}
+footer .contents .top .middle #language {
+    margin-right: 20px; letter-spacing: -0.04em;
+    border: none; width: 130px;
+}
+footer .contents .top .middle #language option {
+    letter-spacing: -0.04em;
+}
+footer .contents .top .right {
+    padding-bottom: 20px;
+}
+footer .contents .top .right a {
+    margin-left: 13px;
+    width: 30px; height: 30px;
+}
+footer .contents .top .right a img {}
+footer .contents .bottom {
+    width: 1280px; display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+} 
+footer .contents .bottom .left {
+    margin-right: 90px;
+}
+footer .contents .bottom .left #address {
+    letter-spacing: -0.04em;
+    line-height: 30px;
+}
+footer .contents .bottom .left #address span {
+    width: 1px; height: 11px; background: #000;
+    display: inline-block; margin: 0 13px;
+}
+footer .contents .bottom .right {
+    display: flex; flex-flow: column nowrap;
+    align-items: flex-start;
+}
+footer .contents .bottom .right .center {
+    font-size: 1.333rem; letter-spacing: -0.04em;
+    margin-bottom: 10px
+}
+footer .contents .bottom .right .number {
+    font-weight: 500; font-size: 2.369rem;
+    letter-spacing: -0.04em; text-decoration: underline;
+    margin-bottom: 10px;
+}
+footer .contents .bottom .right .time {
+    letter-spacing: -0.04em;
+    line-height: 26px;
+}

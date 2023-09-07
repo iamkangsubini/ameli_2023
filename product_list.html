@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>페이스 | 아멜리</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./images/ameli_favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./images/ameli_favicon.ico" type="image/x-icon">
+    <!-- style -->
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/product_list.css">
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <div class="top_bg">
+            <div class="top">
+                <div class="left">
+                    <a href="https://www.naver.com/" class="naver"><img src="./images/naver.logo.png" alt="NAVER"></a>
+                    <a href="#">네이버 쇼핑</a>
+                </div>
+                <div class="right">
+                    <a href="./login.html">로그인</a>
+                    <a href="#">회원가입</a>
+                    <a href="#">고객센터</a>
+                    <a href="#" class="menu"><img src="./images/menu.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <div class="middle">
+            <div class="left">
+                <button id="inform_btn" type="button">
+                    <img src="./images/inform.png" alt="">
+                    <span>알림받기</span>
+                </button>
+                <span class="like">관심고객수 990,304</span>
+                <button id="qusetion_btn" type="button">
+                    <img src="./images/qusetion.png" alt="">
+                </button>
+            </div>
+            <div class="middle">
+                <h1><a href="./index.html"><img src="./images/ameli_logo.png" alt=""></a></h1>
+            </div>
+            <div class="right">
+                <form action="#" method="get" id="search_frm">
+                    <fieldset>
+                        <legend class="skip">검색영역</legend>
+                        <input type="text" placeholder="검색어를 입력해보세요" id="txt_input">
+                        <button id="search_btn" type="submit">
+                            <img src="./images/search.png" alt="">
+                        </button>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+        <div class="bottom">
+            <div id="nav">
+                <a href="#">베스트</a>
+                <a href="#" class="face">
+                    <span>페이스</span>
+                    <img src="./images/direction_under.png" alt="">
+                </a>
+                <a href="#" class="eye">
+                    <span>아이</span>
+                    <img src="./images/direction_under.png" alt="">
+                </a>
+                <a href="#" class="lip">
+                    <span>립</span>
+                    <img src="./images/direction_under.png" alt=""></a>
+                <a href="#">메이크업툴</a>
+                <a href="#">리뷰</a>
+                <a href="#">묻고 답하기</a>
+                <a href="#">아멜리 멤버십 라운지</a>
+            </div>
+        </div>
+    </header>
+    <!-- main -->
+    <main>
+        <section class="title_bg">
+            <div class="title">
+                <h2>페이스</h2>
+                <div class="right">
+                    <a href="./index.html">홈</a>
+                    <span class="arrow">&gt;</span>
+                    <span class="face_all">페이스(총 9개)</span>
+                    <span class="arrow">&gt;</span>
+                    <button type="button" id="all_btn">전체</button>
+                </div>
+            </div>
+        </section>
+        <section class="filter_bg">
+            <div class="filter">
+                <div class="left">
+                    <div class="arrival_btn">
+                        <button type="button" id="arrival_btn">
+                            <img src="./images/product_list/past_deliver.png" alt="">
+                            <span>도착보장</span>
+                        </button>
+                    </div>
+                    <div class="free_btn">
+                        <button type="button" id="free_btn">무료배송</button>
+                    </div>
+                    <div id="benefit_information_btn">
+                        <select>
+                            <option>혜택정보</option>
+                            <option>할인상품</option>
+                            <option>무료배송</option>
+                            <option>무료교환반품</option>
+                        </select>
+                    </div>
+                    <div id="shipping_type_btn">
+                        <select>
+                            <option>배송유형</option>
+                            <option>도착보장</option>
+                            <option>오늘출발</option>
+                            <option>희망일배송</option>
+                        </select>
+                    </div>
+                    <div id="item_type_btn">
+                        <select>
+                            <option>상품유형</option>
+                            <option>예약구매</option>
+                        </select>
+                    </div>
+                    <div id="price_btn">
+                        <select>
+                            <option>가격대</option>
+                            <option>7,000~10,000원</option>
+                            <option>10,000~20,000원</option>
+                            <option>20,000~30,000원</option>
+                            <option>30,000~40,000원</option>
+                            <option>40,000~50,000원</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="right">
+                    <button type="button" id="filter_btn"><img src="./images/product_list/filter.png" alt=""></button>
+                </div>
+            </div>
+        </section>
+        <section class="arrival_criteria_bg">
+            <div class="arrival_criteria">
+                <div class="left">
+                    <img src="./images/product_list/location.png" alt="">
+                    <span class="area">서울시 강남구</span>
+                    <span class="criteria">도착기준</span>
+                </div>
+                <div class="right">
+                    <div class="arrival">
+                        <img src="./images/product_list/past_deliver.png" alt="">
+                        <span>도착보장</span>
+                    </div>
+                    <p>등록한 배송지 기준 빠른배송 상품을 보실 수 있습니다.</p>
+                </div>
+            </div>
+        </section>
+        <section class="view_way_bg">
+            <div class="view_way">
+                <div class="left">
+                    <button type="button" id="popularity_btn">
+                        <img src="./images/product_list/select.png" alt="">
+                        <span>인기도순</span>
+                    </button>
+                    <button type="button" id="latest_btn">최신등록순</button>
+                    <button type="button" id="low_btn">낮은가격순</button>
+                    <button type="button" id="high_btn">높은가격순</button>
+                    <button type="button" id="discount_btn">할인율순</button>
+                    <button type="button" id="accrue_btn">누적판매순</button>
+                    <button type="button" id="review_max_btn">리뷰많은순</button>
+                    <button type="button" id="good_btn">평점높은순</button>
+                </div>
+                <div class="right">
+                    <button type="button" id="view4"><img src="./images/product_list/view4.png" alt=""></button>
+                    <button type="button" id="view3"><img src="./images/product_list/view3.png" alt=""></button>
+                    <button type="button" id="view2"><img src="./images/product_list/view2.png" alt=""></button>
+                    <button type="button" id="view1_hover"><img src="./images/product_list/view1_hover.png" alt=""></button>
+                </div>
+            </div>
+        </section>
+        <section class="item_all_bg">
+            <div class="item_all">
+                <div class="first_line">
+                    <div class="item1">
+                        <div class="top">
+                            <p>BEST</p>
+                            <div class="swiper" id="purple_cushion">
+                                <!-- Additional required wrapper -->
+                                <div class="swiper-wrapper">
+                                <!-- Slides -->
+                                    <div class="swiper-slide slide1"></div>
+                                    <div class="swiper-slide slide2"></div>
+                                </div>
+                                <!-- If we need pagination -->
+                                <div class="swiper-pagination"></div>
+                            </div>
+                            <!-- If we need navigation buttons -->
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                        </div>
+                        <div class="bottom">
+                            <div class="price">
+                                <span class="discount"><em>15%</em> 25,200원</span>
+                                <span class="like"><img src="./images/product_list/like.png" alt=""></span>
+                            </div>
+                            <h3>컴플리먼트 시리즈 쿠션 SPF50+, PA+++ 보라</h3>
+                            <p class="review">평점 4.8 · 리뷰 12,719</p> 
+                            <div class="arrival_promise">
+                                <div class="arrival">
+                                    <img src="./images/product_list/past_deliver.png" alt="">
+                                    <span>도착보장</span>
+                                </div>
+                                <p>내일 9. 5.(화) 도착보장</p>
+                            </div>
+                            <div class="special">
+                                <p>무료배송</p>
+                                <p>알림받기 전용</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item2">
+                        <div class="top">
+                            <p>BEST</p>
+                            <div class="swiper" id="purple_powder">
+                                <!-- Additional required wrapper -->
+                                <div class="swiper-wrapper">
+                                <!-- Slides -->
+                                    <div class="swiper-slide slide1"></div>
+                                    <div class="swiper-slide slide2"></div>
+                                    <div class="swiper-slide slide3"></div>
+                                </div>
+                                <!-- If we need pagination -->
+                                <div class="swiper-pagination"></div>
+                            </div>
+                            <!-- If we need navigation buttons -->
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                        </div>
+                        <div class="bottom">
+                            <div class="price">
+                                <span class="discount"><em>10%</em> 30,600원</span>
+                                <span class="like"><img src="./images/product_list/like.png" alt=""></span>
+                            </div>
+                            <h3>베이크드파우더 003 밀키 바이올렛</h3>
+                            <p class="review">평점 4.9 · 리뷰 4,300</p> 
+                            <div class="arrival_promise">
+                                <div class="arrival">
+                                    <img src="./images/product_list/past_deliver.png" alt="">
+                                    <span>도착보장</span>
+                                </div>
+                                <p>내일 9. 5.(화) 도착보장</p>
+                            </div>
+                            <div class="special">
+                                <p>무료배송</p>
+                                <p>라운지 전용</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item3">
+                        <div class="top">
+                            <p>BEST</p>
+                            <div class="swiper" id="every_foundation">
+                                <!-- Additional required wrapper -->
+                                <div class="swiper-wrapper">
+                                <!-- Slides -->
+                                    <div class="swiper-slide slide1"></div>
+                                    <div class="swiper-slide slide2"></div>
+                                    <div class="swiper-slide slide3"></div>
+                                </div>
+                                <!-- If we need pagination -->
+                                <div class="swiper-pagination"></div>
+                            </div>
+                            <!-- If we need navigation buttons -->
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                        </div>
+                        <div class="bottom">
+                            <div class="price">
+                                <span class="discount"><em>10%</em> 18,900원</span>
+                                <span class="like"><img src="./images/product_list/like.png" alt=""></span>
+                            </div>
+                            <h3>쿨쓰루쓰루 파운데이션 SPF30, PA++ 021 에브리</h3>
+                            <p class="review">평점 4.8 · 리뷰 1,477</p> 
+                            <div class="arrival_promise">
+                                <div class="arrival">
+                                    <img src="./images/product_list/past_deliver.png" alt="">
+                                    <span>도착보장</span>
+                                </div>
+                                <p>내일 9. 5.(화) 도착보장</p>
+                            </div>
+                            <div class="special">
+                                <p>무료배송</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="second_line">
+                    <div class="item4">
+                        <div class="top">
+                            <div class="swiper" id="white_concealer">
+                                <!-- Additional required wrapper -->
+                                <div class="swiper-wrapper">
+                                <!-- Slides -->
+                                    <div class="swiper-slide slide1"></div>
+                                    <div class="swiper-slide slide2"></div>
+                                    <div class="swiper-slide slide3"></div>
+                                </div>
+                                <!-- If we need pagination -->
+                                <div class="swiper-pagination"></div>
+                            </div>
+                            <!-- If we need navigation buttons -->
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                        </div>
+                        <div class="bottom">
+                            <div class="price">
+                                <span class="discount"><em>10%</em> 10,800원</span>
+                                <span class="like"><img src="./images/product_list/like.png" alt=""></span>
+                            </div>
+                            <h3>프리핏인앤아웃컨실러 001 화이트</h3>
+                            <p class="review">평점 4.7 · 리뷰 992</p> 
+                            <div class="arrival_promise">
+                                <div class="arrival">
+                                    <img src="./images/product_list/past_deliver.png" alt="">
+                                    <span>도착보장</span>
+                                </div>
+                                <p>내일 9. 5.(화) 도착보장</p>
+                            </div>
+                            <div class="special">
+                                <p>무료배송</p>
+                                <p>알림받기 전용</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item5">
+                        <div class="top">
+                            <div class="swiper" id="baby_concealer">
+                                <!-- Additional required wrapper -->
+                                <div class="swiper-wrapper">
+                                <!-- Slides -->
+                                    <div class="swiper-slide slide1"></div>
+                                    <div class="swiper-slide slide2"></div>
+                                    <div class="swiper-slide slide3"></div>
+                                </div>
+                                <!-- If we need pagination -->
+                                <div class="swiper-pagination"></div>
+                            </div>
+                            <!-- If we need navigation buttons -->
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                        </div>
+                        <div class="bottom">
+                            <div class="price">
+                                <span class="discount"><em>10%</em> 10,800원</span>
+                                <span class="like"><img src="./images/product_list/like.png" alt=""></span>
+                            </div>
+                            <h3>프리핏앤아웃컨실러 003 베이비</h3>
+                            <p class="review">평점 4.7 · 리뷰 3,263</p> 
+                            <div class="arrival_promise">
+                                <div class="arrival">
+                                    <img src="./images/product_list/past_deliver.png" alt="">
+                                    <span>도착보장</span>
+                                </div>
+                                <p>내일 9. 5.(화) 도착보장</p>
+                            </div>
+                            <div class="special">
+                                <p>무료배송</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item6">
+                        <div class="top">
+                            <div class="swiper" id="white_powder">
+                                <!-- Additional required wrapper -->
+                                <div class="swiper-wrapper">
+                                <!-- Slides -->
+                                    <div class="swiper-slide slide1"></div>
+                                    <div class="swiper-slide slide2"></div>
+                                    <div class="swiper-slide slide3"></div>
+                                </div>
+                                <!-- If we need pagination -->
+                                <div class="swiper-pagination"></div>
+                            </div>
+                            <!-- If we need navigation buttons -->
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                        </div>
+                        <div class="bottom">
+                            <div class="price">
+                                <span class="discount"><em>10%</em> 30,600원</span>
+                                <span class="like"><img src="./images/product_list/like.png" alt=""></span>
+                            </div>
+                            <h3>베이크드파우더 005 스노우화이트</h3>
+                            <p class="review">평점 4.8 · 리뷰 993</p> 
+                            <div class="arrival_promise">
+                                <div class="arrival">
+                                    <img src="./images/product_list/past_deliver.png" alt="">
+                                    <span>도착보장</span>
+                                </div>
+                                <p>내일 9. 5.(화) 도착보장</p>
+                            </div>
+                            <div class="special">
+                                <p>무료배송</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="third_line">
+                    <div class="item7">
+                        <div class="top">
+                            <div class="swiper" id="dohwa_cushion">
+                                <!-- Additional required wrapper -->
+                                <div class="swiper-wrapper">
+                                <!-- Slides -->
+                                    <div class="swiper-slide slide1"></div>
+                                    <div class="swiper-slide slide2"></div>
+                                    <div class="swiper-slide slide3"></div>
+                                </div>
+                                <!-- If we need pagination -->
+                                <div class="swiper-pagination"></div>
+                            </div>
+                            <!-- If we need navigation buttons -->
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                        </div>
+                        <div class="bottom">
+                            <div class="price">
+                                <span class="discount"><em>15%</em> 23,400원</span>
+                                <span class="like"><img src="./images/product_list/like.png" alt=""></span>
+                            </div>
+                            <h3>톤업 베이스 데일리 쿠션 SPF50+, PA+++ 008 도화</h3>
+                            <p class="review">평점 4.7 · 리뷰 1,926</p> 
+                            <div class="arrival_promise">
+                                <div class="arrival">
+                                    <img src="./images/product_list/past_deliver.png" alt="">
+                                    <span>도착보장</span>
+                                </div>
+                                <p>내일 9. 5.(화) 도착보장</p>
+                            </div>
+                            <div class="special">
+                                <p>무료배송</p>
+                                <p>알림받기 전용</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item8">
+                        <div class="top">
+                            <div class="swiper" id="blossom_foundation">
+                                <!-- Additional required wrapper -->
+                                <div class="swiper-wrapper">
+                                <!-- Slides -->
+                                    <div class="swiper-slide slide1"></div>
+                                    <div class="swiper-slide slide2"></div>
+                                    <div class="swiper-slide slide3"></div>
+                                </div>
+                                <!-- If we need pagination -->
+                                <div class="swiper-pagination"></div>
+                            </div>
+                            <!-- If we need navigation buttons -->
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                        </div>
+                        <div class="bottom">
+                            <div class="price">
+                                <span class="discount"><em>15%</em> 18,900원</span>
+                                <span class="like"><img src="./images/product_list/like.png" alt=""></span>
+                            </div>
+                            <h3>컴플리먼트 시리즈 쿠션 SPF50+, PA+++ 보라</h3>
+                            <p class="review">평점 4.5 · 리뷰 4,149</p> 
+                            <div class="arrival_promise">
+                                <div class="arrival">
+                                    <img src="./images/product_list/past_deliver.png" alt="">
+                                    <span>도착보장</span>
+                                </div>
+                                <p>내일 9. 5.(화) 도착보장</p>
+                            </div>
+                            <div class="special">
+                                <p>무료배송</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item9">
+                        <div class="top">
+                            <div class="swiper" id="poseline_foundation">
+                                <!-- Additional required wrapper -->
+                                <div class="swiper-wrapper">
+                                <!-- Slides -->
+                                    <div class="swiper-slide slide1"></div>
+                                    <div class="swiper-slide slide2"></div>
+                                    <div class="swiper-slide slide3"></div>
+                                </div>
+                                <!-- If we need pagination -->
+                                <div class="swiper-pagination"></div>
+                            </div>
+                            <!-- If we need navigation buttons -->
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                        </div>
+                        <div class="bottom">
+                            <div class="price">
+                                <span class="discount"><em>10%</em> 18,900원</span>
+                                <span class="like"><img src="./images/product_list/like.png" alt=""></span>
+                            </div>
+                            <h3>쿨쓰루쓰루 파운데이션 SPF30, PA++ 013 포세린</h3>
+                            <p class="review">평점 4.6 · 리뷰 1,478</p> 
+                            <div class="arrival_promise">
+                                <div class="arrival">
+                                    <img src="./images/product_list/past_deliver.png" alt="">
+                                    <span>도착보장</span>
+                                </div>
+                                <p>내일 9. 5.(화) 도착보장</p>
+                            </div>
+                            <div class="special">
+                                <p>무료배송</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="page_bg">
+            <div class="page">
+                <p>1</p>
+            </div>
+        </section>
+    </main>
+    <!-- footer -->
+    <footer>
+        <div class="contents">
+            <div class="top">
+                <div id="fnb">
+                    <a href="#">공지사항</a>
+                    <a href="#">이용약관</a>
+                    <a href="#"><em>개인정보처리방침</em></a>
+                    <a href="#">영상정보처리방침</a>
+                    <a href="#">고객센터</a>
+                    <a href="#">매장안내</a>
+                </div>
+                <div class="middle">
+                    <select name="global" id="global">
+                        <option value="Global Ameli">Global Ameli</option>
+                        <option value="US">US</option>
+                        <option value="Japan">Japan</option>
+                        <option value="Hong kong">Hong kong</option>
+                        <option value="Iraq">Iraq</option>
+                        <option value="Turkey">Turkey</option>
+                        <option value="Vietnam">Vietnam</option>
+                        <option value="Thailand">Thailand</option>
+                        <option value="Guatemala">Guatemala</option>
+                        <option value="Bangldesh">Bangldesh</option>
+                    </select>
+                    <select name="language" id="language">
+                        <option value="Language">Language</option>
+                        <option value="KOREAN">KOREAN</option>
+                        <option value="ENGLISH">ENGLISH</option>
+                    </select>
+                </div>
+                <div class="right">
+                    <a href="#"><img src="./images/main/youtube.png" alt=""></a>
+                    <a href="#"><img src="./images/main/facebook.png" alt=""></a>
+                    <a href="#"><img src="./images/main/instagram.png" alt=""></a>
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="left">
+                    <p id="address">
+                        상호 (주)아멜리<span></span>대표이사 권유미<span></span>Tel 1533-8835 (02-566-7889)<br>주소 06180 서울특별시 강남구 테헤란로20길 18(역삼동) 부봉빌딩 6층<br>사업자등록번호 487-88-01427<span></span>통신 판매업번호 제2019-서울강남-04775호<span></span>개인정보관리 이한나<br>제휴문의 biz@ameli.co.kr
+                    </p>
+                </div>
+                <div class="right">
+                    <span class="center">고객센터</span>
+                    <span class="number">02-566-7889</span>
+                    <span class="time">평일 09:00 ~ 17:00<br>점심시간 11:30 ~ 12:30</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./script/product_list.js"></script>
+</body>
+</html>
