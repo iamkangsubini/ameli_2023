@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="">
     <meta name="description" content="">
-    <title>로그인 | 아멜리</title>
+    <title>묻고 답하기 | 아멜리</title>
     <!-- favicon -->
     <link rel="shortcut icon" href="./images/ameli_favicon.ico" type="image/x-icon">
     <link rel="icon" href="./images/ameli_favicon.ico" type="image/x-icon">
     <!-- style -->
     <link rel="stylesheet" href="./styles/reset.css">
-    <link rel="stylesheet" href="./styles/login.css">
+    <link rel="stylesheet" href="./styles/qna.css">
 </head>
 <body>
     <!-- header -->
@@ -79,58 +79,44 @@
     </header>
     <!-- main -->
     <main>
-        <div class="login_bg">
-            <div class="login">
-                <form action="#" method="post" id="login_frm">
-                    <fieldset>
-                        <legend class="skip">검색영역</legend>
-                        <ul>
-                            <li class="logo">
-                                <h2><a href="./index.html"><img src="./images/login/logo2.png" alt="Ameli"></a></h2>
-                            </li>
-                            <li class="id">
-                                <input type="text" placeholder="아이디를 입력해 주세요." name="user_id">
-                            </li>
-                            <li class="pw">
-                                <input type="password" placeholder="비밀번호를 입력해 주세요." name="user_pw">
-                                <button id="view_btn" type="button"><img src="./images/login/view_select.png" alt=""></button>
-                            </li>
-                            <li class="login_btn">
-                                <button id="login_btn" type="submit">로그인</button>
-                            </li>
-                            <li class="id_pw">
-                                <span class="check"></span>
-                                <label>
-                                    <input type="checkbox" id="save">아이디저장
-                                </label>
-                                <a href="#">아이디/비밀번호 찾기</a>
-                            </li>
-                            <li class="sns">
-                                <a href="#"><img src="./images/login/naver.png" alt=""></a>
-                                <a href="#"><img src="./images/login/kakao.png" alt=""></a>
-                                <a href="#"><img src="./images/login/google.png" alt=""></a>
-                            </li>
-                            <li class="protect">
-                                <span>개인정보 보호를 위해 공용 PC에서 사용 시 SNS계정의 로그아웃<br>상태를 꼭 확인해 주세요.</span>
-                            </li>
-                            <li class="join">
-                                <button type="button" id="join_btn">회원가입</button>
-                            </li>
-                            <li class="no_member">
-                                <button type="button" id="no_member_btn">비회원 주문조회</button>
-                            </li>
-                            <li class="span"><span></span></li>
-                            <li class="phone_login">
-                                <button type="button" id="phone_login_btn">
-                                    <img src="./images/login/phone.png" alt="">
-                                    <span class="ph">휴대폰번호로 로그인</span>
-                                </button>
-                            </li>
-                        </ul>
-                    </fieldset>
-                </form>
+        <!-- title -->
+        <section class="title_bg">
+            <div class="title">
+                <h2>묻고 답하기</h2>
+                <div class="right">
+                    <a href="./index.html">홈</a>
+                    <span class="arrow">&gt;</span>
+                    <span class="qna">묻고 답하기</span>
+                </div>
             </div>
-        </div>
+        </section>
+        <!-- find_qna -->
+        <section class="find_qna_bg">
+            <div class="find_qna">
+                <h3>자주 찾는 Q&A</h3>
+            </div>
+        </section>
+        <!-- first_qna -->
+        <section class="first_qna_bg">
+            <dl class="first_qna">
+                <dt>1. 화장품의 유효기간(사용기한)은?</dt>
+                <dd>화장품이 완전히 밀봉된 상태라면 통상적으로 제조일로부터 3년이 유효기간(사용기한)입니다.<br>그러나 일단 제품을 개봉하시면 세균의 침투가 쉽기 때문에 특히 액체로 된 제품은 개봉 후 1년 안에는<br>꼭 사용하셔야 합니다. 또한, 화장품 성분이 공기와 결합하면 특정 성분의 변질이 빠르게 진행되기<br>때문이며, 직사광선이 닿지 않는 서늘한 곳에 보관하는 것이 좋습니다.</dd>
+            </dl>
+        </section>
+        <!-- second_qna -->
+        <section class="second_qna_bg">
+            <dl class="second_qna">
+                <dt>2. 품절제품은 언제쯤 입고되어 구입이 가능한가요?</dt>
+                <dd>품절제품의 경우 보통 일주일 안으로 입고가 됩니다. 그러나 생산, 입고 시 변동의 요소가 많기 때문에<br>매장의 경우 직접 문의하시는 것이 가장 정확합니다.<br>쇼핑몰의 경우 상세페이지에서 [판매알림 SMS]를 신청하시면, 일시품절/품절/판매중지된 상품이<br>재입고 되어 판매가 시작될 때 회원님의 휴대폰으로 판매알림 메세지를 발송해드립니다.</dd>
+            </dl>
+        </section>
+        <!-- contents -->
+        <section class="contents_bg">
+            <div class="contents">
+                <!-- 외부 웹주소(게시판, 지도)를 내부HTML로 삽입하는 방법 -->
+                <iframe src="http://bini66.pe.kr/gnuboard5/bbs/board.php?bo_table=ameli_qna" frameborder="0" scrolling="no"></iframe>
+            </div>
+        </section>
     </main>
     <!-- footer -->
     <footer>

@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="">
     <meta name="description" content="">
-    <title>로그인 | 아멜리</title>
+    <title>리뷰 | 아멜리</title>
     <!-- favicon -->
     <link rel="shortcut icon" href="./images/ameli_favicon.ico" type="image/x-icon">
     <link rel="icon" href="./images/ameli_favicon.ico" type="image/x-icon">
     <!-- style -->
     <link rel="stylesheet" href="./styles/reset.css">
-    <link rel="stylesheet" href="./styles/login.css">
+    <link rel="stylesheet" href="./styles/review.css">
 </head>
 <body>
     <!-- header -->
@@ -79,58 +79,128 @@
     </header>
     <!-- main -->
     <main>
-        <div class="login_bg">
-            <div class="login">
-                <form action="#" method="post" id="login_frm">
-                    <fieldset>
-                        <legend class="skip">검색영역</legend>
-                        <ul>
-                            <li class="logo">
-                                <h2><a href="./index.html"><img src="./images/login/logo2.png" alt="Ameli"></a></h2>
-                            </li>
-                            <li class="id">
-                                <input type="text" placeholder="아이디를 입력해 주세요." name="user_id">
-                            </li>
-                            <li class="pw">
-                                <input type="password" placeholder="비밀번호를 입력해 주세요." name="user_pw">
-                                <button id="view_btn" type="button"><img src="./images/login/view_select.png" alt=""></button>
-                            </li>
-                            <li class="login_btn">
-                                <button id="login_btn" type="submit">로그인</button>
-                            </li>
-                            <li class="id_pw">
-                                <span class="check"></span>
-                                <label>
-                                    <input type="checkbox" id="save">아이디저장
-                                </label>
-                                <a href="#">아이디/비밀번호 찾기</a>
-                            </li>
-                            <li class="sns">
-                                <a href="#"><img src="./images/login/naver.png" alt=""></a>
-                                <a href="#"><img src="./images/login/kakao.png" alt=""></a>
-                                <a href="#"><img src="./images/login/google.png" alt=""></a>
-                            </li>
-                            <li class="protect">
-                                <span>개인정보 보호를 위해 공용 PC에서 사용 시 SNS계정의 로그아웃<br>상태를 꼭 확인해 주세요.</span>
-                            </li>
-                            <li class="join">
-                                <button type="button" id="join_btn">회원가입</button>
-                            </li>
-                            <li class="no_member">
-                                <button type="button" id="no_member_btn">비회원 주문조회</button>
-                            </li>
-                            <li class="span"><span></span></li>
-                            <li class="phone_login">
-                                <button type="button" id="phone_login_btn">
-                                    <img src="./images/login/phone.png" alt="">
-                                    <span class="ph">휴대폰번호로 로그인</span>
-                                </button>
-                            </li>
-                        </ul>
-                    </fieldset>
-                </form>
+        <!-- title -->
+        <section class="title_bg">
+            <div class="title">
+                <h2>리뷰</h2>
+                <div class="right">
+                    <a href="./index.html">홈</a>
+                    <span class="arrow">&gt;</span>
+                    <span class="qna">리뷰</span>
+                </div>
             </div>
-        </div>
+        </section>
+        <!-- september_review -->
+        <section class="september_review_bg">
+            <div class="september_review">
+                <h3>9월의 베스트 리뷰</h3>
+            </div>
+        </section>
+        <!-- best_items -->
+        <section class="best_items_bg">
+            <div class="best_items">
+                <!-- item1 -->
+                <a href="#" class="item1">
+                    <div class="top">
+                        <span>1</span>
+                        <img src="./images/review/best1.jpg" alt="">
+                    </div>
+                    <div class="bottom">
+                        <h4>쿨쓰루쓰루 파운데이션</h4>
+                        <div class="score">
+                            <div class="left">
+                                <img src="./images/review/star100.png" alt="">
+                                <img src="./images/review/star100.png" alt="">
+                                <img src="./images/review/star100.png" alt="">
+                                <img src="./images/review/star100.png" alt="">
+                                <img src="./images/review/star8.png" alt="">
+                            </div>
+                            <div class="right">
+                                <span>4.8</span>
+                            </div>
+                        </div>
+                        <div class="buyer">
+                            <div class="left">
+                                <p class="top">한동안 선물받은 파운데이션이 있어서···</p>
+                                <p class="bottom">pc**** · 23.08.16</p>
+                            </div>
+                            <div class="right">
+                                <img src="./images/review/review1.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- item2 -->
+                <a href="#" class="item2">
+                    <div class="top">
+                        <span>2</span>
+                        <img src="./images/review/best2.jpg" alt="">
+                    </div>
+                    <div class="bottom">
+                        <h4>나르시시즘 립 틴트</h4>
+                        <div class="score">
+                            <div class="left">
+                                <img src="./images/review/star100.png" alt="">
+                                <img src="./images/review/star100.png" alt="">
+                                <img src="./images/review/star100.png" alt="">
+                                <img src="./images/review/star100.png" alt="">
+                                <img src="./images/review/star5.png" alt="">
+                            </div>
+                            <div class="right">
+                                <span>4.5</span>
+                            </div>
+                        </div>
+                        <div class="buyer">
+                            <div class="left">
+                                <p class="top">색도 이쁘고 케이스도 이쁘고 너무···</p>
+                                <p class="bottom">dlek**** · 23.08.23</p>
+                            </div>
+                            <div class="right">
+                                <img src="./images/review/review2.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- item3 -->
+                <a href="#" class="item3">
+                    <div class="top">
+                        <span>3</span>
+                        <img src="./images/review/best3.jpg" alt="">
+                    </div>
+                    <div class="bottom">
+                        <h4>프리핏인앤아웃컨실러</h4>
+                        <div class="score">
+                            <div class="left">
+                                <img src="./images/review/star100.png" alt="">
+                                <img src="./images/review/star100.png" alt="">
+                                <img src="./images/review/star100.png" alt="">
+                                <img src="./images/review/star100.png" alt="">
+                                <img src="./images/review/star5.png" alt="">
+                            </div>
+                            <div class="right">
+                                <span>4.5</span>
+                            </div>
+                        </div>
+                        <div class="buyer">
+                            <div class="left">
+                                <p class="top">정말 촉촉해요. 몇번 겹쳐서 발라도···</p>
+                                <p class="bottom">kss**** · 23.08.16</p>
+                            </div>
+                            <div class="right">
+                                <img src="./images/review/review3.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </section>
+        <!-- contents -->
+        <section class="contents_bg">
+            <div class="contents">
+                <!-- 외부 웹주소(게시판, 지도)를 내부HTML로 삽입하는 방법 -->
+                <iframe src="http://bini66.pe.kr/gnuboard5/bbs/board.php?bo_table=ameli_review" frameborder="0" scrolling="no"></iframe>
+            </div>
+        </section>
     </main>
     <!-- footer -->
     <footer>

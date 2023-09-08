@@ -138,7 +138,9 @@ main #top_slide .swiper-wrapper .slide3 {
     background: url(../images/main/slide3.jpg) no-repeat;
     background-size: cover;
 }
-main #top_slide .swiper-pagination {}
+main #top_slide .swiper-pagination {
+    position: absolute; bottom: 47px; color: #ffc128;
+}
 main #top_slide .swiper-button-prev {
     width: 70px; height: 70px;
     background: url(../images/main/diretion_left.png);
@@ -149,7 +151,6 @@ main #top_slide .swiper-button-next {
     background: url(../images/main/diretion_right.png);
     top: 408px; right: 210px;
 }
-main #top_slide .swiper-scrollbar {}
 /* swiper-slide 라이브러리에서 기본제공하는 이전, 다음 숨기기 */
 main #top_slide .swiper-button-prev::after,
 main #top_slide .swiper-button-next::after {
@@ -223,9 +224,8 @@ main .coupon_bg .coupon .right a {
     border: 1px solid #fff;
 }
 /* new_item */
-main .new_item_bg {width: 100%;}
+main .new_item_bg {width: 100%; position: relative;}
 main .new_item_bg .new_item {
-    position: relative;
     width: 1280px; margin: 0 auto; padding: 80px 0;
     display: flex; flex-flow: column; justify-content: space-between;
     align-items: center;
@@ -295,16 +295,16 @@ main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide3 .right .arriva
     font-weight: 700; font-size: 1.333rem; letter-spacing: -0.04em; color: #e1676f;
 }
 /* pagination */
-main .new_item_bg .new_item #bottom_slide .swiper-pagination {}
-/* navigation */
-main .new_item_bg .new_item .swiper-navigation {}
+main .new_item_bg .new_item #bottom_slide .swiper-pagination {
+    position: absolute; bottom: 80px; color: #ffc128;
+}
 /* If we need navigation buttons */
 main .new_item_bg .new_item .swiper-button-prev {
-    width: 70px; height: 70px;
+    width: 70px; height: 70px; left: 210px;
     background: url(../images/main/diretion_left.png);
 }
 main .new_item_bg .new_item .swiper-button-next {
-    width: 70px; height: 70px;
+    width: 70px; height: 70px; right: 210px;
     background: url(../images/main/diretion_right.png);
 }
 /* swiper-slide 라이브러리에서 기본제공하는 이전, 다음 숨기기 */

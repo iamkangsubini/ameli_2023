@@ -102,7 +102,6 @@ header .bottom #nav .eye,
 header .bottom #nav .lip {
     display: inline-flex; flex-flow: row nowrap;
 }
-header .bottom #nav .face span {color: #ffc128;}
 header .bottom #nav .face span,
 header .bottom #nav .eye span,
 header .bottom #nav .lip span {
@@ -329,31 +328,29 @@ main .item_all_bg .item_all .first_line .item1 {
     width: 400px; display: flex; flex-flow: column nowrap;}
 /* top */
 main .item_all_bg .item_all .first_line .item1 .top {
-    margin-bottom: 20px;
+    margin-bottom: 20px;  position: relative;
 }
 main .item_all_bg .item_all .first_line .item1 .top p {
     font-weight: 500; letter-spacing: -0.04em; color: #fff; background: #ffc128;
-    padding: 10px; position: absolute;
+    padding: 10px;
 }
 /* item1-swiper */
-main .item_all_bg .item_all .first_line .item1 .top #purple_cushion {
-    background: #7a7a7a;
+main .item_all_bg .item_all .first_line .item1 .top #purple_cushion {}
+main .item_all_bg .item_all .first_line .item1 .top #purple_cushion .swiper_wrapper {
     width: 400px; height: 400px;
-
 }
-main .item_all_bg .item_all .first_line .item1 .top #purple_cushion .swiper_wrapper {}
 main .item_all_bg .item_all .first_line .item1 .top #purple_cushion .swiper_wrapper .swiper-slide {}
 main .item_all_bg .item_all .first_line .item1 .top #purple_cushion .swiper_wrapper .slide1 {
-    background: url(../images/product_list/1.jpg) no-repeat;
-    background-size: cover; 
+    background-image: url(../images/product_list/1.jpg);
 }
-main .item_all_bg .item_all .first_line .item1 .top #purple_cushion .swiper_wrapper .slide2 {
-    background: url(../images/product_list/1_2.png) no-repeat;
-    background-size: cover;
-}
+main .item_all_bg .item_all .first_line .item1 .top #purple_cushion .swiper_wrapper .slide2 {}
 main .item_all_bg .item_all .first_line .item1 .top #purple_cushion .swiper-pagination {}
-main .item_all_bg .item_all .first_line .item1 .top .swiper-button-prev {}
-main .item_all_bg .item_all .first_line .item1 .top .swiper-button-next {}
+main .item_all_bg .item_all .first_line .item1 .top .swiper-button-prev {
+    width: 66px; height: 66px; background: url(../images/product_list/slide_pre.png);
+} 
+main .item_all_bg .item_all .first_line .item1 .top .swiper-button-next {
+    width: 66px; height: 66px; background: url(../images/product_list/slide_next.png);
+}
 /* bottom */
 main .item_all_bg .item_all .first_line .item1 .bottom {
     display: flex; flex-flow: column nowrap; align-items: flex-start; 
