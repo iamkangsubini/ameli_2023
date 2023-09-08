@@ -139,8 +139,9 @@ main #top_slide .swiper-wrapper .slide3 {
     background-size: cover;
 }
 main #top_slide .swiper-pagination {
-    position: absolute; bottom: 47px; color: #ffc128;
+    position: absolute; bottom: 47px;
 }
+main #top_slide .swiper-pagination .swiper-pagination-bullet-active {background-color: #ffc128;}
 main #top_slide .swiper-button-prev {
     width: 70px; height: 70px;
     background: url(../images/main/diretion_left.png);
@@ -227,18 +228,17 @@ main .coupon_bg .coupon .right a {
 main .new_item_bg {width: 100%; position: relative;}
 main .new_item_bg .new_item {
     width: 1280px; margin: 0 auto; padding: 80px 0;
-    display: flex; flex-flow: column; justify-content: space-between;
     align-items: center;
 }
 main .new_item_bg .new_item h2 {
     font-weight: 700; font-size: 2.369rem ; letter-spacing: -0.02em;
-    margin-bottom: 50px;
+    margin-bottom: 50px; text-align: center;
 }
 
 /* swiper */
 main .new_item_bg .new_item #bottom_slide {}
 main .new_item_bg .new_item #bottom_slide .swiper-wrapper {
-    padding: 0 127.5px;
+    padding: 0 127.5px; 
 }
 main .new_item_bg .new_item #bottom_slide .swiper-wrapper .swiper-slide {}
 /* slide1, 2, 3 */
@@ -295,9 +295,9 @@ main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide3 .right .arriva
     font-weight: 700; font-size: 1.333rem; letter-spacing: -0.04em; color: #e1676f;
 }
 /* pagination */
-main .new_item_bg .new_item #bottom_slide .swiper-pagination {
-    position: absolute; bottom: 80px; color: #ffc128;
-}
+main .new_item_bg .new_item #bottom_slide .swiper-pagination {}
+main .new_item_bg .new_item #bottom_slide .swiper-pagination span {}
+main .new_item_bg .new_item #bottom_slide .swiper-pagination .swiper-pagination-bullet-active {background-color: #ffc128;}
 /* If we need navigation buttons */
 main .new_item_bg .new_item .swiper-button-prev {
     width: 70px; height: 70px; left: 210px;

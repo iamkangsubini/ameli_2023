@@ -317,33 +317,39 @@ main .item_all_bg .item_all {
     width: 1280px; margin: 0 auto; display: flex; flex-flow: column nowrap;
     justify-content: space-between;
 }
+
 /* first_line */
 main .item_all_bg .item_all .first_line {
-    background-color: rgb(167, 209, 167);
-    width: 1280px; display: flex; flex-flow: row nowrap;
-    justify-content: space-between; align-items: flex-start;
+    width: 1280px; margin-bottom: 50px;
+    display: flex; flex-flow: row nowrap; 
+    justify-content: space-between;
 }
 /* item1 */
-main .item_all_bg .item_all .first_line .item1 {
+main .item_all_bg .item_all .first_line .item1,
+main .item_all_bg .item_all .first_line .item2,
+main .item_all_bg .item_all .first_line .item3 {
     width: 400px; display: flex; flex-flow: column nowrap;}
 /* top */
-main .item_all_bg .item_all .first_line .item1 .top {
-    margin-bottom: 20px;  position: relative;
+main .item_all_bg .item_all .first_line .item1 .top,
+main .item_all_bg .item_all .first_line .item2 .top,
+main .item_all_bg .item_all .first_line .item3 .top {
+    margin-bottom: 20px;
 }
-main .item_all_bg .item_all .first_line .item1 .top p {
-    font-weight: 500; letter-spacing: -0.04em; color: #fff; background: #ffc128;
-    padding: 10px;
+main .item_all_bg .item_all .first_line .item1 .top p,
+main .item_all_bg .item_all .first_line .item2 .top p,
+main .item_all_bg .item_all .first_line .item3 .top p {
+    font-weight: 500; letter-spacing: -0.04em; color: #fff; background: #ffc128; padding: 10px; position: absolute;
 }
 /* item1-swiper */
-main .item_all_bg .item_all .first_line .item1 .top #purple_cushion {}
-main .item_all_bg .item_all .first_line .item1 .top #purple_cushion .swiper_wrapper {
-    width: 400px; height: 400px;
+main .item_all_bg .item_all .first_line .item1 .top #purple_cushion {
+    position: relative;
 }
+main .item_all_bg .item_all .first_line .item1 .top #purple_cushion .swiper_wrapper {}
 main .item_all_bg .item_all .first_line .item1 .top #purple_cushion .swiper_wrapper .swiper-slide {}
-main .item_all_bg .item_all .first_line .item1 .top #purple_cushion .swiper_wrapper .slide1 {
-    background-image: url(../images/product_list/1.jpg);
-}
+main .item_all_bg .item_all .first_line .item1 .top #purple_cushion .swiper_wrapper .slide1 {}
+main .item_all_bg .item_all .first_line .item1 .top #purple_cushion .swiper_wrapper .slide1 img {width: 400px; height: 400px;}
 main .item_all_bg .item_all .first_line .item1 .top #purple_cushion .swiper_wrapper .slide2 {}
+main .item_all_bg .item_all .first_line .item1 .top #purple_cushion .swiper_wrapper .slide2 img {width: 400px; height: 400px;}
 main .item_all_bg .item_all .first_line .item1 .top #purple_cushion .swiper-pagination {}
 main .item_all_bg .item_all .first_line .item1 .top .swiper-button-prev {
     width: 66px; height: 66px; background: url(../images/product_list/slide_pre.png);
@@ -351,308 +357,444 @@ main .item_all_bg .item_all .first_line .item1 .top .swiper-button-prev {
 main .item_all_bg .item_all .first_line .item1 .top .swiper-button-next {
     width: 66px; height: 66px; background: url(../images/product_list/slide_next.png);
 }
+main .item_all_bg .item_all .first_line .item1 .top .swiper-button-prev::after, main .item_all_bg .item_all .first_line .item1 .top .swiper-button-next::after {display: none;}
+/* item2-swiper */
+main .item_all_bg .item_all .first_line .item2 .top #purple_powder {
+    position: relative;
+}
+main .item_all_bg .item_all .first_line .item2 .top #purple_powder .swiper_wrapper {}
+main .item_all_bg .item_all .first_line .item2 .top #purple_powder .swiper_wrapper .swiper-slide {}
+main .item_all_bg .item_all .first_line .item2 .top #purple_powder .swiper_wrapper .slide1 {}
+main .item_all_bg .item_all .first_line .item2 .top #purple_powder .swiper_wrapper .slide1 img {width: 400px; height: 400px;}
+main .item_all_bg .item_all .first_line .item2 .top #purple_powder .swiper_wrapper .slide2 {}
+main .item_all_bg .item_all .first_line .item2 .top #purple_powder .swiper_wrapper .slide2 img {width: 400px; height: 400px;}
+main .item_all_bg .item_all .first_line .item2 .top #purple_powder .swiper-pagination {}
+main .item_all_bg .item_all .first_line .item2 .top .swiper-button-prev {
+    width: 66px; height: 66px; background: url(../images/product_list/slide_pre.png);
+} 
+main .item_all_bg .item_all .first_line .item2 .top .swiper-button-next {
+    width: 66px; height: 66px; background: url(../images/product_list/slide_next.png);
+}
+main .item_all_bg .item_all .first_line .item2 .top .swiper-button-prev::after, main .item_all_bg .item_all .first_line .item2 .top .swiper-button-next::after {display: none;}
+/* item3-swiper */
+main .item_all_bg .item_all .first_line .item3 .top #every_foundation {
+    position: relative;
+}
+main .item_all_bg .item_all .first_line .item3 .top #every_foundation .swiper_wrapper {}
+main .item_all_bg .item_all .first_line .item3 .top #every_foundation .swiper_wrapper .swiper-slide {}
+main .item_all_bg .item_all .first_line .item3 .top #every_foundation .swiper_wrapper .slide1 {}
+main .item_all_bg .item_all .first_line .item3 .top #every_foundation .swiper_wrapper .slide1 img {width: 400px; height: 400px;}
+main .item_all_bg .item_all .first_line .item3 .top #every_foundation .swiper_wrapper .slide2 {}
+main .item_all_bg .item_all .first_line .item3 .top #every_foundation .swiper_wrapper .slide2 img {width: 400px; height: 400px;}
+main .item_all_bg .item_all .first_line .item3 .top #every_foundation .swiper-pagination {}
+main .item_all_bg .item_all .first_line .item3 .top .swiper-button-prev {
+    width: 66px; height: 66px; background: url(../images/product_list/slide_pre.png);
+} 
+main .item_all_bg .item_all .first_line .item3 .top .swiper-button-next {
+    width: 66px; height: 66px; background: url(../images/product_list/slide_next.png);
+}
+main .item_all_bg .item_all .first_line .item3 .top .swiper-button-prev::after, main .item_all_bg .item_all .first_line .item3 .top .swiper-button-next::after {display: none;}
+
 /* bottom */
-main .item_all_bg .item_all .first_line .item1 .bottom {
+main .item_all_bg .item_all .first_line .item1 .bottom,
+main .item_all_bg .item_all .first_line .item2 .bottom,
+main .item_all_bg .item_all .first_line .item3 .bottom {
     display: flex; flex-flow: column nowrap; align-items: flex-start; 
 }
-main .item_all_bg .item_all .first_line .item1 .bottom .price {
+main .item_all_bg .item_all .first_line .item1 .bottom .price,
+main .item_all_bg .item_all .first_line .item2 .bottom .price,
+main .item_all_bg .item_all .first_line .item3 .bottom .price {
     width: 400px; display: flex; flex-flow: row nowrap;
     justify-content: space-between; align-items: center;
     margin-bottom: 20px;
 }
-main .item_all_bg .item_all .first_line .item1 .bottom .price .discount {
+main .item_all_bg .item_all .first_line .item1 .bottom .price .discount,
+main .item_all_bg .item_all .first_line .item2 .bottom .price .discount,
+main .item_all_bg .item_all .first_line .item3 .bottom .price .discount {
     font-weight: 700; font-size: 1.333rem; letter-spacing: -0.04em;
 } 
-main .item_all_bg .item_all .first_line .item1 .bottom .price .discount em {
+main .item_all_bg .item_all .first_line .item1 .bottom .price .discount em,
+main .item_all_bg .item_all .first_line .item2 .bottom .price .discount em,
+main .item_all_bg .item_all .first_line .item3 .bottom .price .discount em {
     font-weight: 700; font-size: 1.333rem; letter-spacing: -0.04em;
     color: #ffc128;
 }
-main .item_all_bg .item_all .first_line .item1 .bottom .price .like {
+main .item_all_bg .item_all .first_line .item1 .bottom .price .like,
+main .item_all_bg .item_all .first_line .item2 .bottom .price .like,
+main .item_all_bg .item_all .first_line .item3 .bottom .price .like {
     width: 16px; height: 16px;
 }
-main .item_all_bg .item_all .first_line .item1 .bottom .price .like img {
+main .item_all_bg .item_all .first_line .item1 .bottom .price .like img,
+main .item_all_bg .item_all .first_line .item2 .bottom .price .like img,
+main .item_all_bg .item_all .first_line .item3 .bottom .price .like img {
     width: 100%;
 }
-main .item_all_bg .item_all .first_line .item1 .bottom h3 {
+main .item_all_bg .item_all .first_line .item1 .bottom h3,
+main .item_all_bg .item_all .first_line .item2 .bottom h3,
+main .item_all_bg .item_all .first_line .item3 .bottom h3 {
     width: 400px; margin-bottom: 20px;
     font-weight: 500; font-size: 1.333rem; letter-spacing: -0.04em;
 }
-main .item_all_bg .item_all .first_line .item1 .bottom .review {
+main .item_all_bg .item_all .first_line .item1 .bottom .review,
+main .item_all_bg .item_all .first_line .item2 .bottom .review,
+main .item_all_bg .item_all .first_line .item3 .bottom .review {
     letter-spacing: -0.04em; color: #7a7a7a; margin-bottom: 20px;
 }
-main .item_all_bg .item_all .first_line .item1 .bottom .arrival_promise {
+main .item_all_bg .item_all .first_line .item1 .bottom .arrival_promise,
+main .item_all_bg .item_all .first_line .item2 .bottom .arrival_promise,
+main .item_all_bg .item_all .first_line .item3 .bottom .arrival_promise {
     display: flex; flex-flow: row nowrap; align-items: center;
     margin-bottom: 20px;
 }
-main .item_all_bg .item_all .first_line .item1 .bottom .arrival_promise .arrival {display: flex; flex-flow: row nowrap; align-items: center;
+main .item_all_bg .item_all .first_line .item1 .bottom .arrival_promise .arrival,
+main .item_all_bg .item_all .first_line .item2 .bottom .arrival_promise .arrival,
+main .item_all_bg .item_all .first_line .item3 .bottom .arrival_promise .arrival {display: flex; flex-flow: row nowrap; align-items: center;
 margin-right: 5px;}
-main .item_all_bg .item_all .first_line .item1 .bottom .arrival_promise .arrival img {width: 21px; height: 21px; margin-right: 5px;}
-main .item_all_bg .item_all .first_line .item1 .bottom .arrival_promise .arrival span {font-weight: 700; letter-spacing: -0.04em; color: #e1676f;}
-main .item_all_bg .item_all .first_line .item1 .bottom .arrival_promise p {
+main .item_all_bg .item_all .first_line .item1 .bottom .arrival_promise .arrival img,
+main .item_all_bg .item_all .first_line .item2 .bottom .arrival_promise .arrival img,
+main .item_all_bg .item_all .first_line .item3 .bottom .arrival_promise .arrival img {width: 21px; height: 21px; margin-right: 5px;}
+main .item_all_bg .item_all .first_line .item1 .bottom .arrival_promise .arrival span,
+main .item_all_bg .item_all .first_line .item2 .bottom .arrival_promise .arrival span,
+main .item_all_bg .item_all .first_line .item3 .bottom .arrival_promise .arrival span {font-weight: 700; letter-spacing: -0.04em; color: #e1676f;}
+main .item_all_bg .item_all .first_line .item1 .bottom .arrival_promise p,
+main .item_all_bg .item_all .first_line .item2 .bottom .arrival_promise p,
+main .item_all_bg .item_all .first_line .item3 .bottom .arrival_promise p {
     letter-spacing: -0.04em; color: #e1676f ;
 }
-main .item_all_bg .item_all .first_line .item1 .bottom .special {
+main .item_all_bg .item_all .first_line .item1 .bottom .special,
+main .item_all_bg .item_all .first_line .item2 .bottom .special,
+main .item_all_bg .item_all .first_line .item3 .bottom .special {
     display: flex; flex-flow: row nowrap; align-items: center;
 }
-main .item_all_bg .item_all .first_line .item1 .bottom .special p {
+main .item_all_bg .item_all .first_line .item1 .bottom .special p,
+main .item_all_bg .item_all .first_line .item2 .bottom .special p,
+main .item_all_bg .item_all .first_line .item3 .bottom .special p {
     letter-spacing: -0.04em; color: #7a7a7a; border: 1px solid #7a7a7a;
     padding: 5px; border-radius: 5px;
 }
-main .item_all_bg .item_all .first_line .item1 .bottom .special p:nth-child(1) {
+main .item_all_bg .item_all .first_line .item1 .bottom .special p:nth-child(1),
+main .item_all_bg .item_all .first_line .item2 .bottom .special p:nth-child(1),
+main .item_all_bg .item_all .first_line .item3 .bottom .special p:nth-child(1) {
     margin-right: 10px;
 }
-/* item2 */
-main .item_all_bg .item_all .first_line .item2 {}
-/* top */
-main .item_all_bg .item_all .first_line .item2 .top {}
-main .item_all_bg .item_all .first_line .item2 .top p {}
-/* item2-swiper */
-main .item_all_bg .item_all .first_line .item2 .top #purple_powder {}
-main .item_all_bg .item_all .first_line .item2 .top #purple_powder .swiper_wrapper {}
-main .item_all_bg .item_all .first_line .item2 .top #purple_powder .swiper_wrapper .swiper-slide {}
-main .item_all_bg .item_all .first_line .item2 .top #purple_powder .swiper_wrapper .slide1 {}
-main .item_all_bg .item_all .first_line .item2 .top #purple_powder .swiper_wrapper .slide2 {}
-main .item_all_bg .item_all .first_line .item2 .top #purple_powder .swiper_wrapper .slide3 {}
-main .item_all_bg .item_all .first_line .item2 .top #purple_powder .swiper-pagination {}
-main .item_all_bg .item_all .first_line .item2 .top .swiper-button-prev {}
-main .item_all_bg .item_all .first_line .item2 .top .swiper-button-next {}
-/* bottom */
-main .item_all_bg .item_all .first_line .item2 .bottom {}
-main .item_all_bg .item_all .first_line .item2 .bottom .price {}
-main .item_all_bg .item_all .first_line .item2 .bottom .price .discount {}
-main .item_all_bg .item_all .first_line .item2 .bottom .price .discount em {}
-main .item_all_bg .item_all .first_line .item2 .bottom .price .like {}
-main .item_all_bg .item_all .first_line .item2 .bottom .price .like img {}
-main .item_all_bg .item_all .first_line .item2 .bottom h3 {}
-main .item_all_bg .item_all .first_line .item2 .bottom .review {}
-main .item_all_bg .item_all .first_line .item2 .bottom .arrival_promise {}
-main .item_all_bg .item_all .first_line .item2 .bottom .arrival_promise .arrival {}
-main .item_all_bg .item_all .first_line .item2 .bottom .arrival_promise .arrival img {}
-main .item_all_bg .item_all .first_line .item2 .bottom .arrival_promise .arrival span {}
-main .item_all_bg .item_all .first_line .item2 .bottom .arrival_promise p {}
-main .item_all_bg .item_all .first_line .item2 .bottom .special {}
-main .item_all_bg .item_all .first_line .item2 .bottom .special p {}
-/* item3 */
-main .item_all_bg .item_all .first_line .item3 {}
-/* top */
-main .item_all_bg .item_all .first_line .item3 .top {}
-main .item_all_bg .item_all .first_line .item3 .top p {}
-/* item3-swiper */
-main .item_all_bg .item_all .first_line .item3 .top #every_foundation {}
-main .item_all_bg .item_all .first_line .item3 .top #every_foundation .swiper_wrapper {}
-main .item_all_bg .item_all .first_line .item3 .top #every_foundation .swiper_wrapper .swiper-slide {}
-main .item_all_bg .item_all .first_line .item3 .top #every_foundation .swiper_wrapper .slide1 {}
-main .item_all_bg .item_all .first_line .item3 .top #every_foundation .swiper_wrapper .slide2 {}
-main .item_all_bg .item_all .first_line .item3 .top #every_foundation .swiper_wrapper .slide3 {}
-main .item_all_bg .item_all .first_line .item3 .top #every_foundation .swiper-pagination {}
-main .item_all_bg .item_all .first_line .item3 .top .swiper-button-prev {}
-main .item_all_bg .item_all .first_line .item3 .top .swiper-button-next {}
-/* bottom */
-main .item_all_bg .item_all .first_line .item3 .bottom {}
-main .item_all_bg .item_all .first_line .item3 .bottom .price {}
-main .item_all_bg .item_all .first_line .item3 .bottom .price .discount {}
-main .item_all_bg .item_all .first_line .item3 .bottom .price .discount em {}
-main .item_all_bg .item_all .first_line .item3 .bottom .price .like {}
-main .item_all_bg .item_all .first_line .item3 .bottom .price .like img {}
-main .item_all_bg .item_all .first_line .item3 .bottom h3 {}
-main .item_all_bg .item_all .first_line .item3 .bottom .review {}
-main .item_all_bg .item_all .first_line .item3 .bottom .arrival_promise {}
-main .item_all_bg .item_all .first_line .item3 .bottom .arrival_promise .arrival {}
-main .item_all_bg .item_all .first_line .item3 .bottom .arrival_promise .arrival img {}
-main .item_all_bg .item_all .first_line .item3 .bottom .arrival_promise .arrival span {}
-main .item_all_bg .item_all .first_line .item3 .bottom .arrival_promise p {}
-main .item_all_bg .item_all .first_line .item3 .bottom .special {}
-main .item_all_bg .item_all .first_line .item3 .bottom .special p {}
+
 /* second_line */
-main .item_all_bg .item_all .second_line {}
-/* item4 */
-main .item_all_bg .item_all .second_line .item4 {}
+main .item_all_bg .item_all .second_line {
+    width: 1280px; margin-bottom: 50px;
+    display: flex; flex-flow: row nowrap; 
+    justify-content: space-between;
+}
+/* item4,5,6 */
+main .item_all_bg .item_all .second_line .item4,
+main .item_all_bg .item_all .second_line .item5,
+main .item_all_bg .item_all .second_line .item6 {
+    width: 400px; display: flex; flex-flow: column nowrap;}
 /* top */
-main .item_all_bg .item_all .second_line .item4 .top {}
-main .item_all_bg .item_all .second_line .item4 .top p {}
+main .item_all_bg .item_all .second_line .item4 .top,
+main .item_all_bg .item_all .second_line .item5 .top,
+main .item_all_bg .item_all .second_line .item6 .top {
+    margin-bottom: 20px;
+}
+main .item_all_bg .item_all .second_line .item4 .top p,
+main .item_all_bg .item_all .second_line .item5 .top p,
+main .item_all_bg .item_all .second_line .item6 .top p {
+    font-weight: 500; letter-spacing: -0.04em; color: #fff; background: #ffc128; padding: 10px; position: absolute;
+}
 /* item4-swiper */
-main .item_all_bg .item_all .second_line .item4 .top #white_concealer {}
+main .item_all_bg .item_all .second_line .item4 .top #white_concealer {
+    position: relative;
+}
 main .item_all_bg .item_all .second_line .item4 .top #white_concealer .swiper_wrapper {}
 main .item_all_bg .item_all .second_line .item4 .top #white_concealer .swiper_wrapper .swiper-slide {}
 main .item_all_bg .item_all .second_line .item4 .top #white_concealer .swiper_wrapper .slide1 {}
+main .item_all_bg .item_all .second_line .item4 .top #white_concealer .swiper_wrapper .slide1 img {width: 400px; height: 400px;}
 main .item_all_bg .item_all .second_line .item4 .top #white_concealer .swiper_wrapper .slide2 {}
-main .item_all_bg .item_all .second_line .item4 .top #white_concealer .swiper_wrapper .slide3 {}
+main .item_all_bg .item_all .second_line .item4 .top #white_concealer .swiper_wrapper .slide2 img {width: 400px; height: 400px;}
 main .item_all_bg .item_all .second_line .item4 .top #white_concealer .swiper-pagination {}
-main .item_all_bg .item_all .second_line .item4 .top .swiper-button-prev {}
-main .item_all_bg .item_all .second_line .item4 .top .swiper-button-next {}
-/* bottom */
-main .item_all_bg .item_all .second_line .item4 .bottom {}
-main .item_all_bg .item_all .second_line .item4 .bottom .price {}
-main .item_all_bg .item_all .second_line .item4 .bottom .price .discount {}
-main .item_all_bg .item_all .second_line .item4 .bottom .price .discount em {}
-main .item_all_bg .item_all .second_line .item4 .bottom .price .like {}
-main .item_all_bg .item_all .second_line .item4 .bottom .price .like img {}
-main .item_all_bg .item_all .second_line .item4 .bottom h3 {}
-main .item_all_bg .item_all .second_line .item4 .bottom .review {}
-main .item_all_bg .item_all .second_line .item4 .bottom .arrival_promise {}
-main .item_all_bg .item_all .second_line .item4 .bottom .arrival_promise .arrival {}
-main .item_all_bg .item_all .second_line .item4 .bottom .arrival_promise .arrival img {}
-main .item_all_bg .item_all .second_line .item4 .bottom .arrival_promise .arrival span {}
-main .item_all_bg .item_all .second_line .item4 .bottom .arrival_promise p {}
-main .item_all_bg .item_all .second_line .item4 .bottom .special {}
-main .item_all_bg .item_all .second_line .item4 .bottom .special p {}
-/* item5 */
-main .item_all_bg .item_all .second_line .item5 {}
-/* top */
-main .item_all_bg .item_all .second_line .item5 .top {}
-main .item_all_bg .item_all .second_line .item5 .top p {}
+main .item_all_bg .item_all .second_line .item4 .top .swiper-button-prev {
+    width: 66px; height: 66px; background: url(../images/product_list/slide_pre.png);
+} 
+main .item_all_bg .item_all .second_line .item4 .top .swiper-button-next {
+    width: 66px; height: 66px; background: url(../images/product_list/slide_next.png);
+}
+main .item_all_bg .item_all .second_line .item4 .top .swiper-button-prev::after, main .item_all_bg .item_all .second_line .item4 .top .swiper-button-next::after {display: none;}
 /* item5-swiper */
-main .item_all_bg .item_all .second_line .item5 .top #baby_concealer {}
+main .item_all_bg .item_all .second_line .item5 .top #baby_concealer {
+    position: relative;
+}
 main .item_all_bg .item_all .second_line .item5 .top #baby_concealer .swiper_wrapper {}
 main .item_all_bg .item_all .second_line .item5 .top #baby_concealer .swiper_wrapper .swiper-slide {}
 main .item_all_bg .item_all .second_line .item5 .top #baby_concealer .swiper_wrapper .slide1 {}
+main .item_all_bg .item_all .second_line .item5 .top #baby_concealer .swiper_wrapper .slide1 img {width: 400px; height: 400px;}
 main .item_all_bg .item_all .second_line .item5 .top #baby_concealer .swiper_wrapper .slide2 {}
-main .item_all_bg .item_all .second_line .item5 .top #baby_concealer .swiper_wrapper .slide3 {}
+main .item_all_bg .item_all .second_line .item5 .top #baby_concealer .swiper_wrapper .slide2 img {width: 400px; height: 400px;}
 main .item_all_bg .item_all .second_line .item5 .top #baby_concealer .swiper-pagination {}
-main .item_all_bg .item_all .second_line .item5 .top .swiper-button-prev {}
-main .item_all_bg .item_all .second_line .item5 .top .swiper-button-next {}
-/* bottom */
-main .item_all_bg .item_all .second_line .item5 .bottom {}
-main .item_all_bg .item_all .second_line .item5 .bottom .price {}
-main .item_all_bg .item_all .second_line .item5 .bottom .price .discount {}
-main .item_all_bg .item_all .second_line .item5 .bottom .price .discount em {}
-main .item_all_bg .item_all .second_line .item5 .bottom .price .like {}
-main .item_all_bg .item_all .second_line .item5 .bottom .price .like img {}
-main .item_all_bg .item_all .second_line .item5 .bottom h3 {}
-main .item_all_bg .item_all .second_line .item5 .bottom .review {}
-main .item_all_bg .item_all .second_line .item5 .bottom .arrival_promise {}
-main .item_all_bg .item_all .second_line .item5 .bottom .arrival_promise .arrival {}
-main .item_all_bg .item_all .second_line .item5 .bottom .arrival_promise .arrival img {}
-main .item_all_bg .item_all .second_line .item5 .bottom .arrival_promise .arrival span {}
-main .item_all_bg .item_all .second_line .item5 .bottom .arrival_promise p {}
-main .item_all_bg .item_all .second_line .item5 .bottom .special {}
-main .item_all_bg .item_all .second_line .item5 .bottom .special p {}
-/* item6 */
-main .item_all_bg .item_all .second_line .item6 {}
-/* top */
-main .item_all_bg .item_all .second_line .item6 .top {}
-main .item_all_bg .item_all .second_line .item6 .top p {}
+main .item_all_bg .item_all .second_line .item5 .top .swiper-button-prev {
+    width: 66px; height: 66px; background: url(../images/product_list/slide_pre.png);
+} 
+main .item_all_bg .item_all .second_line .item5 .top .swiper-button-next {
+    width: 66px; height: 66px; background: url(../images/product_list/slide_next.png);
+}
+main .item_all_bg .item_all .second_line .item5 .top .swiper-button-prev::after, main .item_all_bg .item_all .second_line .item5 .top .swiper-button-next::after {display: none;}
 /* item6-swiper */
-main .item_all_bg .item_all .second_line .item6 .top #white_powder {}
+main .item_all_bg .item_all .second_line .item6 .top #white_powder {
+    position: relative;
+}
 main .item_all_bg .item_all .second_line .item6 .top #white_powder .swiper_wrapper {}
 main .item_all_bg .item_all .second_line .item6 .top #white_powder .swiper_wrapper .swiper-slide {}
 main .item_all_bg .item_all .second_line .item6 .top #white_powder .swiper_wrapper .slide1 {}
+main .item_all_bg .item_all .second_line .item6 .top #white_powder .swiper_wrapper .slide1 img {width: 400px; height: 400px;}
 main .item_all_bg .item_all .second_line .item6 .top #white_powder .swiper_wrapper .slide2 {}
-main .item_all_bg .item_all .second_line .item6 .top #white_powder .swiper_wrapper .slide3 {}
+main .item_all_bg .item_all .second_line .item6 .top #white_powder .swiper_wrapper .slide2 img {width: 400px; height: 400px;}
 main .item_all_bg .item_all .second_line .item6 .top #white_powder .swiper-pagination {}
-main .item_all_bg .item_all .second_line .item6 .top .swiper-button-prev {}
-main .item_all_bg .item_all .second_line .item6 .top .swiper-button-next {}
+main .item_all_bg .item_all .second_line .item6 .top .swiper-button-prev {
+    width: 66px; height: 66px; background: url(../images/product_list/slide_pre.png);
+} 
+main .item_all_bg .item_all .second_line .item6 .top .swiper-button-next {
+    width: 66px; height: 66px; background: url(../images/product_list/slide_next.png);
+}
+main .item_all_bg .item_all .second_line .item6 .top .swiper-button-prev::after, main .item_all_bg .item_all .second_line .item6 .top .swiper-button-next::after {display: none;}
 /* bottom */
-main .item_all_bg .item_all .second_line .item6 .bottom {}
-main .item_all_bg .item_all .second_line .item6 .bottom .price {}
-main .item_all_bg .item_all .second_line .item6 .bottom .price .discount {}
-main .item_all_bg .item_all .second_line .item6 .bottom .price .discount em {}
-main .item_all_bg .item_all .second_line .item6 .bottom .price .like {}
-main .item_all_bg .item_all .second_line .item6 .bottom .price .like img {}
-main .item_all_bg .item_all .second_line .item6 .bottom h3 {}
-main .item_all_bg .item_all .second_line .item6 .bottom .review {}
-main .item_all_bg .item_all .second_line .item6 .bottom .arrival_promise {}
-main .item_all_bg .item_all .second_line .item6 .bottom .arrival_promise .arrival {}
-main .item_all_bg .item_all .second_line .item6 .bottom .arrival_promise .arrival img {}
-main .item_all_bg .item_all .second_line .item6 .bottom .arrival_promise .arrival span {}
-main .item_all_bg .item_all .second_line .item6 .bottom .arrival_promise p {}
-main .item_all_bg .item_all .second_line .item6 .bottom .special {}
-main .item_all_bg .item_all .second_line .item6 .bottom .special p {}
+main .item_all_bg .item_all .second_line .item4 .bottom,
+main .item_all_bg .item_all .second_line .item5 .bottom,
+main .item_all_bg .item_all .second_line .item6 .bottom {
+    display: flex; flex-flow: column nowrap; align-items: flex-start; 
+}
+main .item_all_bg .item_all .second_line .item4 .bottom .price,
+main .item_all_bg .item_all .second_line .item5 .bottom .price,
+main .item_all_bg .item_all .second_line .item6 .bottom .price {
+    width: 400px; display: flex; flex-flow: row nowrap;
+    justify-content: space-between; align-items: center;
+    margin-bottom: 20px;
+}
+main .item_all_bg .item_all .second_line .item4 .bottom .price .discount,
+main .item_all_bg .item_all .second_line .item5 .bottom .price .discount,
+main .item_all_bg .item_all .second_line .item6 .bottom .price .discount {
+    font-weight: 700; font-size: 1.333rem; letter-spacing: -0.04em;
+} 
+main .item_all_bg .item_all .second_line .item4 .bottom .price .discount em,
+main .item_all_bg .item_all .second_line .item5 .bottom .price .discount em,
+main .item_all_bg .item_all .second_line .item6 .bottom .price .discount em {
+    font-weight: 700; font-size: 1.333rem; letter-spacing: -0.04em;
+    color: #ffc128;
+}
+main .item_all_bg .item_all .second_line .item4 .bottom .price .like,
+main .item_all_bg .item_all .second_line .item5 .bottom .price .like,
+main .item_all_bg .item_all .second_line .item6 .bottom .price .like {
+    width: 16px; height: 16px;
+}
+main .item_all_bg .item_all .second_line .item4 .bottom .price .like img,
+main .item_all_bg .item_all .second_line .item5 .bottom .price .like img,
+main .item_all_bg .item_all .second_line .item6 .bottom .price .like img {
+    width: 100%;
+}
+main .item_all_bg .item_all .second_line .item4 .bottom h3,
+main .item_all_bg .item_all .second_line .item5 .bottom h3,
+main .item_all_bg .item_all .second_line .item6 .bottom h3 {
+    width: 400px; margin-bottom: 20px;
+    font-weight: 500; font-size: 1.333rem; letter-spacing: -0.04em;
+}
+main .item_all_bg .item_all .second_line .item4 .bottom .review,
+main .item_all_bg .item_all .second_line .item5 .bottom .review,
+main .item_all_bg .item_all .second_line .item6 .bottom .review {
+    letter-spacing: -0.04em; color: #7a7a7a; margin-bottom: 20px;
+}
+main .item_all_bg .item_all .second_line .item4 .bottom .arrival_promise,
+main .item_all_bg .item_all .second_line .item5 .bottom .arrival_promise,
+main .item_all_bg .item_all .second_line .item6 .bottom .arrival_promise {
+    display: flex; flex-flow: row nowrap; align-items: center;
+    margin-bottom: 20px;
+}
+main .item_all_bg .item_all .second_line .item4 .bottom .arrival_promise .arrival,
+main .item_all_bg .item_all .second_line .item5 .bottom .arrival_promise .arrival,
+main .item_all_bg .item_all .second_line .item6 .bottom .arrival_promise .arrival {display: flex; flex-flow: row nowrap; align-items: center;
+margin-right: 5px;}
+main .item_all_bg .item_all .second_line .item4 .bottom .arrival_promise .arrival img,
+main .item_all_bg .item_all .second_line .item5 .bottom .arrival_promise .arrival img,
+main .item_all_bg .item_all .second_line .item6 .bottom .arrival_promise .arrival img {width: 21px; height: 21px; margin-right: 5px;}
+main .item_all_bg .item_all .second_line .item4 .bottom .arrival_promise .arrival span,
+main .item_all_bg .item_all .second_line .item5 .bottom .arrival_promise .arrival span,
+main .item_all_bg .item_all .second_line .item6 .bottom .arrival_promise .arrival span {font-weight: 700; letter-spacing: -0.04em; color: #e1676f;}
+main .item_all_bg .item_all .second_line .item4 .bottom .arrival_promise p,
+main .item_all_bg .item_all .second_line .item5 .bottom .arrival_promise p,
+main .item_all_bg .item_all .second_line .item6 .bottom .arrival_promise p {
+    letter-spacing: -0.04em; color: #e1676f ;
+}
+main .item_all_bg .item_all .second_line .item4 .bottom .special,
+main .item_all_bg .item_all .second_line .item5 .bottom .special,
+main .item_all_bg .item_all .second_line .item6 .bottom .special {
+    display: flex; flex-flow: row nowrap; align-items: center;
+}
+main .item_all_bg .item_all .second_line .item4 .bottom .special p,
+main .item_all_bg .item_all .second_line .item5 .bottom .special p,
+main .item_all_bg .item_all .second_line .item6 .bottom .special p {
+    letter-spacing: -0.04em; color: #7a7a7a; border: 1px solid #7a7a7a;
+    padding: 5px; border-radius: 5px;
+}
+main .item_all_bg .item_all .second_line .item4 .bottom .special p:nth-child(1),
+main .item_all_bg .item_all .second_line .item5 .bottom .special p:nth-child(1),
+main .item_all_bg .item_all .second_line .item6 .bottom .special p:nth-child(1) {
+    margin-right: 10px;
+}
+
 /* third_line */
-main .item_all_bg .item_all .third_line {}
-/* item7 */
-main .item_all_bg .item_all .third_line .item7 {}
+main .item_all_bg .item_all .third_line {
+    width: 1280px;
+    display: flex; flex-flow: row nowrap; 
+    justify-content: space-between;
+}
+/* item7,8,9 */
+main .item_all_bg .item_all .third_line .item7,
+main .item_all_bg .item_all .third_line .item8,
+main .item_all_bg .item_all .third_line .item9 {
+    width: 400px; display: flex; flex-flow: column nowrap;}
 /* top */
-main .item_all_bg .item_all .third_line .item7 .top {}
-main .item_all_bg .item_all .third_line .item7 .top p {}
+main .item_all_bg .item_all .third_line .item7 .top,
+main .item_all_bg .item_all .third_line .item8 .top,
+main .item_all_bg .item_all .third_line .item9 .top {
+    margin-bottom: 20px;
+}
+main .item_all_bg .item_all .third_line .item7 .top p,
+main .item_all_bg .item_all .third_line .item8 .top p,
+main .item_all_bg .item_all .third_line .item9 .top p {
+    font-weight: 500; letter-spacing: -0.04em; color: #fff; background: #ffc128; padding: 10px; position: absolute;
+}
 /* item7-swiper */
-main .item_all_bg .item_all .third_line .item7 .top #dohwa_cushion {}
+main .item_all_bg .item_all .third_line .item7 .top #dohwa_cushion {
+    position: relative;
+}
 main .item_all_bg .item_all .third_line .item7 .top #dohwa_cushion .swiper_wrapper {}
 main .item_all_bg .item_all .third_line .item7 .top #dohwa_cushion .swiper_wrapper .swiper-slide {}
 main .item_all_bg .item_all .third_line .item7 .top #dohwa_cushion .swiper_wrapper .slide1 {}
+main .item_all_bg .item_all .third_line .item7 .top #dohwa_cushion .swiper_wrapper .slide1 img {width: 400px; height: 400px;}
 main .item_all_bg .item_all .third_line .item7 .top #dohwa_cushion .swiper_wrapper .slide2 {}
-main .item_all_bg .item_all .third_line .item7 .top #dohwa_cushion .swiper_wrapper .slide3 {}
+main .item_all_bg .item_all .third_line .item7 .top #dohwa_cushion .swiper_wrapper .slide2 img {width: 400px; height: 400px;}
 main .item_all_bg .item_all .third_line .item7 .top #dohwa_cushion .swiper-pagination {}
-main .item_all_bg .item_all .third_line .item7 .top .swiper-button-prev {}
-main .item_all_bg .item_all .third_line .item7 .top .swiper-button-next {}
-/* bottom */
-main .item_all_bg .item_all .third_line .item7 .bottom {}
-main .item_all_bg .item_all .third_line .item7 .bottom .price {}
-main .item_all_bg .item_all .third_line .item7 .bottom .price .discount {}
-main .item_all_bg .item_all .third_line .item7 .bottom .price .discount em {}
-main .item_all_bg .item_all .third_line .item7 .bottom .price .like {}
-main .item_all_bg .item_all .third_line .item7 .bottom .price .like img {}
-main .item_all_bg .item_all .third_line .item7 .bottom h3 {}
-main .item_all_bg .item_all .third_line .item7 .bottom .review {}
-main .item_all_bg .item_all .third_line .item7 .bottom .arrival_promise {}
-main .item_all_bg .item_all .third_line .item7 .bottom .arrival_promise .arrival {}
-main .item_all_bg .item_all .third_line .item7 .bottom .arrival_promise .arrival img {}
-main .item_all_bg .item_all .third_line .item7 .bottom .arrival_promise .arrival span {}
-main .item_all_bg .item_all .third_line .item7 .bottom .arrival_promise p {}
-main .item_all_bg .item_all .third_line .item7 .bottom .special {}
-main .item_all_bg .item_all .third_line .item7 .bottom .special p {}
-/* item8 */
-main .item_all_bg .item_all .third_line .item8 {}
-/* top */
-main .item_all_bg .item_all .third_line .item8 .top {}
-main .item_all_bg .item_all .third_line .item8 .top p {}
+main .item_all_bg .item_all .third_line .item7 .top .swiper-button-prev {
+    width: 66px; height: 66px; background: url(../images/product_list/slide_pre.png);
+} 
+main .item_all_bg .item_all .third_line .item7 .top .swiper-button-next {
+    width: 66px; height: 66px; background: url(../images/product_list/slide_next.png);
+}
+main .item_all_bg .item_all .third_line .item7 .top .swiper-button-prev::after, main .item_all_bg .item_all .third_line .item7 .top .swiper-button-next::after {display: none;}
 /* item8-swiper */
-main .item_all_bg .item_all .third_line .item8 .top #blossom_foundation {}
+main .item_all_bg .item_all .third_line .item8 .top #blossom_foundation {
+    position: relative;
+}
 main .item_all_bg .item_all .third_line .item8 .top #blossom_foundation .swiper_wrapper {}
 main .item_all_bg .item_all .third_line .item8 .top #blossom_foundation .swiper_wrapper .swiper-slide {}
 main .item_all_bg .item_all .third_line .item8 .top #blossom_foundation .swiper_wrapper .slide1 {}
+main .item_all_bg .item_all .third_line .item8 .top #blossom_foundation .swiper_wrapper .slide1 img {width: 400px; height: 400px;}
 main .item_all_bg .item_all .third_line .item8 .top #blossom_foundation .swiper_wrapper .slide2 {}
-main .item_all_bg .item_all .third_line .item8 .top #blossom_foundation .swiper_wrapper .slide3 {}
+main .item_all_bg .item_all .third_line .item8 .top #blossom_foundation .swiper_wrapper .slide2 img {width: 400px; height: 400px;}
 main .item_all_bg .item_all .third_line .item8 .top #blossom_foundation .swiper-pagination {}
-main .item_all_bg .item_all .third_line .item8 .top .swiper-button-prev {}
-main .item_all_bg .item_all .third_line .item8 .top .swiper-button-next {}
-/* bottom */
-main .item_all_bg .item_all .third_line .item8 .bottom {}
-main .item_all_bg .item_all .third_line .item8 .bottom .price {}
-main .item_all_bg .item_all .third_line .item8 .bottom .price .discount {}
-main .item_all_bg .item_all .third_line .item8 .bottom .price .discount em {}
-main .item_all_bg .item_all .third_line .item8 .bottom .price .like {}
-main .item_all_bg .item_all .third_line .item8 .bottom .price .like img {}
-main .item_all_bg .item_all .third_line .item8 .bottom h3 {}
-main .item_all_bg .item_all .third_line .item8 .bottom .review {}
-main .item_all_bg .item_all .third_line .item8 .bottom .arrival_promise {}
-main .item_all_bg .item_all .third_line .item8 .bottom .arrival_promise .arrival {}
-main .item_all_bg .item_all .third_line .item8 .bottom .arrival_promise .arrival img {}
-main .item_all_bg .item_all .third_line .item8 .bottom .arrival_promise .arrival span {}
-main .item_all_bg .item_all .third_line .item8 .bottom .arrival_promise p {}
-main .item_all_bg .item_all .third_line .item8 .bottom .special {}
-main .item_all_bg .item_all .third_line .item8 .bottom .special p {}
-/* item9 */
-main .item_all_bg .item_all .third_line .item9 {}
-/* top */
-main .item_all_bg .item_all .third_line .item9 .top {}
-main .item_all_bg .item_all .third_line .item9 .top p {}
+main .item_all_bg .item_all .third_line .item8 .top .swiper-button-prev {
+    width: 66px; height: 66px; background: url(../images/product_list/slide_pre.png);
+} 
+main .item_all_bg .item_all .third_line .item8 .top .swiper-button-next {
+    width: 66px; height: 66px; background: url(../images/product_list/slide_next.png);
+}
+main .item_all_bg .item_all .third_line .item8 .top .swiper-button-prev::after, main .item_all_bg .item_all .third_line .item8 .top .swiper-button-next::after {display: none;}
 /* item9-swiper */
-main .item_all_bg .item_all .third_line .item9 .top #poseline_foundation {}
+main .item_all_bg .item_all .third_line .item9 .top #poseline_foundation {
+    position: relative;
+}
 main .item_all_bg .item_all .third_line .item9 .top #poseline_foundation .swiper_wrapper {}
 main .item_all_bg .item_all .third_line .item9 .top #poseline_foundation .swiper_wrapper .swiper-slide {}
 main .item_all_bg .item_all .third_line .item9 .top #poseline_foundation .swiper_wrapper .slide1 {}
+main .item_all_bg .item_all .third_line .item9 .top #poseline_foundation .swiper_wrapper .slide1 img {width: 400px; height: 400px;}
 main .item_all_bg .item_all .third_line .item9 .top #poseline_foundation .swiper_wrapper .slide2 {}
-main .item_all_bg .item_all .third_line .item9 .top #poseline_foundation .swiper_wrapper .slide3 {}
+main .item_all_bg .item_all .third_line .item9 .top #poseline_foundation .swiper_wrapper .slide2 img {width: 400px; height: 400px;}
 main .item_all_bg .item_all .third_line .item9 .top #poseline_foundation .swiper-pagination {}
-main .item_all_bg .item_all .third_line .item9 .top .swiper-button-prev {}
-main .item_all_bg .item_all .third_line .item9 .top .swiper-button-next {}
+main .item_all_bg .item_all .third_line .item9 .top .swiper-button-prev {
+    width: 66px; height: 66px; background: url(../images/product_list/slide_pre.png);
+} 
+main .item_all_bg .item_all .third_line .item9 .top .swiper-button-next {
+    width: 66px; height: 66px; background: url(../images/product_list/slide_next.png);
+}
+main .item_all_bg .item_all .third_line .item9 .top .swiper-button-prev::after, main .item_all_bg .item_all .third_line .item9 .top .swiper-button-next::after {display: none;}
 /* bottom */
-main .item_all_bg .item_all .third_line .item9 .bottom {}
-main .item_all_bg .item_all .third_line .item9 .bottom .price {}
-main .item_all_bg .item_all .third_line .item9 .bottom .price .discount {}
-main .item_all_bg .item_all .third_line .item9 .bottom .price .discount em {}
-main .item_all_bg .item_all .third_line .item9 .bottom .price .like {}
-main .item_all_bg .item_all .third_line .item9 .bottom .price .like img {}
-main .item_all_bg .item_all .third_line .item9 .bottom h3 {}
-main .item_all_bg .item_all .third_line .item9 .bottom .review {}
-main .item_all_bg .item_all .third_line .item9 .bottom .arrival_promise {}
-main .item_all_bg .item_all .third_line .item9 .bottom .arrival_promise .arrival {}
-main .item_all_bg .item_all .third_line .item9 .bottom .arrival_promise .arrival img {}
-main .item_all_bg .item_all .third_line .item9 .bottom .arrival_promise .arrival span {}
-main .item_all_bg .item_all .third_line .item9 .bottom .arrival_promise p {}
-main .item_all_bg .item_all .third_line .item9 .bottom .special {}
-main .item_all_bg .item_all .third_line .item9 .bottom .special p {}
+main .item_all_bg .item_all .third_line .item7 .bottom,
+main .item_all_bg .item_all .third_line .item8 .bottom,
+main .item_all_bg .item_all .third_line .item9 .bottom {
+    display: flex; flex-flow: column nowrap; align-items: flex-start; 
+}
+main .item_all_bg .item_all .third_line .item7 .bottom .price,
+main .item_all_bg .item_all .third_line .item8 .bottom .price,
+main .item_all_bg .item_all .third_line .item9 .bottom .price {
+    width: 400px; display: flex; flex-flow: row nowrap;
+    justify-content: space-between; align-items: center;
+    margin-bottom: 20px;
+}
+main .item_all_bg .item_all .third_line .item7 .bottom .price .discount,
+main .item_all_bg .item_all .third_line .item8 .bottom .price .discount,
+main .item_all_bg .item_all .third_line .item9 .bottom .price .discount {
+    font-weight: 700; font-size: 1.333rem; letter-spacing: -0.04em;
+} 
+main .item_all_bg .item_all .third_line .item7 .bottom .price .discount em,
+main .item_all_bg .item_all .third_line .item8 .bottom .price .discount em,
+main .item_all_bg .item_all .third_line .item9 .bottom .price .discount em {
+    font-weight: 700; font-size: 1.333rem; letter-spacing: -0.04em;
+    color: #ffc128;
+}
+main .item_all_bg .item_all .third_line .item7 .bottom .price .like,
+main .item_all_bg .item_all .third_line .item8 .bottom .price .like,
+main .item_all_bg .item_all .third_line .item9 .bottom .price .like {
+    width: 16px; height: 16px;
+}
+main .item_all_bg .item_all .third_line .item7 .bottom .price .like img,
+main .item_all_bg .item_all .third_line .item8 .bottom .price .like img,
+main .item_all_bg .item_all .third_line .item9 .bottom .price .like img {
+    width: 100%;
+}
+main .item_all_bg .item_all .third_line .item7 .bottom h3,
+main .item_all_bg .item_all .third_line .item8 .bottom h3,
+main .item_all_bg .item_all .third_line .item9 .bottom h3 {
+    width: 400px; margin-bottom: 20px;
+    font-weight: 500; font-size: 1.333rem; letter-spacing: -0.04em;
+}
+main .item_all_bg .item_all .third_line .item7 .bottom .review,
+main .item_all_bg .item_all .third_line .item8 .bottom .review,
+main .item_all_bg .item_all .third_line .item9 .bottom .review {
+    letter-spacing: -0.04em; color: #7a7a7a; margin-bottom: 20px;
+}
+main .item_all_bg .item_all .third_line .item7 .bottom .arrival_promise,
+main .item_all_bg .item_all .third_line .item8 .bottom .arrival_promise,
+main .item_all_bg .item_all .third_line .item9 .bottom .arrival_promise {
+    display: flex; flex-flow: row nowrap; align-items: center;
+    margin-bottom: 20px;
+}
+main .item_all_bg .item_all .third_line .item7 .bottom .arrival_promise .arrival,
+main .item_all_bg .item_all .third_line .item8 .bottom .arrival_promise .arrival,
+main .item_all_bg .item_all .third_line .item9 .bottom .arrival_promise .arrival {display: flex; flex-flow: row nowrap; align-items: center;
+margin-right: 5px;}
+main .item_all_bg .item_all .third_line .item7 .bottom .arrival_promise .arrival img,
+main .item_all_bg .item_all .third_line .item8 .bottom .arrival_promise .arrival img,
+main .item_all_bg .item_all .third_line .item9 .bottom .arrival_promise .arrival img {width: 21px; height: 21px; margin-right: 5px;}
+main .item_all_bg .item_all .third_line .item7 .bottom .arrival_promise .arrival span,
+main .item_all_bg .item_all .third_line .item8 .bottom .arrival_promise .arrival span,
+main .item_all_bg .item_all .third_line .item9 .bottom .arrival_promise .arrival span {font-weight: 700; letter-spacing: -0.04em; color: #e1676f;}
+main .item_all_bg .item_all .third_line .item7 .bottom .arrival_promise p,
+main .item_all_bg .item_all .third_line .item8 .bottom .arrival_promise p,
+main .item_all_bg .item_all .third_line .item9 .bottom .arrival_promise p {
+    letter-spacing: -0.04em; color: #e1676f ;
+}
+main .item_all_bg .item_all .third_line .item7 .bottom .special,
+main .item_all_bg .item_all .third_line .item8 .bottom .special,
+main .item_all_bg .item_all .third_line .item9 .bottom .special {
+    display: flex; flex-flow: row nowrap; align-items: center;
+}
+main .item_all_bg .item_all .third_line .item7 .bottom .special p,
+main .item_all_bg .item_all .third_line .item8 .bottom .special p,
+main .item_all_bg .item_all .third_line .item9 .bottom .special p {
+    letter-spacing: -0.04em; color: #7a7a7a; border: 1px solid #7a7a7a;
+    padding: 5px; border-radius: 5px;
+}
+main .item_all_bg .item_all .third_line .item7 .bottom .special p:nth-child(1),
+main .item_all_bg .item_all .third_line .item8 .bottom .special p:nth-child(1),
+main .item_all_bg .item_all .third_line .item9 .bottom .special p:nth-child(1) {
+    margin-right: 10px;
+}
 
 /* footer */
 footer {
