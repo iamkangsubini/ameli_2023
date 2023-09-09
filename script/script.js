@@ -35,7 +35,7 @@ const bottom_slide = new Swiper('#bottom_slide',{
     /* effect:'fade', */ //제자리 자연스러운 슬라이드 효과
     direction: 'horizontal',
     pagination: {
-        el: '#bottom_slide .swiper-pagination',
+        el: '.new_item .swiper-pagination',
         clickable: true
     },
     navigation: { //이전, 다음 내비게이션 연결

@@ -4,7 +4,7 @@
 const purple_cushion_slide = new Swiper('#purple_cushion',{
     //자동재생
     autoplay:{
-        delay:2000,//슬라이드 간격(밀리초) 기본3초
+        delay:3000,//슬라이드 간격(밀리초) 기본3초
         disableOnInteraction:false,//버튼 클릭후 자동재생유지
     }, //자동재생
     loop:true, //마지막슬라이드 ->첫번째슬라이드 자연스러운 변경
@@ -24,7 +24,7 @@ const purple_cushion_slide = new Swiper('#purple_cushion',{
 const purple_powder_slide = new Swiper('#purple_powder',{
     //자동재생
     autoplay:{
-        delay:2000,//슬라이드 간격(밀리초) 기본3초
+        delay:3000,//슬라이드 간격(밀리초) 기본3초
         disableOnInteraction:false,//버튼 클릭후 자동재생유지
     }, //자동재생
     loop:true, //마지막슬라이드 ->첫번째슬라이드 자연스러운 변경
@@ -44,7 +44,7 @@ const purple_powder_slide = new Swiper('#purple_powder',{
 const every_foundation_slide = new Swiper('#every_foundation',{
     //자동재생
     autoplay:{
-        delay:2000,//슬라이드 간격(밀리초) 기본3초
+        delay:3000,//슬라이드 간격(밀리초) 기본3초
         disableOnInteraction:false,//버튼 클릭후 자동재생유지
     }, //자동재생
     loop:true, //마지막슬라이드 ->첫번째슬라이드 자연스러운 변경
@@ -64,7 +64,7 @@ const every_foundation_slide = new Swiper('#every_foundation',{
 const white_concealer_slide = new Swiper('#white_concealer',{
     //자동재생
     autoplay:{
-        delay:2000,//슬라이드 간격(밀리초) 기본3초
+        delay:3000,//슬라이드 간격(밀리초) 기본3초
         disableOnInteraction:false,//버튼 클릭후 자동재생유지
     }, //자동재생
     loop:true, //마지막슬라이드 ->첫번째슬라이드 자연스러운 변경
@@ -84,7 +84,7 @@ const white_concealer_slide = new Swiper('#white_concealer',{
 const baby_concealer_slide = new Swiper('#baby_concealer',{
     //자동재생
     autoplay:{
-        delay:2000,//슬라이드 간격(밀리초) 기본3초
+        delay:3000,//슬라이드 간격(밀리초) 기본3초
         disableOnInteraction:false,//버튼 클릭후 자동재생유지
     }, //자동재생
     loop:true, //마지막슬라이드 ->첫번째슬라이드 자연스러운 변경
@@ -104,7 +104,7 @@ const baby_concealer_slide = new Swiper('#baby_concealer',{
 const white_powder_slide = new Swiper('#white_powder',{
     //자동재생
     autoplay:{
-        delay:2000,//슬라이드 간격(밀리초) 기본3초
+        delay:3000,//슬라이드 간격(밀리초) 기본3초
         disableOnInteraction:false,//버튼 클릭후 자동재생유지
     }, //자동재생
     loop:true, //마지막슬라이드 ->첫번째슬라이드 자연스러운 변경
@@ -124,7 +124,7 @@ const white_powder_slide = new Swiper('#white_powder',{
 const dohwa_cushion_slide = new Swiper('#dohwa_cushion',{
     //자동재생
     autoplay:{
-        delay:2000,//슬라이드 간격(밀리초) 기본3초
+        delay:3000,//슬라이드 간격(밀리초) 기본3초
         disableOnInteraction:false,//버튼 클릭후 자동재생유지
     }, //자동재생
     loop:true, //마지막슬라이드 ->첫번째슬라이드 자연스러운 변경
@@ -144,7 +144,7 @@ const dohwa_cushion_slide = new Swiper('#dohwa_cushion',{
 const blossom_foundation_slide = new Swiper('#blossom_foundation',{
     //자동재생
     autoplay:{
-        delay:2000,//슬라이드 간격(밀리초) 기본3초
+        delay:3000,//슬라이드 간격(밀리초) 기본3초
         disableOnInteraction:false,//버튼 클릭후 자동재생유지
     }, //자동재생
     loop:true, //마지막슬라이드 ->첫번째슬라이드 자연스러운 변경
@@ -164,7 +164,7 @@ const blossom_foundation_slide = new Swiper('#blossom_foundation',{
 const poseline_foundation_slide = new Swiper('#poseline_foundation',{
     //자동재생
     autoplay:{
-        delay:2000,//슬라이드 간격(밀리초) 기본3초
+        delay:3000,//슬라이드 간격(밀리초) 기본3초
         disableOnInteraction:false,//버튼 클릭후 자동재생유지
     }, //자동재생
     loop:true, //마지막슬라이드 ->첫번째슬라이드 자연스러운 변경

@@ -25,7 +25,7 @@ header .top_bg .top .left .naver {
 header .top_bg .top .left .naver img {width: 100%;}
 header .top_bg .top .left a {letter-spacing: -0.04em;}
 header .top_bg .top .right {
-    display: flex; flex-flow: row nowrap;
+    display: flex; flex-flow: row nowrap; align-items: center;
 }
 header .top_bg .top .right a {
     letter-spacing: -0.04em; margin-right: 15px;
@@ -49,6 +49,10 @@ header .middle .left #inform_btn {
     margin-right: 15px; width: 125px;
     background: #ffc128; border-radius: 50px; padding: 7px 18px;
     display: flex; flex-flow: row nowrap; align-items: center; justify-content: center;
+    transition: background 0.2s;
+}
+header .middle .left #inform_btn:hover {
+    background: #e1676f;
 }
 header .middle .left #inform_btn img {
     width: 22px; height: 22px; margin-right: 5px;
@@ -98,6 +102,10 @@ header .bottom #nav a {
     font-size: 1.333rem; letter-spacing: -0.04em;
     margin-right: 30px;
 }
+header .bottom #nav a:hover,
+header .bottom #nav .face span:hover,
+header .bottom #nav .eye span:hover,
+header .bottom #nav .lip span:hover {font-weight: 700;}
 header .bottom #nav .face,
 header .bottom #nav .eye,
 header .bottom #nav .lip {
@@ -223,15 +231,20 @@ main .coupon_bg .coupon .right a {
     font-weight: 700; letter-spacing: -0.04em;
     color: #fff; padding: 20px 105px;
     border: 1px solid #fff;
+    transition: background 0.2s;
+    transition: color 0.2s;
+}
+main .coupon_bg .coupon .right a:hover {
+    background: #fff; color: #e1676f;
 }
 /* new_item */
-main .new_item_bg {width: 100%; position: relative;}
+main .new_item_bg {width: 100%; position: relative;
+margin-bottom: 80px}
 main .new_item_bg .new_item {
-    width: 1280px; margin: 0 auto; padding: 80px 0;
-    align-items: center;
+    width: 1280px; margin: 0 auto; padding: 80px 0 50px;
 }
 main .new_item_bg .new_item h2 {
-    font-weight: 700; font-size: 2.369rem ; letter-spacing: -0.02em;
+    font-weight: 700; font-size: 2.369rem ; letter-spacing: -0.04em;
     margin-bottom: 50px; text-align: center;
 }
 
@@ -258,13 +271,13 @@ main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide3 .left img {wid
 main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide1 .right,
 main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide2 .right,
 main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide3 .right {
-    width: 485px;
+    width: 500px;
     display: flex; flex-flow: column nowrap; align-items: flex-start;
 }
 main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide1 .right h3,
 main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide2 .right h3,
 main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide3 .right h3 {
-    font-size: 2.369rem; line-height: 47px; letter-spacing: -0.04em;
+    font-size: 2.2rem; line-height: 47px; letter-spacing: -0.04em;
     margin-bottom: 30px;
 }
 main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide1 .right .price,
@@ -295,9 +308,9 @@ main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide3 .right .arriva
     font-weight: 700; font-size: 1.333rem; letter-spacing: -0.04em; color: #e1676f;
 }
 /* pagination */
-main .new_item_bg .new_item #bottom_slide .swiper-pagination {}
-main .new_item_bg .new_item #bottom_slide .swiper-pagination span {}
-main .new_item_bg .new_item #bottom_slide .swiper-pagination .swiper-pagination-bullet-active {background-color: #ffc128;}
+main .new_item_bg .new_item .swiper-pagination {}
+main .new_item_bg .new_item .swiper-pagination span {}
+main .new_item_bg .new_item .swiper-pagination .swiper-pagination-bullet-active {background-color: #ffc128;}
 /* If we need navigation buttons */
 main .new_item_bg .new_item .swiper-button-prev {
     width: 70px; height: 70px; left: 210px;
@@ -440,6 +453,13 @@ main .category_bg .category .contents .face {
     display: flex; flex-flow: column nowrap;
     justify-content: space-between; align-items: flex-start;
 }
+@keyframes move {
+    0% {transform: translateX(0);}
+    100% {transform: translateX(10px);}
+}
+main .category_bg .category .contents .face:hover {
+    animation: move 1s;
+}
 main .category_bg .category .contents .face p {
     width: 299px; height: 285.84px; 
     margin-bottom: 20px; 
@@ -452,7 +472,10 @@ main .category_bg .category .contents .face h3 {
 /* eye */
 main .category_bg .category .contents .eye {
     display: flex; flex-flow: column nowrap;
-    justify-content: space-between; align-items: flex-start;
+    justify-content: space-between; align-items: flex-start; 
+}
+main .category_bg .category .contents .eye:hover {
+    animation: move 1s;
 }
 main .category_bg .category .contents .eye p {
     width: 299px; height: 285.84px; 
@@ -468,6 +491,9 @@ main .category_bg .category .contents .lip {
     display: flex; flex-flow: column nowrap;
     justify-content: space-between; align-items: flex-start;
 }
+main .category_bg .category .contents .lip:hover {
+    animation: move 1s;
+}
 main .category_bg .category .contents .lip p {
     width: 299px; height: 285.84px; 
     margin-bottom: 20px;
@@ -480,7 +506,10 @@ main .category_bg .category .contents .lip h3 {
 /* make_tool */
 main .category_bg .category .contents .makeup_tool {
     display: flex; flex-flow: column nowrap;
-    justify-content: space-between; align-items: flex-start;
+    justify-content: space-between; align-items: flex-start; 
+}
+main .category_bg .category .contents .makeup_tool:hover {
+    animation: move 1s;
 }
 main .category_bg .category .contents .makeup_tool p {
     width: 299px; height: 285.84px; 
@@ -508,7 +537,7 @@ main .best_review_bg .best_review h2 {
 main .best_review_bg .best_review .contents {
     width: 1280px; display: flex; 
     flex-flow: row nowrap;
-    justify-content: space-between
+    justify-content: space-between;
 }
 /* best_review_item */
 main .best_review_bg .best_review .contents .item1,
@@ -649,6 +678,10 @@ main .last_bnr_bg .last_bnr .button #inform_btn2 {
     align-items: center; background: #eee;
     padding: 20px 117.5px; border-radius: 50px;
     margin-right: 15px;
+    transition: background 0.2s;
+}
+main .last_bnr_bg .last_bnr .button #inform_btn2:hover {
+    background: #e1676f;
 }
 main .last_bnr_bg .last_bnr .button #inform_btn2 img {
     width: 25px; height: 25px; margin-right: 5px;
@@ -659,7 +692,10 @@ main .last_bnr_bg .last_bnr .button #inform_btn2 span {
 }
 main .last_bnr_bg .last_bnr .button #share_btn {
     background: #ffc128; padding: 22.5px;
-    border-radius: 50px;
+    border-radius: 50px; transition: background 0.2s;
+}
+main .last_bnr_bg .last_bnr .button #share_btn:hover {
+    background-color: #e1676f;
 }
 main .last_bnr_bg .last_bnr .button #share_btn img {
     width: 20px; height: 20px;

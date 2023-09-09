@@ -1,0 +1,95 @@
+/* 2. common.css 모든 웹페에지 공통 css == common */
+/* common.css == footer 공통영역 Design */
+/* footer */
+footer {
+    width: 100%;
+}
+footer .contents {
+    width: 1280px; margin: 0 auto;
+    padding: 35px 0;
+}
+footer .contents .top {
+    width: 1280px; display: flex;
+    flex-flow: row nowrap; justify-content: space-between; margin-bottom: 15px;
+}
+footer .contents .top #fnb {
+    padding: 8.5px 0 28.5px;
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .contents .top #fnb a {
+    letter-spacing: -0.04em;
+}
+footer .contents .top #fnb a::after {
+    display: inline-block; content: '';
+    background: #000; width: 1px; height: 13px;
+    margin: 0 13px;
+}
+footer .contents .top #fnb a:nth-child(6)::after {
+    display: none;
+}
+footer .contents .top #fnb a em {
+    font-weight: 700; letter-spacing: -0.04em;
+}
+footer .contents .top .middle {
+    padding: 7px 0 27px; display: flex;
+    flex-flow: row nowrap; 
+    justify-content: space-between;
+    align-items: center;
+}
+footer .contents .top .middle #global {
+    margin-right: 20px; letter-spacing: -0.04em;
+    border: none; width: 130px;
+}
+footer .contents .top .middle #global option {
+    letter-spacing: -0.04em;
+}
+footer .contents .top .middle #language {
+    margin-right: 20px; letter-spacing: -0.04em;
+    border: none; width: 130px;
+}
+footer .contents .top .middle #language option {
+    letter-spacing: -0.04em;
+}
+footer .contents .top .right {
+    padding-bottom: 20px;
+}
+footer .contents .top .right a {
+    margin-left: 13px;
+    width: 30px; height: 30px;
+}
+footer .contents .top .right a img {}
+footer .contents .bottom {
+    width: 1280px; display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+} 
+footer .contents .bottom .left {
+    margin-right: 90px;
+}
+footer .contents .bottom .left #address {
+    letter-spacing: -0.04em;
+    line-height: 30px;
+}
+footer .contents .bottom .left #address span {
+    width: 1px; height: 11px; background: #000;
+    display: inline-block; margin: 0 13px;
+}
+footer .contents .bottom .right {
+    display: flex; flex-flow: column nowrap;
+    align-items: flex-start;
+}
+footer .contents .bottom .right .center {
+    font-size: 1.333rem; letter-spacing: -0.04em;
+    margin-bottom: 10px
+}
+footer .contents .bottom .right .number {
+    font-weight: 500; font-size: 2.369rem;
+    letter-spacing: -0.04em; text-decoration: underline;
+    margin-bottom: 10px;
+}
+footer .contents .bottom .right .time {
+    letter-spacing: -0.04em;
+    line-height: 26px;
+}
