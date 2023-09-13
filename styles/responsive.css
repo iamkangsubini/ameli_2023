@@ -1,4 +1,6 @@
 /* 반응형웹 */
+
+/* header */
 @media screen and (max-width:1280px) {
     header .top_bg .top {width: 100%;}/* 600 */
     header .middle {width: 100%;}/* 1020 */
@@ -20,8 +22,33 @@
     header .bottom #nav .face span, header .bottom #nav .eye span, header .bottom #nav .lip span {margin-right: 1px;}/* 600 */
 }/* 650 */
 @media screen and (max-width:600px) {
-    header .top_bg .top .left {font-size: 0.833rem;}
-    header .top_bg .top .left .naver {margin-right: 7px;}
-    header .top_bg .top .right a {font-size: 0.833rem;}
-    header .top_bg .top .right {align-items: center;}
-}
+    header .top_bg .top .left {font-size: 0.833rem;}/* 440 */
+    header .top_bg .top .left .naver {margin-right: 7px;}/* 440 */
+    header .top_bg .top .right a {font-size: 0.833rem; margin-right: 7px;}/* 440 */
+    header .top_bg .top .right {align-items: center;}/* 440 */
+    header .bottom #nav a:nth-child(5), header .bottom #nav a:nth-child(6), header .bottom #nav a:nth-child(7) {display: none;}/* 420 */
+}/* 600 */
+
+/* footer */
+@media screen and (max-width:1350px) {
+    footer .contents .top .right {display: none;}/* 670 */
+    footer .contents .top {width: 100%; justify-content: flex-start;}/* 1090 */
+    footer .contents .top #fnb {margin-right: 150px;}/* 1090 */
+    footer .contents .bottom {width: 100%;}/* 1090 */
+}/* 1350 */
+@media screen and (max-width:1090px) {
+    footer .contents .top .middle, footer .contents .bottom .right {display: none;}/* 750 */
+    footer .contents .top {margin-bottom: 0px;}
+}/* 1090 */
+@media screen and (max-width:750px) {
+    footer .contents .top #fnb a, footer .contents .top #fnb a em, footer .contents .bottom .left #address {font-size: 0.833rem;}/* 650 */
+}/* 750 */
+@media screen and (max-width:650px) {
+    footer .contents .top #fnb a::after, footer .contents .bottom .left #address span {margin: 0 5px;}/* 600 */
+}/* 650 */
+@media screen and (max-width:600px) {
+    footer .contents .top #fnb a, footer .contents .top #fnb a em, footer .contents .bottom .left #address {font-size: 0.733rem;}/* 520 */
+}/* 600 */
+@media screen and (max-width:520px) {
+    footer .contents .bottom {display: none;}/* 440 */
+}/* 520 */
