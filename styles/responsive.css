@@ -31,6 +31,7 @@
 
 /* footer */
 @media screen and (max-width:1350px) {
+    footer .contents {width: 95%}
     footer .contents .top .right {display: none;}/* 670 */
     footer .contents .top {width: 100%; justify-content: flex-start;}/* 1090 */
     footer .contents .top #fnb {margin-right: 150px;}/* 1090 */
@@ -40,6 +41,10 @@
     footer .contents .top .middle, footer .contents .bottom .right {display: none;}/* 750 */
     footer .contents .top {margin-bottom: 0px;}
 }/* 1090 */
+@media screen and (max-width:795px) {
+    footer .contents .top #fnb a {position: relative; margin-right: 5px;}/* 650 */
+    footer .contents .top #fnb a::after {position: absolute; right: -16px;}/* 650 */
+}/* 795 */
 @media screen and (max-width:750px) {
     footer .contents .top #fnb a, footer .contents .top #fnb a em, footer .contents .bottom .left #address {font-size: 0.833rem;}/* 650 */
 }/* 750 */
@@ -49,6 +54,32 @@
 @media screen and (max-width:600px) {
     footer .contents .top #fnb a, footer .contents .top #fnb a em, footer .contents .bottom .left #address {font-size: 0.733rem;}/* 520 */
 }/* 600 */
-@media screen and (max-width:520px) {
-    footer .contents .bottom {display: none;}/* 440 */
-}/* 520 */
+
+/* index-main */
+/* index-main-top_slide */
+@media screen and (max-width:1500px) {
+    main #top_slide .swiper-button-prev {left: 100px;}/* 750 */
+    main #top_slide .swiper-button-next {right: 100px;}/* 750 */
+}/* 1500 */
+@media screen and (max-width:750px) {
+    main #top_slide .swiper-button-prev {left: 50px;}/* 400 */
+    main #top_slide .swiper-button-next {right: 50px;}/* 400 */
+}/* 750 */
+/* index-main-event_bnr */
+@media screen and (max-width:1280px) {
+    main .event_bg .event {width: 100%;}/* 1220 */
+}/* 1280 */
+@media screen and (max-width:1220px) {
+    main .event_bg .event {padding: 0 54px; justify-content:center;}/* 900 */
+}/* 1220 */
+@media screen and (max-width:900px) {
+    main .event_bg .event span, main .event_bg .event span em {font-size: 0.933rem;}/* 690 */
+    main .event_bg .event img {width: 90px; height: 50px;}/* 690 */
+}/* 900 */
+@media screen and (max-width:690px) {
+    main .event_bg .event span, main .event_bg .event span em {font-size: 0.833rem;}/* 600 */
+    main .event_bg .event img {width: 80px; height: 40px; margin-right: -5px;}/* 600 */
+}/* 690 */
+@media screen and (max-width:600px) {
+    
+}/* 600 */
