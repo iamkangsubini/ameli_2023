@@ -70,7 +70,7 @@
     main .event_bg .event {width: 100%;}/* 1220 */
 }/* 1280 */
 @media screen and (max-width:1220px) {
-    main .event_bg .event {padding: 0 54px; justify-content:center;}/* 900 */
+    main .event_bg .event {padding: 10px 54px; justify-content:center;}/* 900 */
 }/* 1220 */
 @media screen and (max-width:900px) {
     main .event_bg .event span, main .event_bg .event span em {font-size: 0.933rem;}/* 690 */
@@ -81,5 +81,78 @@
     main .event_bg .event img {width: 80px; height: 40px; margin-right: -5px;}/* 600 */
 }/* 690 */
 @media screen and (max-width:600px) {
-    
+    main .event_bg .event {padding: 7px 20px;}/* 520 */
+    main .event_bg .event img {margin-left: 3px;}/* 520 */
+    main .event_bg .event span, main .event_bg .event span em {line-height: 20px;}
 }/* 600 */
+/* index-main-coupon */
+@media screen and (max-width:1280px) {
+    main .coupon_bg .coupon {width: 100%;}/* 1260 */
+}/* 1280 */
+@media screen and (max-width:1260px) {
+    main .coupon_bg .coupon {padding: 0px 20px; justify-content: center;}/* 960 */
+}/* 1260 */
+@media screen and (max-width:1260px) {
+    main .coupon_bg {height: 300px;}
+    main .coupon_bg .coupon {height: 300px;}
+    main .coupon_bg .coupon .left {background-size: cover; width: 291px; height: 170px;}
+    main .coupon_bg .coupon .left .txt span:last-child {font-size: 2.657rem;}
+    main .coupon_bg .coupon .left .txt {top: 38px;}
+    main .coupon_bg .coupon .right .top {font-size: 1.769rem;}
+    main .coupon_bg .coupon .right a {padding: 15px 60px;}/* 모두 770 */
+}/* 1260 */
+@media screen and (max-width:770px) {
+    main .coupon_bg {height: 289px;}
+    main .coupon_bg .coupon {flex-flow: column nowrap; height: 289px;}
+    main .coupon_bg .coupon .left {width: 220px; margin-top: 20px; margin-right: 0; height: 120px;}
+    main .coupon_bg .coupon .left .txt {top: 28px;}
+    main .coupon_bg .coupon .left .txt span:first-child {margin-bottom: 13px;}
+    main .coupon_bg .coupon .left .txt span:last-child {font-size: 1.677rem;}
+    main .coupon_bg .coupon .right {align-items: center; padding: 17.5px 0;}
+    main .coupon_bg .coupon .right .top {font-size: 1.333rem; margin-bottom: 12px;}
+    main .coupon_bg .coupon .right .bottom {margin-bottom: 12px;}/* 모두 380 */
+}/* 770 */
+/* index-main-bottom_slide */
+@media screen and (max-width:1670px) {
+    main .new_item_bg .new_item {width: 100%;}
+    main .new_item_bg .new_item {padding: 80px 205px 50px;}
+    main .new_item_bg .new_item .swiper-button-prev {left: 50px;}/* 1130 */
+    main .new_item_bg .new_item .swiper-button-next {right: 50px;}/* 1130 */
+}/* 1670 */
+@media screen and (max-width:1500px) {
+    main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide1, main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide2, main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide3 {justify-content: center;}
+    main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide1 .left, main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide2 .left, main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide3 .left {width: 350px; height: 350px;}
+    main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide1 .right h3, main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide2 .right h3, main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide3 .right h3 {font-size: 1.777rem; line-height: 37px; margin-bottom: 20px;} 
+    main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide1 .right .price, main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide2 .right .price, main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide3 .right .price {font-size: 1.777rem; margin-bottom: 20px;}
+    main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide1 .right .price em, main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide2 .right .price em, main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide3 .right .price em {font-size: 1.777rem;}
+    main .new_item_bg .new_item {padding: 50px 0;}
+    main .new_item_bg .new_item h2 {margin-bottom: 30px;}
+    main .new_item_bg {margin-bottom: 30px;}/* 모두 1130 */
+}/* 1500 */
+@media screen and (max-width:1130px) {
+    main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide1 .left, main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide2 .left, main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide3 .left {width: 210px; height: 210px;}
+    main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide1 .right h3, main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide2 .right h3, main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide3 .right h3 {font-size: 1.333rem; line-height: 31px; margin-bottom: 15px;}
+    main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide1 .right .price, main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide2 .right .price, main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide3 .right .price, main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide1 .right .price em, main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide2 .right .price em, main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide3 .right .price em {font-size: 1.333rem; margin-bottom: 15px;}/* 모두 815 */
+}/* 1130 */
+@media screen and (max-width:815px) {
+    main .new_item_bg .new_item .swiper-button-prev {left: 10px; width: 50px; height: 50px; background-size: cover;}
+    main .new_item_bg .new_item .swiper-button-next {right: 10px; width: 50px; height: 50px; background-size: cover;}
+    main .new_item_bg .new_item h2 {font-size: 1.777rem;}
+    main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide1 .left, main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide2 .left, main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide3 .left {width: 150px; height: 150px;}
+    main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide1 .right h3, main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide2 .right h3, main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide3 .right h3 {font-size: 1rem; line-height: 26px; margin-bottom: 10px;}
+    main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide1 .right .price, main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide2 .right .price, main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide3 .right .price, main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide1 .right .price em, main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide2 .right .price em, main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide3 .right .price em {font-size: 1rem; margin-bottom: 10px;}
+    main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide1 .right .arrival img, main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide2 .right .arrival img, main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide3 .right .arrival img {width: 20px; height: 20px; margin-right: 3px;}
+    main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide1 .right .arrival span, main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide2 .right .arrival span, main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide3 .right .arrival span {font-size: 0.9rem;}/* 모두 740 */
+}/* 815 */
+@media screen and (max-width:740px) {
+    main .new_item_bg .new_item {padding: 30px 0;}/* 600 */
+    main .new_item_bg .new_item #bottom_slide .swiper-wrapper {padding: 0 126.5px;}
+    main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide1 .left, main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide2 .left, main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide3 .left {margin-right: 30px;}
+}/* 740 */
+/* index-main-foundation_bnr */
+@media screen and (max-width:1300px) {
+    main .foundation img {height: 128px;}/* 900 */
+}/* 1300 */
+@media screen and (max-width:900px) {
+    main .foundation img {height: 100px;}
+}
