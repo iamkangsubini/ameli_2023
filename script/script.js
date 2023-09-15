@@ -4,7 +4,7 @@
 const top_slide = new Swiper('#top_slide',{
     //자동재생
     autoplay:{
-        delay:2000,//슬라이드 간격(밀리초) 기본3초
+        delay:8000,//슬라이드 간격(밀리초) 기본3초
         disableOnInteraction:false,//버튼 클릭후 자동재생유지
     }, //자동재생
     loop:true, //마지막슬라이드 ->첫번째슬라이드 자연스러운 변경
@@ -28,7 +28,7 @@ const top_slide = new Swiper('#top_slide',{
 const bottom_slide = new Swiper('#bottom_slide',{
     //자동재생
     autoplay:{
-        delay:200000000,//슬라이드 간격(밀리초) 기본3초
+        delay:2000,//슬라이드 간격(밀리초) 기본3초
         disableOnInteraction:false,//버튼 클릭후 자동재생유지
     }, //자동재생
     loop:true, //마지막슬라이드 ->첫번째슬라이드 자연스러운 변경

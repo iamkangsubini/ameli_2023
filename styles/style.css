@@ -18,14 +18,17 @@ main #top_slide .swiper-wrapper .swiper-slide {}
 main #top_slide .swiper-wrapper .slide1 {
     background: url(../images/main/slide1.jpg) no-repeat;
     background-size: cover;
+    background-position: center;
 }
 main #top_slide .swiper-wrapper .slide2 {
     background: url(../images/main/slide2.jpg) no-repeat;
-    background-color: cover;
+    background-size: cover;
+    background-position: center;
 }
 main #top_slide .swiper-wrapper .slide3 {
     background: url(../images/main/slide3.jpg) no-repeat;
     background-size: cover;
+    background-position: center;
 }
 main #top_slide .swiper-pagination {
     position: absolute; bottom: 47px;
@@ -131,15 +134,13 @@ main .new_item_bg .new_item h2 {
 
 /* swiper */
 main .new_item_bg .new_item #bottom_slide {}
-main .new_item_bg .new_item #bottom_slide .swiper-wrapper {
-    padding: 0 127.5px; 
-}
+main .new_item_bg .new_item #bottom_slide .swiper-wrapper {}
 main .new_item_bg .new_item #bottom_slide .swiper-wrapper .swiper-slide {}
 /* slide1, 2, 3 */
 main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide1,
 main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide2,
 main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide3 {
-    display: flex; flex-flow: row nowrap; align-items: center;
+    display: flex; flex-flow: row nowrap; align-items: center; justify-content: center;
 }
 main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide1 .left,
 main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide2 .left,
@@ -152,7 +153,6 @@ main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide3 .left img {wid
 main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide1 .right,
 main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide2 .right,
 main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide3 .right {
-    width: 500px;
     display: flex; flex-flow: column nowrap; align-items: flex-start;
 }
 main .new_item_bg .new_item #bottom_slide .swiper-wrapper .slide1 .right h3,
@@ -210,7 +210,7 @@ main .new_item_bg .new_item .swiper-button-next::after {
 /* foundation_bnr */
 main .foundation {}
 main .foundation img {
-    width: 100%; height: 170px; margin: 0 auto;}
+    width: 100%; margin: 0 auto;}
 /* weekly_best */
 main .weekly_best_bg {width: 100%;}
 main .weekly_best_bg .weekly_best {
@@ -329,8 +329,8 @@ main .category_bg .category .contents {
     width: 1280px; display: flex;
     flex-flow: row nowrap; justify-content: space-between;
 }
-/* face */
-main .category_bg .category .contents .face {
+/* a(face, eye, lip, makeup_tool */
+main .category_bg .category .contents a {
     display: flex; flex-flow: column nowrap;
     justify-content: space-between; align-items: flex-start;
 }
@@ -338,66 +338,15 @@ main .category_bg .category .contents .face {
     0% {transform: translateX(0);}
     100% {transform: translateX(10px);}
 }
-main .category_bg .category .contents .face:hover {
+main .category_bg .category .contents a:hover {
     animation: move 1s;
 }
-main .category_bg .category .contents .face p {
+main .category_bg .category .contents a p {
     width: 299px; height: 285.84px; 
     margin-bottom: 20px; 
 }
-main .category_bg .category .contents .face p img {width: 100%;}
-main .category_bg .category .contents .face h3 {
-    font-weight: 700; font-size: 1.333rem;
-    letter-spacing: -0.04em;
-}
-/* eye */
-main .category_bg .category .contents .eye {
-    display: flex; flex-flow: column nowrap;
-    justify-content: space-between; align-items: flex-start; 
-}
-main .category_bg .category .contents .eye:hover {
-    animation: move 1s;
-}
-main .category_bg .category .contents .eye p {
-    width: 299px; height: 285.84px; 
-    margin-bottom: 20px;
-}
-main .category_bg .category .contents .eye p img {width: 100%;}
-main .category_bg .category .contents .eye h3 {
-    font-weight: 700; font-size: 1.333rem;
-    letter-spacing: -0.04em;
-}
-/* lip */
-main .category_bg .category .contents .lip {
-    display: flex; flex-flow: column nowrap;
-    justify-content: space-between; align-items: flex-start;
-}
-main .category_bg .category .contents .lip:hover {
-    animation: move 1s;
-}
-main .category_bg .category .contents .lip p {
-    width: 299px; height: 285.84px; 
-    margin-bottom: 20px;
-}
-main .category_bg .category .contents .lip p img {width: 100%;}
-main .category_bg .category .contents .lip h3 {
-    font-weight: 700; font-size: 1.333rem;
-    letter-spacing: -0.04em;
-}
-/* make_tool */
-main .category_bg .category .contents .makeup_tool {
-    display: flex; flex-flow: column nowrap;
-    justify-content: space-between; align-items: flex-start; 
-}
-main .category_bg .category .contents .makeup_tool:hover {
-    animation: move 1s;
-}
-main .category_bg .category .contents .makeup_tool p {
-    width: 299px; height: 285.84px; 
-    margin-bottom: 20px;
-}
-main .category_bg .category .contents .makeup_tool p img {width: 100%;}
-main .category_bg .category .contents .makeup_tool h3 {
+main .category_bg .category .contents a p img {width: 100%;}
+main .category_bg .category .contents a h3 {
     font-weight: 700; font-size: 1.333rem;
     letter-spacing: -0.04em;
 }
@@ -497,10 +446,10 @@ main .best_review_bg .best_review .contents .item3 .buyer .right {
 main .best_review_bg .best_review .contents .item1 .buyer .right img,
 main .best_review_bg .best_review .contents .item2 .buyer .right img,
 main .best_review_bg .best_review .contents .item3 .buyer .right img {width: 100%;}
-/* cushion_bur */
+/* cushion_bnr */
 main .cushion {}
 main .cushion img {
-    width: 100%; height: 170px; margin: 0 auto;
+    width: 100%; margin: 0 auto;
 }
 /* video */
 main .video_bg {
